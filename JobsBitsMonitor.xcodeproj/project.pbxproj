@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006E54CC12371794E0D702B0 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */; };
+		23D5911146136DFDFF334F40 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */; };
+		867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
 		C590AA4B2585C547008A17D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA4A2585C547008A17D9 /* ViewController.m */; };
@@ -17,6 +20,14 @@
 		C590AA592585C548008A17D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA582585C548008A17D9 /* main.m */; };
 		C590AA632585C548008A17D9 /* JobsBitsMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA622585C548008A17D9 /* JobsBitsMonitorTests.m */; };
 		C590AA6E2585C548008A17D9 /* JobsBitsMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */; };
+		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
+		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
+		C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */; };
+		C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */; };
+		C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AF2585D4C700029AFF /* CADisplayLink_TimerManager.m */; };
+		C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D7452586024C00029AFF /* NSString+Extras.m */; };
+		C5D6D757258602D200029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D752258602D200029AFF /* TimeModel.m */; };
+		C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D756258602D200029AFF /* NSObject+Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +72,34 @@
 		C590AA692585C548008A17D9 /* JobsBitsMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsBitsMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorUITests.m; sourceTree = "<group>"; };
 		C590AA6F2585C548008A17D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C5D6C19A2585D12B00029AFF /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
+		C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNetworkSpeed.h; sourceTree = "<group>"; };
+		C5D6C1A12585D27000029AFF /* SGNetworkSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGNetworkSpeed.m; sourceTree = "<group>"; };
+		C5D6C1A72585D2AA00029AFF /* JobsBitsMonitorCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorCore.h; sourceTree = "<group>"; };
+		C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorCore.m; sourceTree = "<group>"; };
+		C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
+		C5D6C2A52585D4C700029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
+		C5D6C2A62585D4C700029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
+		C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerManager.m; sourceTree = "<group>"; };
+		C5D6C2A92585D4C700029AFF /* GCD_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerManager.h; sourceTree = "<group>"; };
+		C5D6C2AA2585D4C700029AFF /* TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
+		C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
+		C5D6C2AD2585D4C700029AFF /* Nanosecond_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanosecond_TimerManager.h; sourceTree = "<group>"; };
+		C5D6C2AF2585D4C700029AFF /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
+		C5D6C2B02585D4C700029AFF /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
+		C5D6C3B42585D57200029AFF /* AABlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
+		C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
+		C5D6D7452586024C00029AFF /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		C5D6D7462586024C00029AFF /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C5D6D752258602D200029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		C5D6D753258602D200029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		C5D6D755258602D200029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C5D6D756258602D200029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D5911146136DFDFF334F40 /* Pods_JobsBitsMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,19 +123,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006E54CC12371794E0D702B0 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */,
+				FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */,
+				E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E270302EDBE3426966CDB41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */,
+				523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */,
+				D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */,
+				C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */,
+				09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */,
+				01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C590AA372585C547008A17D9 = {
 			isa = PBXGroup;
 			children = (
 				C590AA422585C547008A17D9 /* JobsBitsMonitor */,
 				C590AA612585C548008A17D9 /* JobsBitsMonitorTests */,
 				C590AA6C2585C548008A17D9 /* JobsBitsMonitorUITests */,
-				C590AA412585C547008A17D9 /* Products */,
+				5E270302EDBE3426966CDB41 /* Pods */,
+				4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,23 +172,20 @@
 				C590AA692585C548008A17D9 /* JobsBitsMonitorUITests.xctest */,
 			);
 			name = Products;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C590AA422585C547008A17D9 /* JobsBitsMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				C590AA432585C547008A17D9 /* AppDelegate.h */,
-				C590AA442585C547008A17D9 /* AppDelegate.m */,
-				C590AA462585C547008A17D9 /* SceneDelegate.h */,
-				C590AA472585C547008A17D9 /* SceneDelegate.m */,
+				C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */,
+				C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */,
+				C5D6C19B2585D1AE00029AFF /* 🌹Macro */,
+				C590AA572585C548008A17D9 /* Info.plist */,
+				C5D6C1982585D0C800029AFF /* Others */,
+				C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */,
 				C590AA492585C547008A17D9 /* ViewController.h */,
 				C590AA4A2585C547008A17D9 /* ViewController.m */,
-				C590AA4C2585C547008A17D9 /* Main.storyboard */,
-				C590AA522585C548008A17D9 /* Assets.xcassets */,
-				C590AA542585C548008A17D9 /* LaunchScreen.storyboard */,
-				C590AA572585C548008A17D9 /* Info.plist */,
-				C590AA582585C548008A17D9 /* main.m */,
-				C590AA4F2585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld */,
 			);
 			path = JobsBitsMonitor;
 			sourceTree = "<group>";
@@ -140,6 +208,179 @@
 			path = JobsBitsMonitorUITests;
 			sourceTree = "<group>";
 		};
+		C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C1962585D0A500029AFF /* AppDelegate */,
+				C5D6C1972585D0AD00029AFF /* SceneDelegate */,
+			);
+			path = "AppDelegate & SceneDelegate";
+			sourceTree = "<group>";
+		};
+		C5D6C1962585D0A500029AFF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C590AA432585C547008A17D9 /* AppDelegate.h */,
+				C590AA442585C547008A17D9 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C5D6C1972585D0AD00029AFF /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C590AA462585C547008A17D9 /* SceneDelegate.h */,
+				C590AA472585C547008A17D9 /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		C5D6C1982585D0C800029AFF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C590AA412585C547008A17D9 /* Products */,
+				C590AA4C2585C547008A17D9 /* Main.storyboard */,
+				C590AA522585C548008A17D9 /* Assets.xcassets */,
+				C590AA542585C548008A17D9 /* LaunchScreen.storyboard */,
+				C590AA582585C548008A17D9 /* main.m */,
+				C590AA4F2585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5D6C19B2585D1AE00029AFF /* 🌹Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C3B42585D57200029AFF /* AABlock.h */,
+				C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */,
+				C5D6C19A2585D12B00029AFF /* Pods.h */,
+				C5D6C1992585D10C00029AFF /* PrefixHeader.pch */,
+			);
+			path = "🌹Macro";
+			sourceTree = "<group>";
+		};
+		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2A22585D4C700029AFF /* TimerManager */,
+				C5D6C1A62585D28800029AFF /* JobsBitsMonitorCore */,
+				C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */,
+				C5D6C1A12585D27000029AFF /* SGNetworkSpeed.m */,
+			);
+			path = Manual_Add_ThirdParty;
+			sourceTree = "<group>";
+		};
+		C5D6C1A62585D28800029AFF /* JobsBitsMonitorCore */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C1A72585D2AA00029AFF /* JobsBitsMonitorCore.h */,
+				C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */,
+			);
+			path = JobsBitsMonitorCore;
+			sourceTree = "<group>";
+		};
+		C5D6C2A22585D4C700029AFF /* TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2AE2585D4C700029AFF /* CADisplayLink_TimerManager */,
+				C5D6C2A72585D4C700029AFF /* GCD_TimerManager(未完) */,
+				C5D6C2AB2585D4C700029AFF /* Nanosecond_TimerManager */,
+				C5D6C2A42585D4C700029AFF /* NSTimerManager */,
+				C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */,
+				C5D6C2AA2585D4C700029AFF /* TimerManager.h */,
+			);
+			path = TimerManager;
+			sourceTree = "<group>";
+		};
+		C5D6C2A42585D4C700029AFF /* NSTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2A52585D4C700029AFF /* NSTimerManager.h */,
+				C5D6C2A62585D4C700029AFF /* NSTimerManager.m */,
+			);
+			path = NSTimerManager;
+			sourceTree = "<group>";
+		};
+		C5D6C2A72585D4C700029AFF /* GCD_TimerManager(未完) */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */,
+				C5D6C2A92585D4C700029AFF /* GCD_TimerManager.h */,
+			);
+			path = "GCD_TimerManager(未完)";
+			sourceTree = "<group>";
+		};
+		C5D6C2AB2585D4C700029AFF /* Nanosecond_TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */,
+				C5D6C2AD2585D4C700029AFF /* Nanosecond_TimerManager.h */,
+			);
+			path = Nanosecond_TimerManager;
+			sourceTree = "<group>";
+		};
+		C5D6C2AE2585D4C700029AFF /* CADisplayLink_TimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C2AF2585D4C700029AFF /* CADisplayLink_TimerManager.m */,
+				C5D6C2B02585D4C700029AFF /* CADisplayLink_TimerManager.h */,
+			);
+			path = CADisplayLink_TimerManager;
+			sourceTree = "<group>";
+		};
+		C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D7432586024C00029AFF /* NSString */,
+				C5D6C5C22585ED5700029AFF /* NSObject */,
+			);
+			path = BaseCustomizeUIKit;
+			sourceTree = "<group>";
+		};
+		C5D6C5C22585ED5700029AFF /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D751258602D200029AFF /* NSObject (Time) */,
+				C5D6D754258602D200029AFF /* NSObject+Time */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		C5D6D7432586024C00029AFF /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D7442586024C00029AFF /* NSString+Extras */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C5D6D7442586024C00029AFF /* NSString+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D7462586024C00029AFF /* NSString+Extras.h */,
+				C5D6D7452586024C00029AFF /* NSString+Extras.m */,
+			);
+			path = "NSString+Extras";
+			sourceTree = "<group>";
+		};
+		C5D6D751258602D200029AFF /* NSObject (Time) */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D753258602D200029AFF /* TimeModel.h */,
+				C5D6D752258602D200029AFF /* TimeModel.m */,
+			);
+			path = "NSObject (Time)";
+			sourceTree = "<group>";
+		};
+		C5D6D754258602D200029AFF /* NSObject+Time */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6D755258602D200029AFF /* NSObject+Time.h */,
+				C5D6D756258602D200029AFF /* NSObject+Time.m */,
+			);
+			path = "NSObject+Time";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C590AA722585C548008A17D9 /* Build configuration list for PBXNativeTarget "JobsBitsMonitor" */;
 			buildPhases = (
+				32175EB7D04147BADBFFFC01 /* [CP] Check Pods Manifest.lock */,
 				C590AA3C2585C547008A17D9 /* Sources */,
 				C590AA3D2585C547008A17D9 /* Frameworks */,
 				C590AA3E2585C547008A17D9 /* Resources */,
+				D244F501DF84BA4C5EF678B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C590AA752585C548008A17D9 /* Build configuration list for PBXNativeTarget "JobsBitsMonitorTests" */;
 			buildPhases = (
+				A101A9AB6E71BBB101033259 /* [CP] Check Pods Manifest.lock */,
 				C590AA5A2585C548008A17D9 /* Sources */,
 				C590AA5B2585C548008A17D9 /* Frameworks */,
 				C590AA5C2585C548008A17D9 /* Resources */,
@@ -182,6 +426,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C590AA782585C548008A17D9 /* Build configuration list for PBXNativeTarget "JobsBitsMonitorUITests" */;
 			buildPhases = (
+				F9EF2CA091E24CE5884CD6AD /* [CP] Check Pods Manifest.lock */,
 				C590AA652585C548008A17D9 /* Sources */,
 				C590AA662585C548008A17D9 /* Frameworks */,
 				C590AA672585C548008A17D9 /* Resources */,
@@ -264,15 +509,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32175EB7D04147BADBFFFC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsBitsMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A101A9AB6E71BBB101033259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsBitsMonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D244F501DF84BA4C5EF678B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EF2CA091E24CE5884CD6AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsBitsMonitorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C590AA3C2585C547008A17D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */,
+				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
+				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
+				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,
+				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
+				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
+				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
+				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,11 +779,13 @@
 		};
 		C590AA732585C548008A17D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = JobsBitsMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,11 +799,13 @@
 		};
 		C590AA742585C548008A17D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = JobsBitsMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,6 +819,7 @@
 		};
 		C590AA762585C548008A17D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +840,7 @@
 		};
 		C590AA772585C548008A17D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -518,6 +861,7 @@
 		};
 		C590AA792585C548008A17D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
@@ -536,6 +880,7 @@
 		};
 		C590AA7A2585C548008A17D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
