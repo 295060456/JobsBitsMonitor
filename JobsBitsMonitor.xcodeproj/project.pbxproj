@@ -68,6 +68,7 @@
 		ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitor.h; sourceTree = "<group>"; };
+		C54AEBDC258723EB001A4630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,6 +198,7 @@
 		C590AA372585C547008A17D9 = {
 			isa = PBXGroup;
 			children = (
+				C54AEBDC258723EB001A4630 /* README.md */,
 				C590AA422585C547008A17D9 /* JobsBitsMonitor */,
 				C590AA612585C548008A17D9 /* JobsBitsMonitorTests */,
 				C590AA6C2585C548008A17D9 /* JobsBitsMonitorUITests */,
