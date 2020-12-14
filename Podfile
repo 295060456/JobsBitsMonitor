@@ -28,6 +28,13 @@ def func
   pod 'SDWebImage' # https://github.com/SDWebImage/SDWebImage Asynchronous image downloader with cache support as a UIImageView category
 end
 
+def video
+  pod 'ZFPlayer'
+  pod 'ZFPlayer/ControlView'
+  pod 'ZFPlayer/AVPlayer'
+  pod 'ZFPlayer/ijkplayer'
+end
+
 # 基础的公共配置
 def cocoPodsConfig
   target 'JobsBitsMonitorTests' do
@@ -59,6 +66,7 @@ def cocoPodsConfig
 target 'JobsBitsMonitor' do
   # Pods for JobsBitsMonitor
   func
+  video
   cocoPodsConfig
 end
 

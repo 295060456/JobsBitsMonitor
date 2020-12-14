@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "TimerManager_DefineStructure.h"
 #import "TimeModel.h"
+#import "NSObject+Time.h"
 // 用哪一种模式进行初始化NSTimer定时器
 typedef enum : NSUInteger {
     ScheduledTimerType_0 = 0,//scheduledTimerWithTimeInterval/repeats/block
@@ -57,9 +58,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///定时器
 
 ///定时器暂停
-+(void)nsTimePause:(NSTimer *)nsTimer;
++(void)nsTimePause:(NSTimerManager *)timerManager;
 ///定时器继续
-+(void)nsTimecontinue:(NSTimer *)nsTimer;
++(void)nsTimecontinue:(NSTimerManager *)timerManager;
 ///销毁定时器
 -(void)nsTimeDestroy;
 

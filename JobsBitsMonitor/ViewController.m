@@ -6,10 +6,12 @@
 //
 
 #import "ViewController.h"
+#import "JobsBitsMonitorSuspendLab.h"
 
 @interface ViewController ()
 
 @property(nonatomic,strong)UIImageView *imageView;
+@property(nonatomic,strong)JobsBitsMonitorSuspendLab *bitsMonitorSuspendLab;
 
 @end
 
@@ -18,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.imageView.alpha = 1;
+    self.bitsMonitorSuspendLab.alpha = 1;
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -30,10 +33,25 @@
     [JobsBitsMonitorCore.sharedInstance stop];
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [JobsBitsMonitorCore.sharedInstance pause];
+-(void)touchesBegan:(NSSet<UITouch *> *)touches
+          withEvent:(UIEvent *)event{
+    NSLog(@"timerCurrentStatus = %lu",(unsigned long)JobsBitsMonitorCore.sharedInstance.nsTimerManager.timerCurrentStatus);
+    if (JobsBitsMonitorCore.sharedInstance.nsTimerManager.timerCurrentStatus == NSTimerCurrentStatusRun) {
+        [JobsBitsMonitorCore.sharedInstance pause];
+        return;
+    }
+    
+    if (JobsBitsMonitorCore.sharedInstance.nsTimerManager.timerCurrentStatus == NSTimerCurrentStatusPause) {
+        [JobsBitsMonitorCore.sharedInstance continues];
+        return;
+    }
+    
+    if (JobsBitsMonitorCore.sharedInstance.nsTimerManager.timerCurrentStatus == NSTimerCurrentStatusStop) {
+        [JobsBitsMonitorCore.sharedInstance start];
+        return;
+    }
 }
-
+#pragma mark —— lazyLoad
 -(UIImageView *)imageView{
     if (!_imageView) {
         _imageView = UIImageView.new;
@@ -45,6 +63,23 @@
             make.top.left.equalTo(self.view).offset(200);
         }];
     }return _imageView;
+}
+
+-(JobsBitsMonitorSuspendLab *)bitsMonitorSuspendLab{
+    if (!_bitsMonitorSuspendLab) {
+        _bitsMonitorSuspendLab = JobsBitsMonitorSuspendLab.new;
+        _bitsMonitorSuspendLab.font = [UIFont systemFontOfSize:10 weight:UIFontWeightBold];
+        _bitsMonitorSuspendLab.backgroundColor = KLightGrayColor;
+        _bitsMonitorSuspendLab.textColor = kRedColor;
+        @weakify(self)
+        _bitsMonitorSuspendLab.vc = self_weak_;
+        _bitsMonitorSuspendLab.isAllowDrag = YES;//悬浮效果必须要的参数
+        [self.view addSubview:_bitsMonitorSuspendLab];
+        _bitsMonitorSuspendLab.frame = CGRectMake(20,
+                                                  SCREEN_HEIGHT - 200,
+                                                  100,
+                                                  50);
+    }return _bitsMonitorSuspendLab;
 }
 
 @end

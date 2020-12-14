@@ -9,6 +9,7 @@
 
 NSString* const GSDownloadNetworkSpeedNotificationKey = @"GSDownloadNetworkSpeedNotificationKey";
 NSString* const GSUploadNetworkSpeedNotificationKey = @"GSUploadNetworkSpeedNotificationKey";
+NSString* const GSUploadAndDownloadNetworkSpeedNotificationKey = @"GSUploadAndDownloadNetworkSpeedNotificationKey";
 
 @interface JobsBitsMonitorCore (){
     
@@ -28,7 +29,8 @@ NSString* const GSUploadNetworkSpeedNotificationKey = @"GSUploadNetworkSpeedNoti
     uint32_t _wwanFlow;
 }
 
-@property(nonatomic,strong)NSTimerManager *nsTimerManager;
+@property(nonatomic,copy)NSString *downloadNetworkSpeed;
+@property(nonatomic,copy)NSString *uploadNetworkSpeed;
 
 @end
 
@@ -72,7 +74,7 @@ static JobsBitsMonitorCore *static_bitsMonitorCore = nil;
 //【手动】开始监听
 -(void)start{
     //启动方式——1 定时器启动 手动添加定时器到RunLoop
-    [NSTimerManager nsTimeStart:self.nsTimerManager.nsTimer
+    [NSTimerManager nsTimeStart:self.nsTimerManager
                     withRunLoop:nil];
 }
 //【手动】停止监听
@@ -81,11 +83,11 @@ static JobsBitsMonitorCore *static_bitsMonitorCore = nil;
 }
 //【手动】暂停监听
 -(void)pause{
-    [NSTimerManager nsTimePause:self.nsTimerManager.nsTimer];
+    [NSTimerManager nsTimePause:self.nsTimerManager];
 }
 //【手动】暂停以后继续监听
 -(void)continues{
-    [NSTimerManager nsTimecontinue:self.nsTimerManager.nsTimer];
+    [NSTimerManager nsTimecontinue:self.nsTimerManager];
 }
 
 -(void)bitsSpeedMonitor{
@@ -134,19 +136,22 @@ static JobsBitsMonitorCore *static_bitsMonitorCore = nil;
     }
     freeifaddrs(ifa_list);
     if (_iBytes != 0) {
-        _downloadNetworkSpeed = [[self stringWithbytes:iBytes - _iBytes] stringByAppendingString:@"/s"];
+        self.downloadNetworkSpeed = [[self stringWithbytes:iBytes - _iBytes] stringByAppendingString:@"/s"];
         [[NSNotificationCenter defaultCenter] postNotificationName:GSDownloadNetworkSpeedNotificationKey
-                                                            object:_downloadNetworkSpeed];
-        NSLog(@"_downloadNetworkSpeed : %@",_downloadNetworkSpeed);
+                                                            object:self.downloadNetworkSpeed];
+        NSLog(@"self.downloadNetworkSpeed : %@",self.downloadNetworkSpeed);
     }
     _iBytes = iBytes;
     if (_oBytes != 0) {
-        _uploadNetworkSpeed = [[self stringWithbytes:oBytes - _oBytes] stringByAppendingString:@"/s"];
+        self.uploadNetworkSpeed = [[self stringWithbytes:oBytes - _oBytes] stringByAppendingString:@"/s"];
         [[NSNotificationCenter defaultCenter] postNotificationName:GSUploadNetworkSpeedNotificationKey
-                                                            object:nil];
-        NSLog(@"_uploadNetworkSpeed  :%@",_uploadNetworkSpeed);
-        
-    }_oBytes = oBytes;
+                                                            object:self.uploadNetworkSpeed];
+        NSLog(@"self.uploadNetworkSpeed  :%@",self.uploadNetworkSpeed);
+    }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:GSUploadAndDownloadNetworkSpeedNotificationKey
+                                                        object:[NSString stringWithFormat:@"↑%@ / ↓%@",self.uploadNetworkSpeed,self.downloadNetworkSpeed]];
+    _oBytes = oBytes;
 }
 //格式化数据输出
 -(NSString*)stringWithbytes:(int)bytes{

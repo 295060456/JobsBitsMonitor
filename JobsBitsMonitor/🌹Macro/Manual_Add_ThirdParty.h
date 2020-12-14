@@ -21,12 +21,55 @@
 #define GetUserDefaultBoolForKey(key) [[NSUserDefaults standardUserDefaults] boolForKey:key]
 #define DeleUserDefaultWithKey(key) [[NSUserDefaults standardUserDefaults] removeObjectForKey:key]
 #define UserDefaultSynchronize  [[NSUserDefaults standardUserDefaults] synchronize]
+#pragma mark ======================================== 常见颜色 ========================================
+#define kClearColor     [UIColor clearColor]
+#define kBlackColor     [UIColor blackColor]
+#define kBlueColor      [UIColor blueColor]
+#define kWhiteColor     [UIColor whiteColor]
+#define kCyanColor      [UIColor cyanColor]
+#define kGrayColor      [UIColor grayColor]
+#define kOrangeColor    [UIColor orangeColor]
+#define kRedColor       [UIColor redColor]
+#define KBrownColor     [UIColor brownColor]
+#define KDarkGrayColor  [UIColor darkGrayColor]
+#define KDarkTextColor  [UIColor darkTextColor]
+#define KYellowColor    [UIColor yellowColor]
+#define KPurpleColor    [UIColor purpleColor]
+#define KLightTextColor [UIColor lightTextColor]
+#define KLightGrayColor [UIColor lightGrayColor]
+#define KGreenColor     [UIColor greenColor]
+#define KMagentaColor   [UIColor magentaColor]
+#pragma mark ======================================== 屏幕大小、宽、高 ========================================
+#ifndef SCREEN_BOUNDS
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#endif
+#ifndef SCREEN_WIDTH
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#endif
+#ifndef SCREEN_HEIGHT
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#endif
 
-#import "NSString+Extras.h"
-#import "NSObject+Time.h"
 #import "AABlock.h"
+#import "YBNotificationManager.h"
+// UIView
+#import "UIView+Extras.h"
+#import "UIView+Chain.h"
+#import "UIView+SuspendView.h"
+#import "UIView+Measure.h"
+#import "UIView+Animation.h"
+#import "UIView+Gradient.h"
+// NSString
+#import "NSString+Extras.h"
+// NSObject
+#import "NSObject+Time.h"
+
 #import "TimerManager.h"
 #import "JobsBitsMonitorCore.h"
+
+#import "SuspendBtn.h"
+#import "SuspendLab.h"
+#import "SuspendView.h"
 
 
 #endif /* Manual_Add_ThirdParty_h */

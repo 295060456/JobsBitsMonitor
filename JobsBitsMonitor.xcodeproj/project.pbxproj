@@ -20,6 +20,20 @@
 		C590AA592585C548008A17D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA582585C548008A17D9 /* main.m */; };
 		C590AA632585C548008A17D9 /* JobsBitsMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA622585C548008A17D9 /* JobsBitsMonitorTests.m */; };
 		C590AA6E2585C548008A17D9 /* JobsBitsMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */; };
+		C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA7F25864011002A4531 /* UIView+SuspendView.m */; };
+		C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8325864011002A4531 /* UIView+ZFPlayer.m */; };
+		C595BA9525864011002A4531 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8525864011002A4531 /* UIView+Measure.m */; };
+		C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8925864011002A4531 /* UIView+Gradient.m */; };
+		C595BA9725864011002A4531 /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8B25864011002A4531 /* UIView+Chain.m */; };
+		C595BA9825864011002A4531 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8E25864011002A4531 /* UIView+Animation.m */; };
+		C595BA9925864011002A4531 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA9225864011002A4531 /* UIView+Extras.m */; };
+		C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB04258645F0002A4531 /* CustomZFPlayerControlView.m */; };
+		C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB07258645F0002A4531 /* ZFCustomControlView.m */; };
+		C595CB102586460F002A4531 /* YBNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB0F2586460F002A4531 /* YBNotificationManager.m */; };
+		C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */; };
+		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
+		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
+		C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C6B2586390600D9D228 /* SuspendView.m */; };
 		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
 		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
 		C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */; };
@@ -72,6 +86,34 @@
 		C590AA692585C548008A17D9 /* JobsBitsMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsBitsMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorUITests.m; sourceTree = "<group>"; };
 		C590AA6F2585C548008A17D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C595BA7F25864011002A4531 /* UIView+SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuspendView.m"; sourceTree = "<group>"; };
+		C595BA8025864011002A4531 /* UIView+SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
+		C595BA8225864011002A4531 /* UIView+ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZFPlayer.h"; sourceTree = "<group>"; };
+		C595BA8325864011002A4531 /* UIView+ZFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFPlayer.m"; sourceTree = "<group>"; };
+		C595BA8525864011002A4531 /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
+		C595BA8625864011002A4531 /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
+		C595BA8825864011002A4531 /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
+		C595BA8925864011002A4531 /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		C595BA8B25864011002A4531 /* UIView+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Chain.m"; sourceTree = "<group>"; };
+		C595BA8C25864011002A4531 /* UIView+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Chain.h"; sourceTree = "<group>"; };
+		C595BA8E25864011002A4531 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		C595BA8F25864011002A4531 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		C595BA9125864011002A4531 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		C595BA9225864011002A4531 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		C595CB04258645F0002A4531 /* CustomZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomZFPlayerControlView.m; sourceTree = "<group>"; };
+		C595CB05258645F0002A4531 /* ZFCustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomControlView.h; sourceTree = "<group>"; };
+		C595CB06258645F0002A4531 /* CustomZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomZFPlayerControlView.h; sourceTree = "<group>"; };
+		C595CB07258645F0002A4531 /* ZFCustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomControlView.m; sourceTree = "<group>"; };
+		C595CB0E2586460F002A4531 /* YBNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNotificationManager.h; sourceTree = "<group>"; };
+		C595CB0F2586460F002A4531 /* YBNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNotificationManager.m; sourceTree = "<group>"; };
+		C595CE212586475C002A4531 /* JobsBitsMonitorSuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorSuspendLab.h; sourceTree = "<group>"; };
+		C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorSuspendLab.m; sourceTree = "<group>"; };
+		C59A3C652586390600D9D228 /* SuspendBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
+		C59A3C662586390600D9D228 /* SuspendBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
+		C59A3C682586390600D9D228 /* SuspendLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
+		C59A3C692586390600D9D228 /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
+		C59A3C6B2586390600D9D228 /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
+		C59A3C6C2586390600D9D228 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C5D6C19A2585D12B00029AFF /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
 		C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNetworkSpeed.h; sourceTree = "<group>"; };
@@ -208,6 +250,158 @@
 			path = JobsBitsMonitorUITests;
 			sourceTree = "<group>";
 		};
+		C595BA7D25864011002A4531 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA7E25864011002A4531 /* UIView+SuspendView */,
+				C595BA8125864011002A4531 /* UIView+ZFPlayer */,
+				C595BA8425864011002A4531 /* UIView+Measure */,
+				C595BA8725864011002A4531 /* UIView+Gradient */,
+				C595BA8A25864011002A4531 /* UIView+Chain */,
+				C595BA8D25864011002A4531 /* UIView+Animation */,
+				C595BA9025864011002A4531 /* UIView+Extras */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C595BA7E25864011002A4531 /* UIView+SuspendView */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA7F25864011002A4531 /* UIView+SuspendView.m */,
+				C595BA8025864011002A4531 /* UIView+SuspendView.h */,
+			);
+			path = "UIView+SuspendView";
+			sourceTree = "<group>";
+		};
+		C595BA8125864011002A4531 /* UIView+ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA8225864011002A4531 /* UIView+ZFPlayer.h */,
+				C595BA8325864011002A4531 /* UIView+ZFPlayer.m */,
+			);
+			path = "UIView+ZFPlayer";
+			sourceTree = "<group>";
+		};
+		C595BA8425864011002A4531 /* UIView+Measure */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA8525864011002A4531 /* UIView+Measure.m */,
+				C595BA8625864011002A4531 /* UIView+Measure.h */,
+			);
+			path = "UIView+Measure";
+			sourceTree = "<group>";
+		};
+		C595BA8725864011002A4531 /* UIView+Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA8825864011002A4531 /* UIView+Gradient.h */,
+				C595BA8925864011002A4531 /* UIView+Gradient.m */,
+			);
+			path = "UIView+Gradient";
+			sourceTree = "<group>";
+		};
+		C595BA8A25864011002A4531 /* UIView+Chain */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA8B25864011002A4531 /* UIView+Chain.m */,
+				C595BA8C25864011002A4531 /* UIView+Chain.h */,
+			);
+			path = "UIView+Chain";
+			sourceTree = "<group>";
+		};
+		C595BA8D25864011002A4531 /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA8E25864011002A4531 /* UIView+Animation.m */,
+				C595BA8F25864011002A4531 /* UIView+Animation.h */,
+			);
+			path = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+		C595BA9025864011002A4531 /* UIView+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C595BA9125864011002A4531 /* UIView+Extras.h */,
+				C595BA9225864011002A4531 /* UIView+Extras.m */,
+			);
+			path = "UIView+Extras";
+			sourceTree = "<group>";
+		};
+		C595CB03258645F0002A4531 /* 播放器控制层 */ = {
+			isa = PBXGroup;
+			children = (
+				C595CB06258645F0002A4531 /* CustomZFPlayerControlView.h */,
+				C595CB04258645F0002A4531 /* CustomZFPlayerControlView.m */,
+				C595CB05258645F0002A4531 /* ZFCustomControlView.h */,
+				C595CB07258645F0002A4531 /* ZFCustomControlView.m */,
+			);
+			path = "播放器控制层";
+			sourceTree = "<group>";
+		};
+		C595CB0D2586460F002A4531 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C595CB0E2586460F002A4531 /* YBNotificationManager.h */,
+				C595CB0F2586460F002A4531 /* YBNotificationManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C595CDF7258646DF002A4531 /* JobsBitsMonitorSuspendLab */ = {
+			isa = PBXGroup;
+			children = (
+				C595CE212586475C002A4531 /* JobsBitsMonitorSuspendLab.h */,
+				C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */,
+			);
+			path = JobsBitsMonitorSuspendLab;
+			sourceTree = "<group>";
+		};
+		C595CF142586481A002A4531 /* JobsBitsMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C1A62585D28800029AFF /* JobsBitsMonitorCore */,
+				C595CDF7258646DF002A4531 /* JobsBitsMonitorSuspendLab */,
+			);
+			path = JobsBitsMonitor;
+			sourceTree = "<group>";
+		};
+		C59A3C632586390600D9D228 /* Suspend */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3C642586390600D9D228 /* SuspendBtn */,
+				C59A3C672586390600D9D228 /* SuspendLab */,
+				C59A3C6A2586390600D9D228 /* SuspendView */,
+			);
+			path = Suspend;
+			sourceTree = "<group>";
+		};
+		C59A3C642586390600D9D228 /* SuspendBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3C662586390600D9D228 /* SuspendBtn.h */,
+				C59A3C652586390600D9D228 /* SuspendBtn.m */,
+			);
+			path = SuspendBtn;
+			sourceTree = "<group>";
+		};
+		C59A3C672586390600D9D228 /* SuspendLab */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3C682586390600D9D228 /* SuspendLab.h */,
+				C59A3C692586390600D9D228 /* SuspendLab.m */,
+			);
+			path = SuspendLab;
+			sourceTree = "<group>";
+		};
+		C59A3C6A2586390600D9D228 /* SuspendView */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3C6C2586390600D9D228 /* SuspendView.h */,
+				C59A3C6B2586390600D9D228 /* SuspendView.m */,
+			);
+			path = SuspendView;
+			sourceTree = "<group>";
+		};
 		C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +445,7 @@
 		C5D6C19B2585D1AE00029AFF /* 🌹Macro */ = {
 			isa = PBXGroup;
 			children = (
+				C595CB0D2586460F002A4531 /* Notification */,
 				C5D6C3B42585D57200029AFF /* AABlock.h */,
 				C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */,
 				C5D6C19A2585D12B00029AFF /* Pods.h */,
@@ -262,8 +457,10 @@
 		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				C595CF142586481A002A4531 /* JobsBitsMonitor */,
+				C595CB03258645F0002A4531 /* 播放器控制层 */,
+				C59A3C632586390600D9D228 /* Suspend */,
 				C5D6C2A22585D4C700029AFF /* TimerManager */,
-				C5D6C1A62585D28800029AFF /* JobsBitsMonitorCore */,
 				C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */,
 				C5D6C1A12585D27000029AFF /* SGNetworkSpeed.m */,
 			);
@@ -331,6 +528,7 @@
 		C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C595BA7D25864011002A4531 /* UIView */,
 				C5D6D7432586024C00029AFF /* NSString */,
 				C5D6C5C22585ED5700029AFF /* NSObject */,
 			);
@@ -393,6 +591,7 @@
 				C590AA3D2585C547008A17D9 /* Frameworks */,
 				C590AA3E2585C547008A17D9 /* Resources */,
 				D244F501DF84BA4C5EF678B1 /* [CP] Embed Pods Frameworks */,
+				500186C5E8F900B3654F58D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -532,6 +731,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		500186C5E8F900B3654F58D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A101A9AB6E71BBB101033259 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,18 +812,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */,
 				C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */,
+				C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */,
 				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
+				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
+				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
+				C595CB102586460F002A4531 /* YBNotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
+				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
+				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
+				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
+				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
 				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,
+				C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */,
+				C595BA9525864011002A4531 /* UIView+Measure.m in Sources */,
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
+				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,
 				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
 				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
+				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
+				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

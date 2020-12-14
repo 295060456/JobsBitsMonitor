@@ -24,11 +24,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 extern NSString *const GSDownloadNetworkSpeedNotificationKey;// 下载通知的key
 extern NSString *const GSUploadNetworkSpeedNotificationKey;// 上传通知的key
+extern NSString *const GSUploadAndDownloadNetworkSpeedNotificationKey;// 上传和下载 通知的key
 
 @interface JobsBitsMonitorCore : NSObject
 
 @property(nonatomic,copy,readonly)NSString *downloadNetworkSpeed;
 @property(nonatomic,copy,readonly)NSString *uploadNetworkSpeed;
+@property(nonatomic,strong)NSTimerManager *nsTimerManager;
 @property(nonatomic,assign)BitsMonitorRunMode bitsMonitorRunMode;// 默认自启动模式
 
 +(instancetype)sharedInstance;
