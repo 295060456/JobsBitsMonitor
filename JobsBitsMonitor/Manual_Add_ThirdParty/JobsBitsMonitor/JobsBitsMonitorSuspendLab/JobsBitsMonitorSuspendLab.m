@@ -46,7 +46,9 @@
 -(void)uploadAndDownload:(NSNotification *)noti{
     NSLog(@"%@",noti.object);
     self.text = noti.object;
-    self.textColor = kRedColor;
+    [self sizeToFit];
+    [self adjustsFontSizeToFitWidth];
+    self.height = 30;
 }
 
 @end

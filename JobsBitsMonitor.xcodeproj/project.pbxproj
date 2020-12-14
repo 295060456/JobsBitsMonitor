@@ -67,6 +67,7 @@
 		523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.release.xcconfig"; sourceTree = "<group>"; };
 		ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitor.h; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,8 +117,6 @@
 		C59A3C6C2586390600D9D228 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C5D6C19A2585D12B00029AFF /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
-		C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNetworkSpeed.h; sourceTree = "<group>"; };
-		C5D6C1A12585D27000029AFF /* SGNetworkSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGNetworkSpeed.m; sourceTree = "<group>"; };
 		C5D6C1A72585D2AA00029AFF /* JobsBitsMonitorCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorCore.h; sourceTree = "<group>"; };
 		C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorCore.m; sourceTree = "<group>"; };
 		C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
@@ -359,6 +358,7 @@
 		C595CF142586481A002A4531 /* JobsBitsMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */,
 				C5D6C1A62585D28800029AFF /* JobsBitsMonitorCore */,
 				C595CDF7258646DF002A4531 /* JobsBitsMonitorSuspendLab */,
 			);
@@ -461,8 +461,6 @@
 				C595CB03258645F0002A4531 /* 播放器控制层 */,
 				C59A3C632586390600D9D228 /* Suspend */,
 				C5D6C2A22585D4C700029AFF /* TimerManager */,
-				C5D6C1A02585D27000029AFF /* SGNetworkSpeed.h */,
-				C5D6C1A12585D27000029AFF /* SGNetworkSpeed.m */,
 			);
 			path = Manual_Add_ThirdParty;
 			sourceTree = "<group>";

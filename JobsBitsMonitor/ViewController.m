@@ -77,8 +77,8 @@
         [self.view addSubview:_bitsMonitorSuspendLab];
         _bitsMonitorSuspendLab.frame = CGRectMake(20,
                                                   SCREEN_HEIGHT - 200,
-                                                  100,
-                                                  50);
+                                                  80,
+                                                  30);
     }return _bitsMonitorSuspendLab;
 }
 
