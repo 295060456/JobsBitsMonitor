@@ -51,7 +51,7 @@
 #endif
 
 #import "AABlock.h"
-#import "YBNotificationManager.h"
+#import "NotificationManager.h"
 // UIView
 #import "UIView+Extras.h"
 #import "UIView+Chain.h"

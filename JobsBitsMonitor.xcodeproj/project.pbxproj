@@ -29,7 +29,7 @@
 		C595BA9925864011002A4531 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA9225864011002A4531 /* UIView+Extras.m */; };
 		C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB04258645F0002A4531 /* CustomZFPlayerControlView.m */; };
 		C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB07258645F0002A4531 /* ZFCustomControlView.m */; };
-		C595CB102586460F002A4531 /* YBNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB0F2586460F002A4531 /* YBNotificationManager.m */; };
+		C595CB102586460F002A4531 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB0F2586460F002A4531 /* NotificationManager.m */; };
 		C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */; };
 		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
 		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
@@ -69,6 +69,8 @@
 		C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitor.h; sourceTree = "<group>"; };
 		C54AEBDC258723EB001A4630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
+		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,8 +108,8 @@
 		C595CB05258645F0002A4531 /* ZFCustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomControlView.h; sourceTree = "<group>"; };
 		C595CB06258645F0002A4531 /* CustomZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomZFPlayerControlView.h; sourceTree = "<group>"; };
 		C595CB07258645F0002A4531 /* ZFCustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomControlView.m; sourceTree = "<group>"; };
-		C595CB0E2586460F002A4531 /* YBNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNotificationManager.h; sourceTree = "<group>"; };
-		C595CB0F2586460F002A4531 /* YBNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNotificationManager.m; sourceTree = "<group>"; };
+		C595CB0E2586460F002A4531 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		C595CB0F2586460F002A4531 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
 		C595CE212586475C002A4531 /* JobsBitsMonitorSuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorSuspendLab.h; sourceTree = "<group>"; };
 		C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorSuspendLab.m; sourceTree = "<group>"; };
 		C59A3C652586390600D9D228 /* SuspendBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
@@ -195,15 +197,83 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C5580394258A44C00078DB8F /* PodsManual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PodsManual;
+			sourceTree = "<group>";
+		};
+		C558DF42258A0EAB0078DB8F /* 各项全局定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C595CB0D2586460F002A4531 /* NotificationManager */,
+				C558DF43258A0EBD0078DB8F /* 其他的一些全局定义文件 */,
+			);
+			path = "各项全局定义";
+			sourceTree = "<group>";
+		};
+		C558DF43258A0EBD0078DB8F /* 其他的一些全局定义文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C3B42585D57200029AFF /* AABlock.h */,
+			);
+			path = "其他的一些全局定义文件";
+			sourceTree = "<group>";
+		};
+		C558DF44258A0EE00078DB8F /* 第三方头文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				C558DF46258A0EEF0078DB8F /* Pods */,
+				C558DF45258A0EEC0078DB8F /* 手动导入的第三方 */,
+			);
+			path = "第三方头文件管理";
+			sourceTree = "<group>";
+		};
+		C558DF45258A0EEC0078DB8F /* 手动导入的第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */,
+			);
+			path = "手动导入的第三方";
+			sourceTree = "<group>";
+		};
+		C558DF46258A0EEF0078DB8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C19A2585D12B00029AFF /* Pods.h */,
+				C5580393258A44BB0078DB8F /* PodsManual.h */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C558EF28258A2DA90078DB8F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */,
+				C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		C558F7EF258A38560078DB8F /* Swift-OC桥接头文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */,
+			);
+			path = "Swift-OC桥接头文件";
+			sourceTree = "<group>";
+		};
 		C590AA372585C547008A17D9 = {
 			isa = PBXGroup;
 			children = (
-				C54AEBDC258723EB001A4630 /* README.md */,
+				4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */,
 				C590AA422585C547008A17D9 /* JobsBitsMonitor */,
 				C590AA612585C548008A17D9 /* JobsBitsMonitorTests */,
 				C590AA6C2585C548008A17D9 /* JobsBitsMonitorUITests */,
 				5E270302EDBE3426966CDB41 /* Pods */,
-				4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */,
+				C5580394258A44C00078DB8F /* PodsManual */,
+				C54AEBDC258723EB001A4630 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,12 +291,11 @@
 		C590AA422585C547008A17D9 /* JobsBitsMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */,
-				C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */,
-				C5D6C19B2585D1AE00029AFF /* 🌹Macro */,
 				C590AA572585C548008A17D9 /* Info.plist */,
-				C5D6C1982585D0C800029AFF /* Others */,
 				C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */,
+				C558EF28258A2DA90078DB8F /* 3rd */,
+				C5D6C19B2585D1AE00029AFF /* 🌹Macro */,
+				C5D6C1982585D0C800029AFF /* Others */,
 				C590AA492585C547008A17D9 /* ViewController.h */,
 				C590AA4A2585C547008A17D9 /* ViewController.m */,
 			);
@@ -339,13 +408,13 @@
 			path = "播放器控制层";
 			sourceTree = "<group>";
 		};
-		C595CB0D2586460F002A4531 /* Notification */ = {
+		C595CB0D2586460F002A4531 /* NotificationManager */ = {
 			isa = PBXGroup;
 			children = (
-				C595CB0E2586460F002A4531 /* YBNotificationManager.h */,
-				C595CB0F2586460F002A4531 /* YBNotificationManager.m */,
+				C595CB0E2586460F002A4531 /* NotificationManager.h */,
+				C595CB0F2586460F002A4531 /* NotificationManager.m */,
 			);
-			path = Notification;
+			path = NotificationManager;
 			sourceTree = "<group>";
 		};
 		C595CDF7258646DF002A4531 /* JobsBitsMonitorSuspendLab */ = {
@@ -447,11 +516,10 @@
 		C5D6C19B2585D1AE00029AFF /* 🌹Macro */ = {
 			isa = PBXGroup;
 			children = (
-				C595CB0D2586460F002A4531 /* Notification */,
-				C5D6C3B42585D57200029AFF /* AABlock.h */,
-				C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */,
-				C5D6C19A2585D12B00029AFF /* Pods.h */,
 				C5D6C1992585D10C00029AFF /* PrefixHeader.pch */,
+				C558DF44258A0EE00078DB8F /* 第三方头文件管理 */,
+				C558DF42258A0EAB0078DB8F /* 各项全局定义 */,
+				C558F7EF258A38560078DB8F /* Swift-OC桥接头文件 */,
 			);
 			path = "🌹Macro";
 			sourceTree = "<group>";
@@ -650,6 +718,7 @@
 				TargetAttributes = {
 					C590AA3F2585C547008A17D9 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1230;
 					};
 					C590AA5D2585C548008A17D9 = {
 						CreatedOnToolsVersion = 12.2;
@@ -819,7 +888,7 @@
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
-				C595CB102586460F002A4531 /* YBNotificationManager.m in Sources */,
+				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
@@ -1011,6 +1080,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
@@ -1021,6 +1091,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JobsBitsMonitor.JobsBitsMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsBitsMonitor/🌹Macro/Swift-OC桥接头文件/JobsBitsMonitor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1031,6 +1104,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
@@ -1041,6 +1115,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JobsBitsMonitor.JobsBitsMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsBitsMonitor/🌹Macro/Swift-OC桥接头文件/JobsBitsMonitor-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
