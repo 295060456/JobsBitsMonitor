@@ -254,13 +254,13 @@
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C595BA8D25864011002A4531 /* UIView+Animation */,
+				C595BA8A25864011002A4531 /* UIView+Chain */,
+				C595BA9025864011002A4531 /* UIView+Extras */,
+				C595BA8725864011002A4531 /* UIView+Gradient */,
+				C595BA8425864011002A4531 /* UIView+Measure */,
 				C595BA7E25864011002A4531 /* UIView+SuspendView */,
 				C595BA8125864011002A4531 /* UIView+ZFPlayer */,
-				C595BA8425864011002A4531 /* UIView+Measure */,
-				C595BA8725864011002A4531 /* UIView+Gradient */,
-				C595BA8A25864011002A4531 /* UIView+Chain */,
-				C595BA8D25864011002A4531 /* UIView+Animation */,
-				C595BA9025864011002A4531 /* UIView+Extras */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -268,8 +268,8 @@
 		C595BA7E25864011002A4531 /* UIView+SuspendView */ = {
 			isa = PBXGroup;
 			children = (
-				C595BA7F25864011002A4531 /* UIView+SuspendView.m */,
 				C595BA8025864011002A4531 /* UIView+SuspendView.h */,
+				C595BA7F25864011002A4531 /* UIView+SuspendView.m */,
 			);
 			path = "UIView+SuspendView";
 			sourceTree = "<group>";
@@ -286,8 +286,8 @@
 		C595BA8425864011002A4531 /* UIView+Measure */ = {
 			isa = PBXGroup;
 			children = (
-				C595BA8525864011002A4531 /* UIView+Measure.m */,
 				C595BA8625864011002A4531 /* UIView+Measure.h */,
+				C595BA8525864011002A4531 /* UIView+Measure.m */,
 			);
 			path = "UIView+Measure";
 			sourceTree = "<group>";
@@ -304,8 +304,8 @@
 		C595BA8A25864011002A4531 /* UIView+Chain */ = {
 			isa = PBXGroup;
 			children = (
-				C595BA8B25864011002A4531 /* UIView+Chain.m */,
 				C595BA8C25864011002A4531 /* UIView+Chain.h */,
+				C595BA8B25864011002A4531 /* UIView+Chain.m */,
 			);
 			path = "UIView+Chain";
 			sourceTree = "<group>";
@@ -313,8 +313,8 @@
 		C595BA8D25864011002A4531 /* UIView+Animation */ = {
 			isa = PBXGroup;
 			children = (
-				C595BA8E25864011002A4531 /* UIView+Animation.m */,
 				C595BA8F25864011002A4531 /* UIView+Animation.h */,
+				C595BA8E25864011002A4531 /* UIView+Animation.m */,
 			);
 			path = "UIView+Animation";
 			sourceTree = "<group>";
@@ -459,8 +459,8 @@
 		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				C595CF142586481A002A4531 /* JobsBitsMonitor */,
 				C595CB03258645F0002A4531 /* 播放器控制层 */,
+				C595CF142586481A002A4531 /* JobsBitsMonitor */,
 				C59A3C632586390600D9D228 /* Suspend */,
 				C5D6C2A22585D4C700029AFF /* TimerManager */,
 			);
