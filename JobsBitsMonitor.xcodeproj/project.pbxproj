@@ -34,6 +34,7 @@
 		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
 		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
 		C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C6B2586390600D9D228 /* SuspendView.m */; };
+		C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */; };
 		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
 		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
 		C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */; };
@@ -118,6 +119,8 @@
 		C59A3C692586390600D9D228 /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C59A3C6B2586390600D9D228 /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C59A3C6C2586390600D9D228 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
+		C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
+		C5D1BDB7258B1ED100784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C5D6C19A2585D12B00029AFF /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
 		C5D6C1A72585D2AA00029AFF /* JobsBitsMonitorCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorCore.h; sourceTree = "<group>"; };
@@ -325,6 +328,7 @@
 			children = (
 				C595BA8D25864011002A4531 /* UIView+Animation */,
 				C595BA8A25864011002A4531 /* UIView+Chain */,
+				C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */,
 				C595BA9025864011002A4531 /* UIView+Extras */,
 				C595BA8725864011002A4531 /* UIView+Gradient */,
 				C595BA8425864011002A4531 /* UIView+Measure */,
@@ -471,6 +475,15 @@
 				C59A3C6B2586390600D9D228 /* SuspendView.m */,
 			);
 			path = SuspendView;
+			sourceTree = "<group>";
+		};
+		C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */,
+				C5D1BDB7258B1ED100784D2F /* UIView+EmptyData.h */,
+			);
+			path = "UIView+EmptyData";
 			sourceTree = "<group>";
 		};
 		C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */ = {
@@ -903,6 +916,7 @@
 				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
 				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
+				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
