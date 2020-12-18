@@ -67,7 +67,7 @@ static const void *rightButtonEventBlockKey = &rightButtonEventBlockKey;
  @param cornerRadiusValue 切角参数
  */
 +(void)cornerCutToCircleWithView:(UIView *__nonnull)view
-                 AndCornerRadius:(CGFloat)cornerRadiusValue{
+                 andCornerRadius:(CGFloat)cornerRadiusValue{
     view.layer.cornerRadius = cornerRadiusValue;
     view.layer.masksToBounds = YES;
 }
@@ -79,8 +79,8 @@ static const void *rightButtonEventBlockKey = &rightButtonEventBlockKey;
  @param WidthOfBorder 边线宽度
  */
 +(void)colourToLayerOfView:(UIView *__nonnull)view
-                WithColour:(UIColor *__nonnull)colour
-            AndBorderWidth:(CGFloat)WidthOfBorder{
+                withColour:(UIColor *__nonnull)colour
+            andBorderWidth:(CGFloat)WidthOfBorder{
     view.layer.borderColor = colour.CGColor;
     view.layer.borderWidth = WidthOfBorder;
 }
