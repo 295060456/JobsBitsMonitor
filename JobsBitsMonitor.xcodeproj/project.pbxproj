@@ -32,6 +32,8 @@
 		C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB07258645F0002A4531 /* ZFCustomControlView.m */; };
 		C595CB102586460F002A4531 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CB0F2586460F002A4531 /* NotificationManager.m */; };
 		C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */; };
+		C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AE5258DD191005F6260 /* UserDefaultModel.m */; };
+		C59A3AE8258DD191005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3AE6258DD191005F6260 /* UserDefaultManager.m */; };
 		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
 		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
 		C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C6B2586390600D9D228 /* SuspendView.m */; };
@@ -118,6 +120,10 @@
 		C595CB0F2586460F002A4531 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
 		C595CE212586475C002A4531 /* JobsBitsMonitorSuspendLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorSuspendLab.h; sourceTree = "<group>"; };
 		C595CE222586475C002A4531 /* JobsBitsMonitorSuspendLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorSuspendLab.m; sourceTree = "<group>"; };
+		C59A3AE3258DD191005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
+		C59A3AE4258DD191005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
+		C59A3AE5258DD191005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
+		C59A3AE6258DD191005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
 		C59A3C652586390600D9D228 /* SuspendBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendBtn.m; sourceTree = "<group>"; };
 		C59A3C662586390600D9D228 /* SuspendBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendBtn.h; sourceTree = "<group>"; };
 		C59A3C682586390600D9D228 /* SuspendLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendLab.h; sourceTree = "<group>"; };
@@ -472,6 +478,17 @@
 			path = JobsBitsMonitor;
 			sourceTree = "<group>";
 		};
+		C59A3AE2258DD191005F6260 /* UserDefaultManager */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3AE3258DD191005F6260 /* UserDefaultManager.h */,
+				C59A3AE4258DD191005F6260 /* UserDefaultModel.h */,
+				C59A3AE5258DD191005F6260 /* UserDefaultModel.m */,
+				C59A3AE6258DD191005F6260 /* UserDefaultManager.m */,
+			);
+			path = UserDefaultManager;
+			sourceTree = "<group>";
+		};
 		C59A3C632586390600D9D228 /* Suspend */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,6 +594,7 @@
 				C595CF142586481A002A4531 /* JobsBitsMonitor */,
 				C59A3C632586390600D9D228 /* Suspend */,
 				C5D6C2A22585D4C700029AFF /* TimerManager */,
+				C59A3AE2258DD191005F6260 /* UserDefaultManager */,
 			);
 			path = Manual_Add_ThirdParty;
 			sourceTree = "<group>";
@@ -935,6 +953,8 @@
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
+				C59A3AE8258DD191005F6260 /* UserDefaultManager.m in Sources */,
+				C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */,
 				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,

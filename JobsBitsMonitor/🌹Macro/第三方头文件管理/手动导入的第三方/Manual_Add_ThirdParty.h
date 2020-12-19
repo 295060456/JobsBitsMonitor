@@ -12,15 +12,6 @@
 /** NSLocalizedString宏做的其实就是在当前bundle中查找资源文件名“Localizable.strings”(参数:键＋注释) */
 #define LocalString(x, ...)     NSLocalizedString(x, nil)
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
-#pragma mark ======================================== UserDefault ========================================
-#define SetUserDefaultKeyWithValue(key,value) [[NSUserDefaults standardUserDefaults] setValue:value forKey:key]
-#define SetUserDefaultKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setObject:object forKey:key]
-#define SetUserBoolKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setBool:object forKey:key]
-#define GetUserDefaultValueForKey(key) [[NSUserDefaults standardUserDefaults] valueForKey:key]
-#define GetUserDefaultObjForKey(key) [[NSUserDefaults standardUserDefaults] objectForKey:key]
-#define GetUserDefaultBoolForKey(key) [[NSUserDefaults standardUserDefaults] boolForKey:key]
-#define DeleUserDefaultWithKey(key) [[NSUserDefaults standardUserDefaults] removeObjectForKey:key]
-#define UserDefaultSynchronize  [[NSUserDefaults standardUserDefaults] synchronize]
 #pragma mark ======================================== 常见颜色 ========================================
 #define kClearColor     [UIColor clearColor]
 #define kBlackColor     [UIColor blackColor]
@@ -65,6 +56,7 @@
 // NSObject
 #import "NSObject+Time.h"
 
+#import "UserDefaultManager.h"
 #import "TimerManager.h"
 #import "JobsBitsMonitorCore.h"
 
