@@ -7,6 +7,9 @@
 
 #import "AppDelegate.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability-new"
+
 @interface AppDelegate ()
 
 @end
@@ -83,3 +86,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop
