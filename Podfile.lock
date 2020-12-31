@@ -18,9 +18,9 @@ PODS:
   - Masonry (1.1.0)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.9.5):
-    - SDWebImage/Core (= 5.9.5)
-  - SDWebImage/Core (5.9.5)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
   - ZFPlayer (4.0.1):
     - ZFPlayer/Core (= 4.0.1)
   - ZFPlayer/AVPlayer (4.0.1):
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
 PODFILE CHECKSUM: 627f933169f2d57ebca019701a4b2644a9f2b16a

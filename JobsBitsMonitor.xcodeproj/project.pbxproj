@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006E54CC12371794E0D702B0 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */; };
-		23D5911146136DFDFF334F40 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */; };
 		867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */; };
+		8F84833612492F814C3CE9C4 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */; };
+		91AFB1D347E3A599C1F9C714 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */; };
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
@@ -37,6 +37,51 @@
 		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
 		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
 		C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C6B2586390600D9D228 /* SuspendView.m */; };
+		C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */; };
+		C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7C259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m */; };
+		C5C64CBF259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7E259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m */; };
+		C5C64CC0259DF73E00FD2F99 /* ECPrivacyCheckCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7F259DF73E00FD2F99 /* ECPrivacyCheckCamera.m */; };
+		C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C80259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m */; };
+		C5C64CC2259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C84259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */; };
+		C5C64CC3259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C88259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m */; };
+		C5C64CC4259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C8A259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */; };
+		C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C8C259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */; };
+		C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C8D259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */; };
+		C5C64CC7259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C90259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m */; };
+		C5C64CC8259DF73E00FD2F99 /* ECPrivacyCheckContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C92259DF73E00FD2F99 /* ECPrivacyCheckContacts.m */; };
+		C5C64CC9259DF73E00FD2F99 /* ECPrivacyCheckHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C93259DF73E00FD2F99 /* ECPrivacyCheckHealth.m */; };
+		C5C64CCA259DF73E00FD2F99 /* ECPrivacyCheckReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C94259DF73E00FD2F99 /* ECPrivacyCheckReminders.m */; };
+		C5C64CCB259DF73E00FD2F99 /* 健康@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C96259DF73E00FD2F99 /* 健康@3x.png */; };
+		C5C64CCC259DF73E00FD2F99 /* 媒体与AppleMusic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C97259DF73E00FD2F99 /* 媒体与AppleMusic@2x.png */; };
+		C5C64CCD259DF73E00FD2F99 /* 运动与健身@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C98259DF73E00FD2F99 /* 运动与健身@2x.png */; };
+		C5C64CCE259DF73E00FD2F99 /* 媒体与AppleMusic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C99259DF73E00FD2F99 /* 媒体与AppleMusic@3x.png */; };
+		C5C64CCF259DF73E00FD2F99 /* 运动与健身@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9A259DF73E00FD2F99 /* 运动与健身@3x.png */; };
+		C5C64CD0259DF73E00FD2F99 /* 健康@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9B259DF73E00FD2F99 /* 健康@2x.png */; };
+		C5C64CD1259DF73E00FD2F99 /* 提醒事项@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9C259DF73E00FD2F99 /* 提醒事项@3x.png */; };
+		C5C64CD2259DF73E00FD2F99 /* 01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9D259DF73E00FD2F99 /* 01.PNG */; };
+		C5C64CD3259DF73E00FD2F99 /* 麦克风@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9E259DF73E00FD2F99 /* 麦克风@2x.png */; };
+		C5C64CD4259DF73E00FD2F99 /* 02.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C5C64C9F259DF73E00FD2F99 /* 02.PNG */; };
+		C5C64CD5259DF73E00FD2F99 /* 麦克风@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA0259DF73E00FD2F99 /* 麦克风@3x.png */; };
+		C5C64CD6259DF73E00FD2F99 /* 提醒事项@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA1259DF73E00FD2F99 /* 提醒事项@2x.png */; };
+		C5C64CD7259DF73E00FD2F99 /* 通讯录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA2259DF73E00FD2F99 /* 通讯录@2x.png */; };
+		C5C64CD8259DF73E00FD2F99 /* 日历@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA3259DF73E00FD2F99 /* 日历@3x.png */; };
+		C5C64CD9259DF73E00FD2F99 /* 语音识别@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA4259DF73E00FD2F99 /* 语音识别@2x.png */; };
+		C5C64CDA259DF73E00FD2F99 /* 蓝牙@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA5259DF73E00FD2F99 /* 蓝牙@2x.png */; };
+		C5C64CDB259DF73E00FD2F99 /* 蓝牙@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA6259DF73E00FD2F99 /* 蓝牙@3x.png */; };
+		C5C64CDC259DF73E00FD2F99 /* 语音识别@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA7259DF73E00FD2F99 /* 语音识别@3x.png */; };
+		C5C64CDD259DF73E00FD2F99 /* 日历@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA8259DF73E00FD2F99 /* 日历@2x.png */; };
+		C5C64CDE259DF73E00FD2F99 /* 通讯录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CA9259DF73E00FD2F99 /* 通讯录@3x.png */; };
+		C5C64CDF259DF73E00FD2F99 /* 定位服务@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAA259DF73E00FD2F99 /* 定位服务@2x.png */; };
+		C5C64CE0259DF73E00FD2F99 /* 文件和文件夹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAB259DF73E00FD2F99 /* 文件和文件夹@2x.png */; };
+		C5C64CE1259DF73E00FD2F99 /* HomeKit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAC259DF73E00FD2F99 /* HomeKit@2x.png */; };
+		C5C64CE2259DF73E00FD2F99 /* 相机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAD259DF73E00FD2F99 /* 相机@2x.png */; };
+		C5C64CE3259DF73E00FD2F99 /* 照片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAE259DF73E00FD2F99 /* 照片@2x.png */; };
+		C5C64CE4259DF73E00FD2F99 /* 照片@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CAF259DF73E00FD2F99 /* 照片@3x.png */; };
+		C5C64CE5259DF73E00FD2F99 /* 相机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB0259DF73E00FD2F99 /* 相机@3x.png */; };
+		C5C64CE6259DF73E00FD2F99 /* HomeKit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB1259DF73E00FD2F99 /* HomeKit@3x.png */; };
+		C5C64CE7259DF73E00FD2F99 /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB2259DF73E00FD2F99 /* 文件和文件夹@3x.png */; };
+		C5C64CE8259DF73E00FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB3259DF73E00FD2F99 /* 定位服务@3x.png */; };
+		C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64CB6259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m */; };
 		C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */; };
 		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
 		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
@@ -66,11 +111,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		300D2F0DC2E3FB6CBEA6F0BD /* Pods-JobsBitsMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A9318F4521D2C5D1AEC6D9B /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		9FA4477DFD33A9AC6CE637B6 /* Pods-JobsBitsMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C235F3F566D396FE115630C4 /* Pods-JobsBitsMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5460673258B747C0008928C /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C5460D64258C8E6B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5460D65258C8E6B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
@@ -130,6 +178,71 @@
 		C59A3C692586390600D9D228 /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C59A3C6B2586390600D9D228 /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C59A3C6C2586390600D9D228 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
+		C5C64C79259DF73E00FD2F99 /* ECPrivacyCheckCalendars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCalendars.h; sourceTree = "<group>"; };
+		C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMicrophone.m; sourceTree = "<group>"; };
+		C5C64C7B259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMotionAndFitness.h; sourceTree = "<group>"; };
+		C5C64C7C259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHomeKit.m; sourceTree = "<group>"; };
+		C5C64C7D259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckSpeechRecognition.h; sourceTree = "<group>"; };
+		C5C64C7E259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckBluetooth.m; sourceTree = "<group>"; };
+		C5C64C7F259DF73E00FD2F99 /* ECPrivacyCheckCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCamera.m; sourceTree = "<group>"; };
+		C5C64C80259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckLocationServices.m; sourceTree = "<group>"; };
+		C5C64C81259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMediaAndAppleMusic.h; sourceTree = "<group>"; };
+		C5C64C82259DF73E00FD2F99 /* ECPrivacyCheckReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckReminders.h; sourceTree = "<group>"; };
+		C5C64C83259DF73E00FD2F99 /* ECPrivacyCheckHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHealth.h; sourceTree = "<group>"; };
+		C5C64C84259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckFilesAndFolders.m; sourceTree = "<group>"; };
+		C5C64C85259DF73E00FD2F99 /* ECPrivacyCheckContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckContacts.h; sourceTree = "<group>"; };
+		C5C64C86259DF73E00FD2F99 /* ECPrivacyCheckPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckPhotos.h; sourceTree = "<group>"; };
+		C5C64C87259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMicrophone.h; sourceTree = "<group>"; };
+		C5C64C88259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckCalendars.m; sourceTree = "<group>"; };
+		C5C64C89259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckBluetooth.h; sourceTree = "<group>"; };
+		C5C64C8A259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckSpeechRecognition.m; sourceTree = "<group>"; };
+		C5C64C8B259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHomeKit.h; sourceTree = "<group>"; };
+		C5C64C8C259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMotionAndFitness.m; sourceTree = "<group>"; };
+		C5C64C8D259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMediaAndAppleMusic.m; sourceTree = "<group>"; };
+		C5C64C8E259DF73E00FD2F99 /* ECPrivacyCheckCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCamera.h; sourceTree = "<group>"; };
+		C5C64C8F259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckLocationServices.h; sourceTree = "<group>"; };
+		C5C64C90259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckPhotos.m; sourceTree = "<group>"; };
+		C5C64C91259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckFilesAndFolders.h; sourceTree = "<group>"; };
+		C5C64C92259DF73E00FD2F99 /* ECPrivacyCheckContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckContacts.m; sourceTree = "<group>"; };
+		C5C64C93259DF73E00FD2F99 /* ECPrivacyCheckHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckHealth.m; sourceTree = "<group>"; };
+		C5C64C94259DF73E00FD2F99 /* ECPrivacyCheckReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckReminders.m; sourceTree = "<group>"; };
+		C5C64C96259DF73E00FD2F99 /* 健康@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@3x.png"; sourceTree = "<group>"; };
+		C5C64C97259DF73E00FD2F99 /* 媒体与AppleMusic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@2x.png"; sourceTree = "<group>"; };
+		C5C64C98259DF73E00FD2F99 /* 运动与健身@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@2x.png"; sourceTree = "<group>"; };
+		C5C64C99259DF73E00FD2F99 /* 媒体与AppleMusic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "媒体与AppleMusic@3x.png"; sourceTree = "<group>"; };
+		C5C64C9A259DF73E00FD2F99 /* 运动与健身@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "运动与健身@3x.png"; sourceTree = "<group>"; };
+		C5C64C9B259DF73E00FD2F99 /* 健康@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "健康@2x.png"; sourceTree = "<group>"; };
+		C5C64C9C259DF73E00FD2F99 /* 提醒事项@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@3x.png"; sourceTree = "<group>"; };
+		C5C64C9D259DF73E00FD2F99 /* 01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.PNG; sourceTree = "<group>"; };
+		C5C64C9E259DF73E00FD2F99 /* 麦克风@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@2x.png"; sourceTree = "<group>"; };
+		C5C64C9F259DF73E00FD2F99 /* 02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.PNG; sourceTree = "<group>"; };
+		C5C64CA0259DF73E00FD2F99 /* 麦克风@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦克风@3x.png"; sourceTree = "<group>"; };
+		C5C64CA1259DF73E00FD2F99 /* 提醒事项@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒事项@2x.png"; sourceTree = "<group>"; };
+		C5C64CA2259DF73E00FD2F99 /* 通讯录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@2x.png"; sourceTree = "<group>"; };
+		C5C64CA3259DF73E00FD2F99 /* 日历@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@3x.png"; sourceTree = "<group>"; };
+		C5C64CA4259DF73E00FD2F99 /* 语音识别@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@2x.png"; sourceTree = "<group>"; };
+		C5C64CA5259DF73E00FD2F99 /* 蓝牙@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@2x.png"; sourceTree = "<group>"; };
+		C5C64CA6259DF73E00FD2F99 /* 蓝牙@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙@3x.png"; sourceTree = "<group>"; };
+		C5C64CA7259DF73E00FD2F99 /* 语音识别@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "语音识别@3x.png"; sourceTree = "<group>"; };
+		C5C64CA8259DF73E00FD2F99 /* 日历@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历@2x.png"; sourceTree = "<group>"; };
+		C5C64CA9259DF73E00FD2F99 /* 通讯录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录@3x.png"; sourceTree = "<group>"; };
+		C5C64CAA259DF73E00FD2F99 /* 定位服务@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@2x.png"; sourceTree = "<group>"; };
+		C5C64CAB259DF73E00FD2F99 /* 文件和文件夹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@2x.png"; sourceTree = "<group>"; };
+		C5C64CAC259DF73E00FD2F99 /* HomeKit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@2x.png"; sourceTree = "<group>"; };
+		C5C64CAD259DF73E00FD2F99 /* 相机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@2x.png"; sourceTree = "<group>"; };
+		C5C64CAE259DF73E00FD2F99 /* 照片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@2x.png"; sourceTree = "<group>"; };
+		C5C64CAF259DF73E00FD2F99 /* 照片@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片@3x.png"; sourceTree = "<group>"; };
+		C5C64CB0259DF73E00FD2F99 /* 相机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相机@3x.png"; sourceTree = "<group>"; };
+		C5C64CB1259DF73E00FD2F99 /* HomeKit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomeKit@3x.png"; sourceTree = "<group>"; };
+		C5C64CB2259DF73E00FD2F99 /* 文件和文件夹@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文件和文件夹@3x.png"; sourceTree = "<group>"; };
+		C5C64CB3259DF73E00FD2F99 /* 定位服务@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位服务@3x.png"; sourceTree = "<group>"; };
+		C5C64CB5259DF73E00FD2F99 /* ECPrivacyCheckHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckHelp.h; sourceTree = "<group>"; };
+		C5C64CB6259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckGatherTool.m; sourceTree = "<group>"; };
+		C5C64CB7259DF73E00FD2F99 /* ECMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMacros.h; sourceTree = "<group>"; };
+		C5C64CB8259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckGatherTool.h; sourceTree = "<group>"; };
+		C5C64CB9259DF73E00FD2F99 /* ECPrivacyCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckTools.h; sourceTree = "<group>"; };
+		C5C64CBB259DF73E00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
+		C5C64CBC259DF73E00FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
 		C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
 		C5D1BDB7258B1ED100784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -155,9 +268,6 @@
 		C5D6D755258602D200029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C5D6D756258602D200029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.debug.xcconfig"; sourceTree = "<group>"; };
-		D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +283,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23D5911146136DFDFF334F40 /* Pods_JobsBitsMonitorTests.framework in Frameworks */,
+				8F84833612492F814C3CE9C4 /* Pods_JobsBitsMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +291,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006E54CC12371794E0D702B0 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */,
+				91AFB1D347E3A599C1F9C714 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +302,8 @@
 			isa = PBXGroup;
 			children = (
 				ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */,
-				FD0F4B7A97B8FDF12A9E5AAE /* Pods_JobsBitsMonitorTests.framework */,
-				E562DDF25E315D524C10B021 /* Pods_JobsBitsMonitorUITests.framework */,
+				AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */,
+				B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,10 +313,10 @@
 			children = (
 				CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */,
 				523E17B989D65E34027BCD3F /* Pods-JobsBitsMonitor.release.xcconfig */,
-				D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */,
-				C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */,
-				09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */,
-				01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */,
+				C235F3F566D396FE115630C4 /* Pods-JobsBitsMonitorTests.debug.xcconfig */,
+				4A9318F4521D2C5D1AEC6D9B /* Pods-JobsBitsMonitorTests.release.xcconfig */,
+				300D2F0DC2E3FB6CBEA6F0BD /* Pods-JobsBitsMonitorUITests.debug.xcconfig */,
+				9FA4477DFD33A9AC6CE637B6 /* Pods-JobsBitsMonitorUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -239,6 +349,7 @@
 		C5580394258A44C00078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
+				C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */,
 			);
 			path = PodsManual;
 			sourceTree = "<group>";
@@ -526,6 +637,110 @@
 			path = SuspendView;
 			sourceTree = "<group>";
 		};
+		C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64C78259DF73E00FD2F99 /* Core */,
+				C5C64C95259DF73E00FD2F99 /* Resources */,
+				C5C64CB4259DF73E00FD2F99 /* Others */,
+				C5C64CBA259DF73E00FD2F99 /* ReadMe */,
+			);
+			path = ECPrivacyCheckTools;
+			sourceTree = "<group>";
+		};
+		C5C64C78259DF73E00FD2F99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64C79259DF73E00FD2F99 /* ECPrivacyCheckCalendars.h */,
+				C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */,
+				C5C64C7B259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */,
+				C5C64C7C259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m */,
+				C5C64C7D259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.h */,
+				C5C64C7E259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m */,
+				C5C64C7F259DF73E00FD2F99 /* ECPrivacyCheckCamera.m */,
+				C5C64C80259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m */,
+				C5C64C81259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.h */,
+				C5C64C82259DF73E00FD2F99 /* ECPrivacyCheckReminders.h */,
+				C5C64C83259DF73E00FD2F99 /* ECPrivacyCheckHealth.h */,
+				C5C64C84259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m */,
+				C5C64C85259DF73E00FD2F99 /* ECPrivacyCheckContacts.h */,
+				C5C64C86259DF73E00FD2F99 /* ECPrivacyCheckPhotos.h */,
+				C5C64C87259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.h */,
+				C5C64C88259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m */,
+				C5C64C89259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.h */,
+				C5C64C8A259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m */,
+				C5C64C8B259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.h */,
+				C5C64C8C259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m */,
+				C5C64C8D259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m */,
+				C5C64C8E259DF73E00FD2F99 /* ECPrivacyCheckCamera.h */,
+				C5C64C8F259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.h */,
+				C5C64C90259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m */,
+				C5C64C91259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.h */,
+				C5C64C92259DF73E00FD2F99 /* ECPrivacyCheckContacts.m */,
+				C5C64C93259DF73E00FD2F99 /* ECPrivacyCheckHealth.m */,
+				C5C64C94259DF73E00FD2F99 /* ECPrivacyCheckReminders.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C5C64C95259DF73E00FD2F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64C96259DF73E00FD2F99 /* 健康@3x.png */,
+				C5C64C97259DF73E00FD2F99 /* 媒体与AppleMusic@2x.png */,
+				C5C64C98259DF73E00FD2F99 /* 运动与健身@2x.png */,
+				C5C64C99259DF73E00FD2F99 /* 媒体与AppleMusic@3x.png */,
+				C5C64C9A259DF73E00FD2F99 /* 运动与健身@3x.png */,
+				C5C64C9B259DF73E00FD2F99 /* 健康@2x.png */,
+				C5C64C9C259DF73E00FD2F99 /* 提醒事项@3x.png */,
+				C5C64C9D259DF73E00FD2F99 /* 01.PNG */,
+				C5C64C9E259DF73E00FD2F99 /* 麦克风@2x.png */,
+				C5C64C9F259DF73E00FD2F99 /* 02.PNG */,
+				C5C64CA0259DF73E00FD2F99 /* 麦克风@3x.png */,
+				C5C64CA1259DF73E00FD2F99 /* 提醒事项@2x.png */,
+				C5C64CA2259DF73E00FD2F99 /* 通讯录@2x.png */,
+				C5C64CA3259DF73E00FD2F99 /* 日历@3x.png */,
+				C5C64CA4259DF73E00FD2F99 /* 语音识别@2x.png */,
+				C5C64CA5259DF73E00FD2F99 /* 蓝牙@2x.png */,
+				C5C64CA6259DF73E00FD2F99 /* 蓝牙@3x.png */,
+				C5C64CA7259DF73E00FD2F99 /* 语音识别@3x.png */,
+				C5C64CA8259DF73E00FD2F99 /* 日历@2x.png */,
+				C5C64CA9259DF73E00FD2F99 /* 通讯录@3x.png */,
+				C5C64CAA259DF73E00FD2F99 /* 定位服务@2x.png */,
+				C5C64CAB259DF73E00FD2F99 /* 文件和文件夹@2x.png */,
+				C5C64CAC259DF73E00FD2F99 /* HomeKit@2x.png */,
+				C5C64CAD259DF73E00FD2F99 /* 相机@2x.png */,
+				C5C64CAE259DF73E00FD2F99 /* 照片@2x.png */,
+				C5C64CAF259DF73E00FD2F99 /* 照片@3x.png */,
+				C5C64CB0259DF73E00FD2F99 /* 相机@3x.png */,
+				C5C64CB1259DF73E00FD2F99 /* HomeKit@3x.png */,
+				C5C64CB2259DF73E00FD2F99 /* 文件和文件夹@3x.png */,
+				C5C64CB3259DF73E00FD2F99 /* 定位服务@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5C64CB4259DF73E00FD2F99 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64CB5259DF73E00FD2F99 /* ECPrivacyCheckHelp.h */,
+				C5C64CB6259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m */,
+				C5C64CB7259DF73E00FD2F99 /* ECMacros.h */,
+				C5C64CB8259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.h */,
+				C5C64CB9259DF73E00FD2F99 /* ECPrivacyCheckTools.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5C64CBA259DF73E00FD2F99 /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				C5C64CBB259DF73E00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */,
+				C5C64CBC259DF73E00FD2F99 /* ECAuthorizationTools.md */,
+			);
+			path = ReadMe;
+			sourceTree = "<group>";
+		};
 		C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */ = {
 			isa = PBXGroup;
 			children = (
@@ -722,8 +937,8 @@
 				C590AA3C2585C547008A17D9 /* Sources */,
 				C590AA3D2585C547008A17D9 /* Frameworks */,
 				C590AA3E2585C547008A17D9 /* Resources */,
-				D244F501DF84BA4C5EF678B1 /* [CP] Embed Pods Frameworks */,
-				500186C5E8F900B3654F58D7 /* [CP] Copy Pods Resources */,
+				A31139C8F339DD33E01CC309 /* [CP] Embed Pods Frameworks */,
+				609DA7918824003BD8B77387 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -738,7 +953,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C590AA752585C548008A17D9 /* Build configuration list for PBXNativeTarget "JobsBitsMonitorTests" */;
 			buildPhases = (
-				A101A9AB6E71BBB101033259 /* [CP] Check Pods Manifest.lock */,
+				E3E150D9CDEDFC78F5F8D312 /* [CP] Check Pods Manifest.lock */,
 				C590AA5A2585C548008A17D9 /* Sources */,
 				C590AA5B2585C548008A17D9 /* Frameworks */,
 				C590AA5C2585C548008A17D9 /* Resources */,
@@ -757,7 +972,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C590AA782585C548008A17D9 /* Build configuration list for PBXNativeTarget "JobsBitsMonitorUITests" */;
 			buildPhases = (
-				F9EF2CA091E24CE5884CD6AD /* [CP] Check Pods Manifest.lock */,
+				8DE78BD42280947AF86741CE /* [CP] Check Pods Manifest.lock */,
 				C590AA652585C548008A17D9 /* Sources */,
 				C590AA662585C548008A17D9 /* Frameworks */,
 				C590AA672585C548008A17D9 /* Resources */,
@@ -819,9 +1034,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C64CDA259DF73E00FD2F99 /* 蓝牙@2x.png in Resources */,
+				C5C64CD8259DF73E00FD2F99 /* 日历@3x.png in Resources */,
+				C5C64CD4259DF73E00FD2F99 /* 02.PNG in Resources */,
+				C5C64CCF259DF73E00FD2F99 /* 运动与健身@3x.png in Resources */,
+				C5C64CCC259DF73E00FD2F99 /* 媒体与AppleMusic@2x.png in Resources */,
+				C5C64CD2259DF73E00FD2F99 /* 01.PNG in Resources */,
+				C5C64CE1259DF73E00FD2F99 /* HomeKit@2x.png in Resources */,
+				C5C64CDE259DF73E00FD2F99 /* 通讯录@3x.png in Resources */,
+				C5C64CCD259DF73E00FD2F99 /* 运动与健身@2x.png in Resources */,
+				C5C64CDC259DF73E00FD2F99 /* 语音识别@3x.png in Resources */,
+				C5C64CE7259DF73E00FD2F99 /* 文件和文件夹@3x.png in Resources */,
+				C5C64CD7259DF73E00FD2F99 /* 通讯录@2x.png in Resources */,
+				C5C64CD9259DF73E00FD2F99 /* 语音识别@2x.png in Resources */,
+				C5C64CD6259DF73E00FD2F99 /* 提醒事项@2x.png in Resources */,
+				C5C64CE6259DF73E00FD2F99 /* HomeKit@3x.png in Resources */,
+				C5C64CD1259DF73E00FD2F99 /* 提醒事项@3x.png in Resources */,
+				C5C64CDF259DF73E00FD2F99 /* 定位服务@2x.png in Resources */,
+				C5C64CD0259DF73E00FD2F99 /* 健康@2x.png in Resources */,
+				C5C64CE2259DF73E00FD2F99 /* 相机@2x.png in Resources */,
+				C5C64CD3259DF73E00FD2F99 /* 麦克风@2x.png in Resources */,
+				C5C64CDB259DF73E00FD2F99 /* 蓝牙@3x.png in Resources */,
+				C5C64CE5259DF73E00FD2F99 /* 相机@3x.png in Resources */,
+				C5C64CE8259DF73E00FD2F99 /* 定位服务@3x.png in Resources */,
 				C590AA562585C548008A17D9 /* LaunchScreen.storyboard in Resources */,
+				C5C64CCE259DF73E00FD2F99 /* 媒体与AppleMusic@3x.png in Resources */,
+				C5C64CDD259DF73E00FD2F99 /* 日历@2x.png in Resources */,
 				C590AA532585C548008A17D9 /* Assets.xcassets in Resources */,
 				C590AA4E2585C547008A17D9 /* Main.storyboard in Resources */,
+				C5C64CE3259DF73E00FD2F99 /* 照片@2x.png in Resources */,
+				C5C64CCB259DF73E00FD2F99 /* 健康@3x.png in Resources */,
+				C5C64CE4259DF73E00FD2F99 /* 照片@3x.png in Resources */,
+				C5C64CE0259DF73E00FD2F99 /* 文件和文件夹@2x.png in Resources */,
+				C5C64CD5259DF73E00FD2F99 /* 麦克风@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,7 +1109,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		500186C5E8F900B3654F58D7 /* [CP] Copy Pods Resources */ = {
+		609DA7918824003BD8B77387 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -879,44 +1124,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A101A9AB6E71BBB101033259 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JobsBitsMonitorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D244F501DF84BA4C5EF678B1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9EF2CA091E24CE5884CD6AD /* [CP] Check Pods Manifest.lock */ = {
+		8DE78BD42280947AF86741CE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -938,6 +1146,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A31139C8F339DD33E01CC309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E150D9CDEDFC78F5F8D312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsBitsMonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -945,37 +1190,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 				C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */,
 				C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */,
+				C5C64CC4259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
 				C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */,
 				C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */,
 				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
+				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
+				C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C59A3AE8258DD191005F6260 /* UserDefaultManager.m in Sources */,
 				C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */,
 				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
+				C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
+				C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
 				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
+				C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
 				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,
+				C5C64CC2259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */,
 				C595BA9525864011002A4531 /* UIView+Measure.m in Sources */,
+				C5C64CCA259DF73E00FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
+				C5C64CBF259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */,
+				C5C64CC8259DF73E00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
 				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,
 				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
+				C5C64CC7259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
+				C5C64CC0259DF73E00FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
+				C5C64CC3259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
 				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
+				C5C64CC9259DF73E00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1191,7 +1451,7 @@
 		};
 		C590AA762585C548008A17D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1967B071B3023B2566FEF44 /* Pods-JobsBitsMonitorTests.debug.xcconfig */;
+			baseConfigurationReference = C235F3F566D396FE115630C4 /* Pods-JobsBitsMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1212,7 +1472,7 @@
 		};
 		C590AA772585C548008A17D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3638E0346A1F1904B51DFB9 /* Pods-JobsBitsMonitorTests.release.xcconfig */;
+			baseConfigurationReference = 4A9318F4521D2C5D1AEC6D9B /* Pods-JobsBitsMonitorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1233,7 +1493,7 @@
 		};
 		C590AA792585C548008A17D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09B47DC474E32ABB5E27CFB7 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */;
+			baseConfigurationReference = 300D2F0DC2E3FB6CBEA6F0BD /* Pods-JobsBitsMonitorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
@@ -1252,7 +1512,7 @@
 		};
 		C590AA7A2585C548008A17D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01915E04C894D128C1D0B94F /* Pods-JobsBitsMonitorUITests.release.xcconfig */;
+			baseConfigurationReference = 9FA4477DFD33A9AC6CE637B6 /* Pods-JobsBitsMonitorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K92UCMVH8G;
