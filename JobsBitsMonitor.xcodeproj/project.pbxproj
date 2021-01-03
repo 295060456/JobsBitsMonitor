@@ -10,6 +10,9 @@
 		867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */; };
 		8F84833612492F814C3CE9C4 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */; };
 		91AFB1D347E3A599C1F9C714 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */; };
+		C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */; };
+		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
+		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
@@ -119,6 +122,12 @@
 		AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C235F3F566D396FE115630C4 /* Pods-JobsBitsMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
+		C53C9C7C25A1CF3F0007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
+		C53CA03425A1D1960007F58F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
+		C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C53CA05F25A1D2560007F58F /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		C53CA06025A1D2560007F58F /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
 		C5460673258B747C0008928C /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C5460D64258C8E6B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5460D65258C8E6B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
@@ -321,6 +330,41 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */ = {
+			isa = PBXGroup;
+			children = (
+				C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */,
+				C53C9C7C25A1CF3F0007F58F /* NSObject+DataSave.h */,
+			);
+			path = "NSObject+DataSave";
+			sourceTree = "<group>";
+		};
+		C53CA03325A1D1960007F58F /* 文件夹操作 */ = {
+			isa = PBXGroup;
+			children = (
+				C53CA03425A1D1960007F58F /* FileFolderHandleTool.h */,
+				C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */,
+			);
+			path = "文件夹操作";
+			sourceTree = "<group>";
+		};
+		C53CA05D25A1D24E0007F58F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C53CA05E25A1D2560007F58F /* UIImage+Extras */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C53CA05E25A1D2560007F58F /* UIImage+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C53CA06025A1D2560007F58F /* UIImage+Extras.h */,
+				C53CA05F25A1D2560007F58F /* UIImage+Extras.m */,
+			);
+			path = "UIImage+Extras";
+			sourceTree = "<group>";
+		};
 		C5460666258B74550008928C /* 其他杂项 */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,13 +462,13 @@
 		C590AA372585C547008A17D9 = {
 			isa = PBXGroup;
 			children = (
-				4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */,
+				C54AEBDC258723EB001A4630 /* README.md */,
 				C590AA422585C547008A17D9 /* JobsBitsMonitor */,
 				C590AA612585C548008A17D9 /* JobsBitsMonitorTests */,
 				C590AA6C2585C548008A17D9 /* JobsBitsMonitorUITests */,
 				5E270302EDBE3426966CDB41 /* Pods */,
 				C5580394258A44C00078DB8F /* PodsManual */,
-				C54AEBDC258723EB001A4630 /* README.md */,
+				4ED8D10E8F99E7F8ECC5AC67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -806,6 +850,7 @@
 			isa = PBXGroup;
 			children = (
 				C595CB03258645F0002A4531 /* 播放器控制层 */,
+				C53CA03325A1D1960007F58F /* 文件夹操作 */,
 				C595CF142586481A002A4531 /* JobsBitsMonitor */,
 				C59A3C632586390600D9D228 /* Suspend */,
 				C5D6C2A22585D4C700029AFF /* TimerManager */,
@@ -875,6 +920,7 @@
 		C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C53CA05D25A1D24E0007F58F /* UIImage */,
 				C595BA7D25864011002A4531 /* UIView */,
 				C5D6D7432586024C00029AFF /* NSString */,
 				C5D6C5C22585ED5700029AFF /* NSObject */,
@@ -885,6 +931,7 @@
 		C5D6C5C22585ED5700029AFF /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
 				C5D6D751258602D200029AFF /* NSObject (Time) */,
 				C5D6D754258602D200029AFF /* NSObject+Time */,
 			);
@@ -1197,6 +1244,8 @@
 				C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */,
 				C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */,
 				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
+				C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */,
+				C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
@@ -1212,6 +1261,7 @@
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
+				C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */,
 				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
 				C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
 				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,

@@ -21,6 +21,7 @@ PODS:
   - SDWebImage (5.10.2):
     - SDWebImage/Core (= 5.10.2)
   - SDWebImage/Core (5.10.2)
+  - TXFileOperation (1.0)
   - ZFPlayer (4.0.1):
     - ZFPlayer/Core (= 4.0.1)
   - ZFPlayer/AVPlayer (4.0.1):
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - Reachability
   - ReactiveObjC
   - SDWebImage
+  - TXFileOperation
   - ZFPlayer
   - ZFPlayer/AVPlayer
   - ZFPlayer/ControlView
@@ -51,6 +53,7 @@ SPEC REPOS:
     - Reachability
     - ReactiveObjC
     - SDWebImage
+    - TXFileOperation
     - ZFPlayer
 
 SPEC CHECKSUMS:
@@ -60,8 +63,9 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: 627f933169f2d57ebca019701a4b2644a9f2b16a
+PODFILE CHECKSUM: 5442b7d97176130effe023f8da97c682db46fac1
 
 COCOAPODS: 1.10.0

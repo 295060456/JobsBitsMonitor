@@ -55,6 +55,11 @@
 #import "NSString+Extras.h"
 // NSObject
 #import "NSObject+Time.h"
+#import "NSObject+DataSave.h"
+// UIImage
+#import "UIImage+Extras.h"
+
+#import "FileFolderHandleTool.h"
 
 #import "UserDefaultManager.h"
 #import "TimerManager.h"
