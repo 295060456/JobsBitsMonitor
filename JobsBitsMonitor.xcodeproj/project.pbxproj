@@ -10,6 +10,7 @@
 		867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */; };
 		8F84833612492F814C3CE9C4 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */; };
 		91AFB1D347E3A599C1F9C714 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */; };
+		C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C515742225A3503F0074D945 /* UIView+Gesture.m */; };
 		C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */; };
 		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
 		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
@@ -122,6 +123,8 @@
 		AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C235F3F566D396FE115630C4 /* Pods-JobsBitsMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorTests/Pods-JobsBitsMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C515742125A3503F0074D945 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		C515742225A3503F0074D945 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
 		C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
 		C53C9C7C25A1CF3F0007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
 		C53CA03425A1D1960007F58F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
@@ -330,6 +333,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C515742025A3503F0074D945 /* UIView+Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				C515742125A3503F0074D945 /* UIView+Gesture.h */,
+				C515742225A3503F0074D945 /* UIView+Gesture.m */,
+			);
+			path = "UIView+Gesture";
+			sourceTree = "<group>";
+		};
 		C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +530,7 @@
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C515742025A3503F0074D945 /* UIView+Gesture */,
 				C595BA8D25864011002A4531 /* UIView+Animation */,
 				C5460D63258C8E6B0008928C /* UIView+AOP */,
 				C595BA8A25864011002A4531 /* UIView+Chain */,
@@ -1259,6 +1272,7 @@
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
 				C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
+				C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
 				C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */,

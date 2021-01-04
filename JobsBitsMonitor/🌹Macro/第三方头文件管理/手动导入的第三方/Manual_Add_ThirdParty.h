@@ -51,6 +51,7 @@
 #import "UIView+Animation.h"
 #import "UIView+Gradient.h"
 #import "UIView+EmptyData.h"
+#import "UIView+Gesture.h"
 // NSString
 #import "NSString+Extras.h"
 // NSObject
