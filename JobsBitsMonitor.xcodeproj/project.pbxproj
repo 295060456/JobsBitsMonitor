@@ -98,6 +98,7 @@
 		C5C64CE7259DF73E00FD2F99 /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB2259DF73E00FD2F99 /* 文件和文件夹@3x.png */; };
 		C5C64CE8259DF73E00FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C64CB3259DF73E00FD2F99 /* 定位服务@3x.png */; };
 		C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64CB6259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m */; };
+		C5CF12D925AC7CF500381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF12D625AC7CF500381935 /* LYLUnicode.m */; };
 		C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */; };
 		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
 		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
@@ -294,6 +295,9 @@
 		C5C64CB9259DF73E00FD2F99 /* ECPrivacyCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckTools.h; sourceTree = "<group>"; };
 		C5C64CBB259DF73E00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
 		C5C64CBC259DF73E00FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
+		C5CF12D625AC7CF500381935 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		C5CF12D725AC7CF500381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "解决打印日志对于Unicode编码不能正常显示中文的问题"; sourceTree = "<group>"; };
+		C5CF12D825AC7CF500381935 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
 		C5D1BDB7258B1ED100784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -925,6 +929,16 @@
 			path = ReadMe;
 			sourceTree = "<group>";
 		};
+		C5CF12D525AC7CF500381935 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF12D725AC7CF500381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */,
+				C5CF12D825AC7CF500381935 /* LYLUnicode.h */,
+				C5CF12D625AC7CF500381935 /* LYLUnicode.m */,
+			);
+			path = LYLUnicode;
+			sourceTree = "<group>";
+		};
 		C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */ = {
 			isa = PBXGroup;
 			children = (
@@ -989,6 +1003,7 @@
 		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF12D525AC7CF500381935 /* LYLUnicode */,
 				C5A4366F25AAF753000F0CD2 /* 手势滑动返回 */,
 				C565C9FD25A437AB00848134 /* TwoVerticalArrangementLabsView */,
 				C595CB03258645F0002A4531 /* 播放器控制层 */,
@@ -1439,6 +1454,7 @@
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,
 				C5A4419725ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
+				C5CF12D925AC7CF500381935 /* LYLUnicode.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
 				C5A4367725AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC9259DF73E00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
