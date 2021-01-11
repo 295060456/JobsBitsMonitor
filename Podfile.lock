@@ -14,6 +14,11 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - GKNavigationBar (1.4.0):
+    - GKNavigationBar/GestureHandle (= 1.4.0)
+    - GKNavigationBar/NavigationBar (= 1.4.0)
+  - GKNavigationBar/GestureHandle (1.4.0)
+  - GKNavigationBar/NavigationBar (1.4.0)
   - GKPhotoBrowser (2.1.4):
     - GKPhotoBrowser/SD (= 2.1.4)
   - GKPhotoBrowser/Core (2.1.4)
@@ -21,6 +26,8 @@ PODS:
     - GKPhotoBrowser/Core
     - SDWebImage (~> 5.0)
   - IJKMediaFramework (0.1.5)
+  - JXCategoryView (1.5.8)
+  - JXPagingView/Pager (2.0.13)
   - Masonry (1.1.0)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
@@ -28,6 +35,7 @@ PODS:
     - SDWebImage/Core (= 5.10.2)
   - SDWebImage/Core (5.10.2)
   - TXFileOperation (1.0)
+  - WHToast (0.0.7)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -44,12 +52,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - GKNavigationBar
   - GKPhotoBrowser
+  - JXCategoryView
+  - JXPagingView/Pager
   - Masonry
   - Reachability
   - ReactiveObjC
   - SDWebImage
   - TXFileOperation
+  - WHToast
   - YYImage
   - ZFPlayer
   - ZFPlayer/AVPlayer
@@ -59,28 +71,36 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - GKNavigationBar
     - GKPhotoBrowser
     - IJKMediaFramework
+    - JXCategoryView
+    - JXPagingView
     - Masonry
     - Reachability
     - ReactiveObjC
     - SDWebImage
     - TXFileOperation
+    - WHToast
     - YYImage
     - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  GKNavigationBar: fe87990bde3fb2b7ece3f81014c6d4bc654bef06
   GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
+  WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: a08a6e268c8ac47a1a51cdc5e6ec66fa195f43a5
+PODFILE CHECKSUM: fa37161bc3e261aaa2e6cf0f8a24616f7f272fdc
 
 COCOAPODS: 1.10.0

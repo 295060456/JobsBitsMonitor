@@ -26,18 +26,26 @@ def func
   pod 'AFNetworking' # https://github.com/AFNetworking/AFNetworking A delightful networking framework for iOS, macOS, watchOS, and tvOS.
   pod 'Reachability' # https://github.com/tonymillion/Reachability 检查联网情况
   pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
-  pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器
   pod 'YYImage'
+  pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖 NO_SMP
   pod 'SDWebImage' # https://github.com/SDWebImage/SDWebImage Asynchronous image downloader with cache support as a UIImageView category
 end
-
+## JX一族
+def jx
+  pod 'JXCategoryView' # https://github.com/pujiaxin33/JXCategoryView NO_SMP
+  pod 'JXPagingView/Pager' # https://github.com/pujiaxin33/JXPagingView NO_SMP
+  end
+## GK一族
+def gk
+  pod 'GKNavigationBar' # https://github.com/QuintGao/GKNavigationBar NO_SMP
+  pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器 （与GKNavigationBar有冲突）
+  end
 def video
   pod 'ZFPlayer'
   pod 'ZFPlayer/ControlView'
   pod 'ZFPlayer/AVPlayer'
   pod 'ZFPlayer/ijkplayer'
 end
-
 # 基础的公共配置
 def cocoPodsConfig
   target 'JobsBitsMonitorTests' do
@@ -69,6 +77,8 @@ def cocoPodsConfig
 target 'JobsBitsMonitor' do
   # Pods for JobsBitsMonitor
   func
+  jx
+  gk
   video
   cocoPodsConfig
 end

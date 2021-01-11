@@ -42,6 +42,17 @@
 		C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C652586390600D9D228 /* SuspendBtn.m */; };
 		C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C692586390600D9D228 /* SuspendLab.m */; };
 		C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3C6B2586390600D9D228 /* SuspendView.m */; };
+		C5A4367525AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4367025AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
+		C5A4367725AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4367425AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C5A4419125ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4417D25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */; };
+		C5A4419225ABFB8B000F0CD2 /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4417F25ABFB8B000F0CD2 /* WHToast+DDToast.m */; };
+		C5A4419325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418625ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */; };
+		C5A4419425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418725ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m */; };
+		C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418825ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m */; };
+		C5A4419625ABFB8B000F0CD2 /* JXCategoryTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418B25ABFB8B000F0CD2 /* JXCategoryTimelineView.m */; };
+		C5A4419725ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418C25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m */; };
+		C5A4419825ABFB8B000F0CD2 /* JXCategoryTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418D25ABFB8B000F0CD2 /* JXCategoryTimelineCell.m */; };
+		C5A44FD725AC0D4A000F0CD2 /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A44FD625AC0D4A000F0CD2 /* NSObject+Extras.m */; };
 		C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */; };
 		C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7C259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m */; };
 		C5C64CBF259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7E259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m */; };
@@ -194,6 +205,30 @@
 		C59A3C692586390600D9D228 /* SuspendLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendLab.m; sourceTree = "<group>"; };
 		C59A3C6B2586390600D9D228 /* SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendView.m; sourceTree = "<group>"; };
 		C59A3C6C2586390600D9D228 /* SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendView.h; sourceTree = "<group>"; };
+		C5A4367025AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A4367125AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A4367225AAF753000F0CD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5A4367325AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A4367425AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A4417C25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GKPhotoBrowser+SaveBtn.h"; sourceTree = "<group>"; };
+		C5A4417D25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GKPhotoBrowser+SaveBtn.m"; sourceTree = "<group>"; };
+		C5A4417F25ABFB8B000F0CD2 /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
+		C5A4418025ABFB8B000F0CD2 /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
+		C5A4418425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCell.h; sourceTree = "<group>"; };
+		C5A4418525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundView.h; sourceTree = "<group>"; };
+		C5A4418625ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCellModel.m; sourceTree = "<group>"; };
+		C5A4418725ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCell.m; sourceTree = "<group>"; };
+		C5A4418825ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundView.m; sourceTree = "<group>"; };
+		C5A4418925ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCellModel.h; sourceTree = "<group>"; };
+		C5A4418B25ABFB8B000F0CD2 /* JXCategoryTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineView.m; sourceTree = "<group>"; };
+		C5A4418C25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCellModel.m; sourceTree = "<group>"; };
+		C5A4418D25ABFB8B000F0CD2 /* JXCategoryTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCell.m; sourceTree = "<group>"; };
+		C5A4418E25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCellModel.h; sourceTree = "<group>"; };
+		C5A4418F25ABFB8B000F0CD2 /* JXCategoryTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineView.h; sourceTree = "<group>"; };
+		C5A4419025ABFB8B000F0CD2 /* JXCategoryTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCell.h; sourceTree = "<group>"; };
+		C5A44FD025AC0CF4000F0CD2 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
+		C5A44FD525AC0D4A000F0CD2 /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
+		C5A44FD625AC0D4A000F0CD2 /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
 		C5C64C79259DF73E00FD2F99 /* ECPrivacyCheckCalendars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCalendars.h; sourceTree = "<group>"; };
 		C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMicrophone.m; sourceTree = "<group>"; };
 		C5C64C7B259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMotionAndFitness.h; sourceTree = "<group>"; };
@@ -367,6 +402,7 @@
 		C53CA05D25A1D24E0007F58F /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				C5A44FD025AC0CF4000F0CD2 /* LoadingImage.h */,
 				C53CA05E25A1D2560007F58F /* UIImage+Extras */,
 			);
 			path = UIImage;
@@ -410,6 +446,9 @@
 			isa = PBXGroup;
 			children = (
 				C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */,
+				C5A4417B25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn */,
+				C5A4418125ABFB8B000F0CD2 /* JXCategoryView */,
+				C5A4417E25ABFB8B000F0CD2 /* WHToast */,
 			);
 			path = PodsManual;
 			sourceTree = "<group>";
@@ -708,13 +747,87 @@
 			path = SuspendView;
 			sourceTree = "<group>";
 		};
+		C5A4366F25AAF753000F0CD2 /* 手势滑动返回 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4367225AAF753000F0CD2 /* README.md */,
+				C5A4367125AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */,
+				C5A4367425AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */,
+				C5A4367325AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */,
+				C5A4367025AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */,
+			);
+			path = "手势滑动返回";
+			sourceTree = "<group>";
+		};
+		C5A4417B25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4417C25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.h */,
+				C5A4417D25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m */,
+			);
+			path = "GKPhotoBrowser+SaveBtn";
+			sourceTree = "<group>";
+		};
+		C5A4417E25ABFB8B000F0CD2 /* WHToast */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4418025ABFB8B000F0CD2 /* WHToast+DDToast.h */,
+				C5A4417F25ABFB8B000F0CD2 /* WHToast+DDToast.m */,
+			);
+			path = WHToast;
+			sourceTree = "<group>";
+		};
+		C5A4418125ABFB8B000F0CD2 /* JXCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4418325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView */,
+				C5A4418A25ABFB8B000F0CD2 /* JXCategoryTimelineView */,
+			);
+			path = JXCategoryView;
+			sourceTree = "<group>";
+		};
+		C5A4418325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4418425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.h */,
+				C5A4418725ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m */,
+				C5A4418925ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */,
+				C5A4418625ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */,
+				C5A4418525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.h */,
+				C5A4418825ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m */,
+			);
+			path = JXCategoryTitleBackgroundView;
+			sourceTree = "<group>";
+		};
+		C5A4418A25ABFB8B000F0CD2 /* JXCategoryTimelineView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4419025ABFB8B000F0CD2 /* JXCategoryTimelineCell.h */,
+				C5A4418D25ABFB8B000F0CD2 /* JXCategoryTimelineCell.m */,
+				C5A4418E25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.h */,
+				C5A4418C25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m */,
+				C5A4418F25ABFB8B000F0CD2 /* JXCategoryTimelineView.h */,
+				C5A4418B25ABFB8B000F0CD2 /* JXCategoryTimelineView.m */,
+			);
+			path = JXCategoryTimelineView;
+			sourceTree = "<group>";
+		};
+		C5A44FD425AC0D4A000F0CD2 /* NSObject+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C5A44FD525AC0D4A000F0CD2 /* NSObject+Extras.h */,
+				C5A44FD625AC0D4A000F0CD2 /* NSObject+Extras.m */,
+			);
+			path = "NSObject+Extras";
+			sourceTree = "<group>";
+		};
 		C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */ = {
 			isa = PBXGroup;
 			children = (
 				C5C64C78259DF73E00FD2F99 /* Core */,
-				C5C64C95259DF73E00FD2F99 /* Resources */,
 				C5C64CB4259DF73E00FD2F99 /* Others */,
 				C5C64CBA259DF73E00FD2F99 /* ReadMe */,
+				C5C64C95259DF73E00FD2F99 /* Resources */,
 			);
 			path = ECPrivacyCheckTools;
 			sourceTree = "<group>";
@@ -876,6 +989,7 @@
 		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				C5A4366F25AAF753000F0CD2 /* 手势滑动返回 */,
 				C565C9FD25A437AB00848134 /* TwoVerticalArrangementLabsView */,
 				C595CB03258645F0002A4531 /* 播放器控制层 */,
 				C53CA03325A1D1960007F58F /* 文件夹操作 */,
@@ -959,6 +1073,7 @@
 		C5D6C5C22585ED5700029AFF /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C5A44FD425AC0D4A000F0CD2 /* NSObject+Extras */,
 				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
 				C5D6D751258602D200029AFF /* NSObject (Time) */,
 				C5D6D754258602D200029AFF /* NSObject+Time */,
@@ -1266,6 +1381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */,
+				C5A4419125ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
+				C5A44FD725AC0D4A000F0CD2 /* NSObject+Extras.m in Sources */,
 				C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 				C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */,
 				C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */,
@@ -1274,11 +1391,14 @@
 				C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */,
 				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
 				C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */,
+				C5A4419325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
+				C5A4419425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
+				C5A4367525AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C59A3AE8258DD191005F6260 /* UserDefaultManager.m in Sources */,
 				C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */,
@@ -1287,13 +1407,16 @@
 				C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
 				C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
+				C5A4419825ABFB8B000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
+				C5A4419225ABFB8B000F0CD2 /* WHToast+DDToast.m in Sources */,
 				C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
 				C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */,
 				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
 				C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
+				C5A4419625ABFB8B000F0CD2 /* JXCategoryTimelineView.m in Sources */,
 				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,
 				C5C64CC2259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */,
@@ -1311,10 +1434,13 @@
 				C5C64CC3259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
 				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
+				C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,
+				C5A4419725ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
+				C5A4367725AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC9259DF73E00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
