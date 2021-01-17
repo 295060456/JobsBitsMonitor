@@ -15,6 +15,7 @@
 		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
 		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
+		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
@@ -152,6 +153,8 @@
 		C54AEBDC258723EB001A4630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
+		C55FE73825B423D100D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9FF25A437AB00848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
@@ -518,6 +521,15 @@
 			path = "Swift-OC桥接头文件";
 			sourceTree = "<group>";
 		};
+		C55FE73625B423D100D8C30D /* UIView+MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C55FE73825B423D100D8C30D /* UIView+MJRefresh.h */,
+				C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */,
+			);
+			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
 		C565C9FD25A437AB00848134 /* TwoVerticalArrangementLabsView */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,14 +599,15 @@
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C515742025A3503F0074D945 /* UIView+Gesture */,
 				C595BA8D25864011002A4531 /* UIView+Animation */,
 				C5460D63258C8E6B0008928C /* UIView+AOP */,
 				C595BA8A25864011002A4531 /* UIView+Chain */,
 				C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */,
 				C595BA9025864011002A4531 /* UIView+Extras */,
+				C515742025A3503F0074D945 /* UIView+Gesture */,
 				C595BA8725864011002A4531 /* UIView+Gradient */,
 				C595BA8425864011002A4531 /* UIView+Measure */,
+				C55FE73625B423D100D8C30D /* UIView+MJRefresh */,
 				C595BA7E25864011002A4531 /* UIView+SuspendView */,
 				C595BA8125864011002A4531 /* UIView+ZFPlayer */,
 			);
@@ -1450,6 +1463,7 @@
 				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
+				C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */,
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,

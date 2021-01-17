@@ -24,6 +24,8 @@ def func
   pod 'ReactiveObjC'  # https://github.com/ReactiveCocoa/ReactiveObjC 重量级框架
   pod 'Masonry' # https://github.com/SnapKit/Masonry 布局
   pod 'AFNetworking' # https://github.com/AFNetworking/AFNetworking A delightful networking framework for iOS, macOS, watchOS, and tvOS.
+  pod 'MJRefresh' # https://github.com/CoderMJLee/MJRefresh NO_SMP
+  pod 'MJExtension' # https://github.com/CoderMJLee/MJExtension NO_SMP
   pod 'Reachability' # https://github.com/tonymillion/Reachability 检查联网情况
   pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
   pod 'YYImage'
