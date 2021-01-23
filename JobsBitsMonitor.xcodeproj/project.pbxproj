@@ -17,6 +17,7 @@
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
 		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
+		C572946125BB0A0300726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
 		C590AA4B2585C547008A17D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA4A2585C547008A17D9 /* ViewController.m */; };
@@ -158,6 +159,8 @@
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9FF25A437AB00848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
+		C572946025BB0A0300726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -540,6 +543,15 @@
 			path = TwoVerticalArrangementLabsView;
 			sourceTree = "<group>";
 		};
+		C572945E25BB0A0300726419 /* UIView+BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */,
+				C572946025BB0A0300726419 /* UIView+BackgroundImage.h */,
+			);
+			path = "UIView+BackgroundImage";
+			sourceTree = "<group>";
+		};
 		C590AA372585C547008A17D9 = {
 			isa = PBXGroup;
 			children = (
@@ -599,6 +611,7 @@
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C572945E25BB0A0300726419 /* UIView+BackgroundImage */,
 				C595BA8D25864011002A4531 /* UIView+Animation */,
 				C5460D63258C8E6B0008928C /* UIView+AOP */,
 				C595BA8A25864011002A4531 /* UIView+Chain */,
@@ -1460,6 +1473,7 @@
 				C5C64CC0259DF73E00FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
 				C5C64CC3259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
+				C572946125BB0A0300726419 /* UIView+BackgroundImage.m in Sources */,
 				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
