@@ -7,6 +7,12 @@
 
 #import "SuspendLab.h"
 
+#if __has_include(<ZWPullMenuView/ZWPullMenuView.h>)
+#import <ZWPullMenuView/ZWPullMenuView.h>
+#else
+#import "ZWPullMenuView.h"
+#endif
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsBitsMonitorSuspendLab : SuspendLab

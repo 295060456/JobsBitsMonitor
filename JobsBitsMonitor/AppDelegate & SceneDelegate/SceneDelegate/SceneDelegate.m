@@ -82,7 +82,7 @@ willConnectToSession:(UISceneSession *)session
 }
 #pragma mark —— lazyLoad
 -(UIWindow *)window{
-    [_window setRootViewController:ViewController.new];
+//    [_window setRootViewController:ViewController.new];
     [_window makeKeyAndVisible];
     return _window;
 }

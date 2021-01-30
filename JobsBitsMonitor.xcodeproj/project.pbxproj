@@ -17,6 +17,10 @@
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
 		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
+		C56FDAC125C564E200F8356E /* ZWPullMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */; };
+		C56FDAC225C564E200F8356E /* ZWPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABE25C564E200F8356E /* ZWPullMenuModel.m */; };
+		C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABF25C564E200F8356E /* ZWPullMenuView.m */; };
+		C56FDAC425C564E200F8356E /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDAC025C564E200F8356E /* ZWPullMenuCell.m */; };
 		C572946125BB0A0300726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
@@ -163,6 +167,14 @@
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9FF25A437AB00848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C56FDAB925C564E200F8356E /* ZWPullMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuModel.h; sourceTree = "<group>"; };
+		C56FDABA25C564E200F8356E /* ZWPullMenuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuConfig.h; sourceTree = "<group>"; };
+		C56FDABB25C564E200F8356E /* ZWPullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuView.h; sourceTree = "<group>"; };
+		C56FDABC25C564E200F8356E /* ZWPullMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuCell.h; sourceTree = "<group>"; };
+		C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuConfig.m; sourceTree = "<group>"; };
+		C56FDABE25C564E200F8356E /* ZWPullMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuModel.m; sourceTree = "<group>"; };
+		C56FDABF25C564E200F8356E /* ZWPullMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuView.m; sourceTree = "<group>"; };
+		C56FDAC025C564E200F8356E /* ZWPullMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuCell.m; sourceTree = "<group>"; };
 		C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572946025BB0A0300726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -463,6 +475,7 @@
 		C5580394258A44C00078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
+				C56FDAB825C564E200F8356E /* ZWPullMenuView */,
 				C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */,
 				C5A4417B25ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn */,
 				C5A4418125ABFB8B000F0CD2 /* JXCategoryView */,
@@ -549,6 +562,37 @@
 				C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */,
 			);
 			path = TwoVerticalArrangementLabsView;
+			sourceTree = "<group>";
+		};
+		C56FDAB825C564E200F8356E /* ZWPullMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				C56FDAC925C5650200F8356E /* Config */,
+				C56FDAC825C564F700F8356E /* View */,
+			);
+			path = ZWPullMenuView;
+			sourceTree = "<group>";
+		};
+		C56FDAC825C564F700F8356E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C56FDABC25C564E200F8356E /* ZWPullMenuCell.h */,
+				C56FDAC025C564E200F8356E /* ZWPullMenuCell.m */,
+				C56FDABB25C564E200F8356E /* ZWPullMenuView.h */,
+				C56FDABF25C564E200F8356E /* ZWPullMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C56FDAC925C5650200F8356E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C56FDABA25C564E200F8356E /* ZWPullMenuConfig.h */,
+				C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */,
+				C56FDAB925C564E200F8356E /* ZWPullMenuModel.h */,
+				C56FDABE25C564E200F8356E /* ZWPullMenuModel.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		C572945E25BB0A0300726419 /* UIView+BackgroundImage */ = {
@@ -1446,6 +1490,7 @@
 				C5A4419425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
+				C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
 				C5A4367525AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
@@ -1462,6 +1507,7 @@
 				C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
+				C56FDAC225C564E200F8356E /* ZWPullMenuModel.m in Sources */,
 				C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */,
 				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
 				C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
@@ -1478,6 +1524,7 @@
 				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
 				C5C64CC7259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
+				C56FDAC425C564E200F8356E /* ZWPullMenuCell.m in Sources */,
 				C5C64CC0259DF73E00FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */,
 				C5C64CC3259DF73E00FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
@@ -1485,6 +1532,7 @@
 				C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
+				C56FDAC125C564E200F8356E /* ZWPullMenuConfig.m in Sources */,
 				C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */,
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,

@@ -31,6 +31,14 @@
                                                  selector:@selector(uploadAndDownload:)
                                                      name:GSUploadAndDownloadNetworkSpeedNotificationKey
                                                    object:nil];
+        {// A
+            self.userInteractionEnabled = YES;
+            self.target = self;
+            self.tapGRSEL = NSStringFromSelector(@selector(showMenu));
+            self.numberOfTouchesRequired = 1;
+            self.numberOfTapsRequired = 1;
+            self.tapGR.enabled = YES;
+        }
     }return self;
 }
 
@@ -49,6 +57,17 @@
     [self sizeToFit];
     [self adjustsFontSizeToFitWidth];
     self.height = 30;
+}
+
+-(void)showMenu{
+    ZWPullMenuView *menuView = [ZWPullMenuView pullMenuAnchorView:self
+                                                       titleArray:@[@"2019年02月",
+                                                                    @"2019年01月",
+                                                                    @"2018年12月",
+                                                                    @"2018年11月"]];
+    menuView.blockSelectedMenu = ^(NSInteger menuRow) {
+        NSLog(@"action----->%ld",(long)menuRow);
+    };
 }
 
 @end
