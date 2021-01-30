@@ -26,6 +26,10 @@
 /// 其他的一些全局定义文件
 #import "AABlock.h"
 /// 各项宏定义
+#import "MacroDef_App.h"
+#import "MacroDef_Cor.h"
+#import "MacroDef_Size.h"
+#import "MacroDef_Func.h"
 #import "MacroDef_Sys.h"
 
 #pragma mark —— Swift-OC桥接头文件

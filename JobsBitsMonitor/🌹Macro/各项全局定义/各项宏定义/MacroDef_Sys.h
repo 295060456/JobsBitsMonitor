@@ -8,6 +8,7 @@
 #ifndef MacroDef_Sys_h
 #define MacroDef_Sys_h
 // http://ww1.fuckingclangwarnings.com/
+// https://www.jianshu.com/p/9bc9704449b2
 //#pragma clang diagnostic push
 //#pragma clang diagnostic ignored "-Wobjc-designated-initializers"
 //#pragma clang diagnostic ignored "-Wundeclared-selector"
@@ -93,8 +94,8 @@
 
 #pragma mark ======================================== Sys.========================================
 #define HDAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]//标识应用程序的发布版本号
-#define HDAppBuildVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]//APP BUILD 版本号
-#define HDAppDisplayName [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleExecutable"]// APP名字
+#define HDAppBuildVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]//App BUILD 版本号
+#define HDAppDisplayName [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleExecutable"]// App名字
 #define HDLocalLanguage [[NSLocale currentLocale] objectForKey:NSLocaleLanguageCode]//当前语言
 #define HDLocalCountry [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]//当前国家
 #define HDDevice [UIDevice currentDevice]
@@ -111,6 +112,16 @@
 #define isPad (HDDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad)// 是否iPad
 #define isiPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)//是否iPhone
 #define isRetina ([[UIScreen mainScreen] scale] >= 2.0)// 非Retain屏幕 1.0
+
+#pragma mark ======================================== UserDefault ========================================
+#define SetUserDefaultKeyWithValue(key,value) [[NSUserDefaults standardUserDefaults] setValue:value forKey:key]
+#define SetUserDefaultKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setObject:object forKey:key]
+#define SetUserBoolKeyWithObject(key,object) [[NSUserDefaults standardUserDefaults] setBool:object forKey:key]
+#define GetUserDefaultValueForKey(key) [[NSUserDefaults standardUserDefaults] valueForKey:key]
+#define GetUserDefaultObjForKey(key) [[NSUserDefaults standardUserDefaults] objectForKey:key]
+#define GetUserDefaultBoolForKey(key) [[NSUserDefaults standardUserDefaults] boolForKey:key]
+#define DeleUserDefaultWithKey(key) [[NSUserDefaults standardUserDefaults] removeObjectForKey:key]
+#define UserDefaultSynchronize  [[NSUserDefaults standardUserDefaults] synchronize]
 
 #pragma mark ======================================== 日志打印 ========================================
 //对NSLog

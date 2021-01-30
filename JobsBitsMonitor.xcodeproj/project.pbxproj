@@ -149,9 +149,13 @@
 		C5460673258B747C0008928C /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C5460D64258C8E6B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5460D65258C8E6B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
-		C5461B57258CA0E60008928C /* MacroDef_Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
 		C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitor.h; sourceTree = "<group>"; };
 		C54AEBDC258723EB001A4630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C54C8BDF25C557380054F53F /* MacroDef_Func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Func.h; sourceTree = "<group>"; };
+		C54C8BE025C557380054F53F /* MacroDef_Cor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Cor.h; sourceTree = "<group>"; };
+		C54C8BE125C557380054F53F /* MacroDef_App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_App.h; sourceTree = "<group>"; };
+		C54C8BE225C557380054F53F /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
+		C54C8BE325C557380054F53F /* MacroDef_Sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
 		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
 		C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
@@ -447,7 +451,11 @@
 		C5461B58258CA0F20008928C /* 各项宏定义 */ = {
 			isa = PBXGroup;
 			children = (
-				C5461B57258CA0E60008928C /* MacroDef_Sys.h */,
+				C54C8BE125C557380054F53F /* MacroDef_App.h */,
+				C54C8BE025C557380054F53F /* MacroDef_Cor.h */,
+				C54C8BDF25C557380054F53F /* MacroDef_Func.h */,
+				C54C8BE225C557380054F53F /* MacroDef_Size.h */,
+				C54C8BE325C557380054F53F /* MacroDef_Sys.h */,
 			);
 			path = "各项宏定义";
 			sourceTree = "<group>";

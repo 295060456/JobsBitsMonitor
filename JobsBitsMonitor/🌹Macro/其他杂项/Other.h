@@ -11,4 +11,6 @@
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
 
+#import "ViewController.h"
+
 #endif /* Other_h */
