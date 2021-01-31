@@ -11,6 +11,9 @@
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
 
+#import "URLManagerModel.h"
+#import "NSObject+URLManager.h"
+
 #import "ViewController.h"
 
 #endif /* Other_h */

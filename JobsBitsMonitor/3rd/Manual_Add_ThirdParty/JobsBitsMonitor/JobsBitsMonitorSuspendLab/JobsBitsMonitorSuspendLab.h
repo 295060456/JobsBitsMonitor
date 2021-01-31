@@ -13,6 +13,9 @@
 #import "ZWPullMenuView.h"
 #endif
 
+#import "WHToast+DDToast.h"
+#import "JobsBitsMonitorCore.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JobsBitsMonitorSuspendLab : SuspendLab

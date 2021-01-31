@@ -15,6 +15,8 @@
 		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
 		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
+		C5512CF225C67CBA007BCA82 /* URLManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5512CEE25C67CBA007BCA82 /* URLManagerModel.m */; };
+		C5512CF325C67CBA007BCA82 /* NSObject+URLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */; };
 		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
 		C56FDAC125C564E200F8356E /* ZWPullMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */; };
@@ -160,6 +162,10 @@
 		C54C8BE125C557380054F53F /* MacroDef_App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_App.h; sourceTree = "<group>"; };
 		C54C8BE225C557380054F53F /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
 		C54C8BE325C557380054F53F /* MacroDef_Sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
+		C5512CEE25C67CBA007BCA82 /* URLManagerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManagerModel.m; sourceTree = "<group>"; };
+		C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+URLManager.m"; sourceTree = "<group>"; };
+		C5512CF025C67CBA007BCA82 /* URLManagerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManagerModel.h; sourceTree = "<group>"; };
+		C5512CF125C67CBA007BCA82 /* NSObject+URLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+URLManager.h"; sourceTree = "<group>"; };
 		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
 		C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
@@ -472,6 +478,33 @@
 			path = "各项宏定义";
 			sourceTree = "<group>";
 		};
+		C5512CEB25C67C9A007BCA82 /* 业务代码 */ = {
+			isa = PBXGroup;
+			children = (
+				C5512CEC25C67CA3007BCA82 /* Common */,
+			);
+			path = "业务代码";
+			sourceTree = "<group>";
+		};
+		C5512CEC25C67CA3007BCA82 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C5512CED25C67CBA007BCA82 /* URL_Manager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C5512CED25C67CBA007BCA82 /* URL_Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5512CF125C67CBA007BCA82 /* NSObject+URLManager.h */,
+				C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */,
+				C5512CF025C67CBA007BCA82 /* URLManagerModel.h */,
+				C5512CEE25C67CBA007BCA82 /* URLManagerModel.m */,
+			);
+			path = URL_Manager;
+			sourceTree = "<group>";
+		};
 		C5580394258A44C00078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
@@ -631,6 +664,7 @@
 		C590AA422585C547008A17D9 /* JobsBitsMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				C5512CEB25C67C9A007BCA82 /* 业务代码 */,
 				C590AA572585C548008A17D9 /* Info.plist */,
 				C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */,
 				C558EF28258A2DA90078DB8F /* 3rd */,
@@ -1512,6 +1546,8 @@
 				C595BA9925864011002A4531 /* UIView+Extras.m in Sources */,
 				C5C64CC6259DF73E00FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
 				C5A4419625ABFB8B000F0CD2 /* JXCategoryTimelineView.m in Sources */,
+				C5512CF325C67CBA007BCA82 /* NSObject+URLManager.m in Sources */,
+				C5512CF225C67CBA007BCA82 /* URLManagerModel.m in Sources */,
 				C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */,
 				C5C64CC2259DF73E00FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C595CE232586475C002A4531 /* JobsBitsMonitorSuspendLab.m in Sources */,
