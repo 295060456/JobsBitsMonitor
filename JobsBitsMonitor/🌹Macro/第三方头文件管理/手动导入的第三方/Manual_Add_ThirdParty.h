@@ -65,6 +65,7 @@ alpha:1] \
 #import "UIView+Gradient.h"
 #import "UIView+EmptyData.h"
 #import "UIView+Gesture.h"
+#import "UIView+ViewController.h"
 // NSString
 #import "NSString+Extras.h"
 // NSObject
