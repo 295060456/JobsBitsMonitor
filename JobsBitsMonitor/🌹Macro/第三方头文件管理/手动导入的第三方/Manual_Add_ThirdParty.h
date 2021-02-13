@@ -57,6 +57,9 @@ alpha:1] \
 #import "AABlock.h"
 #import "NotificationManager.h"
 // UIView
+// BaseView
+#import "BaseView.h"
+// UIView+Category
 #import "UIView+Extras.h"
 #import "UIView+Chain.h"
 #import "UIView+SuspendView.h"

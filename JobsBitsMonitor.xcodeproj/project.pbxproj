@@ -20,6 +20,7 @@
 		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
 		C562DA5825C7C330004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DA5725C7C330004D1AEA /* UIView+ViewController.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
+		C5672F6125D778BA008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5672F5F25D778BA008ABAF9 /* BaseView.m */; };
 		C56FDAC125C564E200F8356E /* ZWPullMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */; };
 		C56FDAC225C564E200F8356E /* ZWPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABE25C564E200F8356E /* ZWPullMenuModel.m */; };
 		C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABF25C564E200F8356E /* ZWPullMenuView.m */; };
@@ -176,6 +177,8 @@
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
 		C565C9FF25A437AB00848134 /* TwoVerticalArrangementLabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVerticalArrangementLabsView.h; sourceTree = "<group>"; };
 		C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
+		C5672F5F25D778BA008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		C5672F6025D778BA008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		C56FDAB925C564E200F8356E /* ZWPullMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuModel.h; sourceTree = "<group>"; };
 		C56FDABA25C564E200F8356E /* ZWPullMenuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuConfig.h; sourceTree = "<group>"; };
 		C56FDABB25C564E200F8356E /* ZWPullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuView.h; sourceTree = "<group>"; };
@@ -609,6 +612,35 @@
 			path = TwoVerticalArrangementLabsView;
 			sourceTree = "<group>";
 		};
+		C5672F5D25D778A7008ABAF9 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C562DA4F25C7C32C004D1AEA /* UIView+ViewController */,
+				C572945E25BB0A0300726419 /* UIView+BackgroundImage */,
+				C595BA8D25864011002A4531 /* UIView+Animation */,
+				C5460D63258C8E6B0008928C /* UIView+AOP */,
+				C595BA8A25864011002A4531 /* UIView+Chain */,
+				C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */,
+				C595BA9025864011002A4531 /* UIView+Extras */,
+				C515742025A3503F0074D945 /* UIView+Gesture */,
+				C595BA8725864011002A4531 /* UIView+Gradient */,
+				C595BA8425864011002A4531 /* UIView+Measure */,
+				C55FE73625B423D100D8C30D /* UIView+MJRefresh */,
+				C595BA7E25864011002A4531 /* UIView+SuspendView */,
+				C595BA8125864011002A4531 /* UIView+ZFPlayer */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		C5672F5E25D778B0008ABAF9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				C5672F6025D778BA008ABAF9 /* BaseView.h */,
+				C5672F5F25D778BA008ABAF9 /* BaseView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
 		C56FDAB825C564E200F8356E /* ZWPullMenuView */ = {
 			isa = PBXGroup;
 			children = (
@@ -709,19 +741,8 @@
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C562DA4F25C7C32C004D1AEA /* UIView+ViewController */,
-				C572945E25BB0A0300726419 /* UIView+BackgroundImage */,
-				C595BA8D25864011002A4531 /* UIView+Animation */,
-				C5460D63258C8E6B0008928C /* UIView+AOP */,
-				C595BA8A25864011002A4531 /* UIView+Chain */,
-				C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */,
-				C595BA9025864011002A4531 /* UIView+Extras */,
-				C515742025A3503F0074D945 /* UIView+Gesture */,
-				C595BA8725864011002A4531 /* UIView+Gradient */,
-				C595BA8425864011002A4531 /* UIView+Measure */,
-				C55FE73625B423D100D8C30D /* UIView+MJRefresh */,
-				C595BA7E25864011002A4531 /* UIView+SuspendView */,
-				C595BA8125864011002A4531 /* UIView+ZFPlayer */,
+				C5672F5E25D778B0008ABAF9 /* BaseView */,
+				C5672F5D25D778A7008ABAF9 /* UIView+Category */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1552,6 +1573,7 @@
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
 				C5A4419225ABFB8B000F0CD2 /* WHToast+DDToast.m in Sources */,
 				C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */,
+				C5672F6125D778BA008ABAF9 /* BaseView.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
 				C595CB08258645F0002A4531 /* CustomZFPlayerControlView.m in Sources */,
 				C56FDAC225C564E200F8356E /* ZWPullMenuModel.m in Sources */,
