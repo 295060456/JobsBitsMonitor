@@ -56,10 +56,10 @@ alpha:1] \
 
 #import "AABlock.h"
 #import "NotificationManager.h"
-// UIView
-// BaseView
+#pragma mark —— UIView
+/// BaseView
 #import "BaseView.h"
-// UIView+Category
+/// UIView+Category
 #import "UIView+Extras.h"
 #import "UIView+Chain.h"
 #import "UIView+SuspendView.h"
@@ -69,15 +69,20 @@ alpha:1] \
 #import "UIView+EmptyData.h"
 #import "UIView+Gesture.h"
 #import "UIView+ViewController.h"
-// NSString
+#pragma mark —— NSString
 #import "NSString+Extras.h"
-// NSObject
+#pragma mark —— NSObject
 #import "NSObject+Time.h"
 #import "NSObject+DataSave.h"
 #import "NSObject+Extras.h"
-// UIImage
+#pragma mark —— UIImage
 #import "LoadingImage.h"
 #import "UIImage+Extras.h"
+#pragma mark —— UIImageView
+// BaseImageView
+#import "BaseImageView.h"
+// UIImageView+Category
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 
 #import "FileFolderHandleTool.h"
 

@@ -26,6 +26,8 @@
 		C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABF25C564E200F8356E /* ZWPullMenuView.m */; };
 		C56FDAC425C564E200F8356E /* ZWPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDAC025C564E200F8356E /* ZWPullMenuCell.m */; };
 		C572946125BB0A0300726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */; };
+		C583B6F825E4B2900054FD6E /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B6F325E4B2900054FD6E /* BaseImageView.m */; };
+		C583B6F925E4B2900054FD6E /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B6F625E4B2900054FD6E /* UIImageView+GIF.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
 		C590AA4B2585C547008A17D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA4A2585C547008A17D9 /* ViewController.m */; };
@@ -189,6 +191,10 @@
 		C56FDAC025C564E200F8356E /* ZWPullMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPullMenuCell.m; sourceTree = "<group>"; };
 		C572945F25BB0A0300726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572946025BB0A0300726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
+		C583B6F325E4B2900054FD6E /* BaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseImageView.m; sourceTree = "<group>"; };
+		C583B6F425E4B2900054FD6E /* BaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImageView.h; sourceTree = "<group>"; };
+		C583B6F625E4B2900054FD6E /* UIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIF.m"; sourceTree = "<group>"; };
+		C583B6F725E4B2900054FD6E /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -679,6 +685,33 @@
 				C572946025BB0A0300726419 /* UIView+BackgroundImage.h */,
 			);
 			path = "UIView+BackgroundImage";
+			sourceTree = "<group>";
+		};
+		C583B6F125E4B2900054FD6E /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583B6F225E4B2900054FD6E /* BaseImageView */,
+				C583B6F525E4B2900054FD6E /* UIImageView+Category */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		C583B6F225E4B2900054FD6E /* BaseImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583B6F325E4B2900054FD6E /* BaseImageView.m */,
+				C583B6F425E4B2900054FD6E /* BaseImageView.h */,
+			);
+			path = BaseImageView;
+			sourceTree = "<group>";
+		};
+		C583B6F525E4B2900054FD6E /* UIImageView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C583B6F625E4B2900054FD6E /* UIImageView+GIF.m */,
+				C583B6F725E4B2900054FD6E /* UIImageView+GIF.h */,
+			);
+			path = "UIImageView+Category";
 			sourceTree = "<group>";
 		};
 		C590AA372585C547008A17D9 = {
@@ -1223,6 +1256,7 @@
 		C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C583B6F125E4B2900054FD6E /* UIImageView */,
 				C53CA05D25A1D24E0007F58F /* UIImage */,
 				C595BA7D25864011002A4531 /* UIView */,
 				C5D6D7432586024C00029AFF /* NSString */,
@@ -1554,6 +1588,7 @@
 				C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */,
 				C5A4419325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */,
+				C583B6F925E4B2900054FD6E /* UIImageView+GIF.m in Sources */,
 				C590AA592585C548008A17D9 /* main.m in Sources */,
 				C5A4419425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
@@ -1608,6 +1643,7 @@
 				C59A3C6E2586390700D9D228 /* SuspendLab.m in Sources */,
 				C5D6D757258602D200029AFF /* TimeModel.m in Sources */,
 				C595BA9725864011002A4531 /* UIView+Chain.m in Sources */,
+				C583B6F825E4B2900054FD6E /* BaseImageView.m in Sources */,
 				C5A4419725ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C5CF12D925AC7CF500381935 /* LYLUnicode.m in Sources */,
 				C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */,
