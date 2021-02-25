@@ -38,6 +38,7 @@
 		C590AA592585C548008A17D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA582585C548008A17D9 /* main.m */; };
 		C590AA632585C548008A17D9 /* JobsBitsMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA622585C548008A17D9 /* JobsBitsMonitorTests.m */; };
 		C590AA6E2585C548008A17D9 /* JobsBitsMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */; };
+		C594309D25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C594309A25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.m */; };
 		C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA7F25864011002A4531 /* UIView+SuspendView.m */; };
 		C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8325864011002A4531 /* UIView+ZFPlayer.m */; };
 		C595BA9525864011002A4531 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C595BA8525864011002A4531 /* UIView+Measure.m */; };
@@ -214,6 +215,9 @@
 		C590AA692585C548008A17D9 /* JobsBitsMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsBitsMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA6D2585C548008A17D9 /* JobsBitsMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorUITests.m; sourceTree = "<group>"; };
 		C590AA6F2585C548008A17D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C594309A25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+IndicateWordLimit.m"; sourceTree = "<group>"; };
+		C594309B25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+IndicateWordLimit.h"; sourceTree = "<group>"; };
+		C594309C25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView+IndicateWordLimit.png"; sourceTree = "<group>"; };
 		C595BA7F25864011002A4531 /* UIView+SuspendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuspendView.m"; sourceTree = "<group>"; };
 		C595BA8025864011002A4531 /* UIView+SuspendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuspendView.h"; sourceTree = "<group>"; };
 		C595BA8225864011002A4531 /* UIView+ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZFPlayer.h"; sourceTree = "<group>"; };
@@ -771,6 +775,16 @@
 			path = JobsBitsMonitorUITests;
 			sourceTree = "<group>";
 		};
+		C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */ = {
+			isa = PBXGroup;
+			children = (
+				C594309B25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.h */,
+				C594309A25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.m */,
+				C594309C25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.png */,
+			);
+			path = "UITextView+IndicateWordLimit";
+			sourceTree = "<group>";
+		};
 		C595BA7D25864011002A4531 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1256,11 +1270,12 @@
 		C5D6C5C12585ED4400029AFF /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C583B6F125E4B2900054FD6E /* UIImageView */,
-				C53CA05D25A1D24E0007F58F /* UIImage */,
-				C595BA7D25864011002A4531 /* UIView */,
-				C5D6D7432586024C00029AFF /* NSString */,
 				C5D6C5C22585ED5700029AFF /* NSObject */,
+				C5D6D7432586024C00029AFF /* NSString */,
+				C53CA05D25A1D24E0007F58F /* UIImage */,
+				C583B6F125E4B2900054FD6E /* UIImageView */,
+				C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */,
+				C595BA7D25864011002A4531 /* UIView */,
 			);
 			path = BaseCustomizeUIKit;
 			sourceTree = "<group>";
@@ -1601,6 +1616,7 @@
 				C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */,
 				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
+				C594309D25E7A9FA003BCA91 /* UITextView+IndicateWordLimit.m in Sources */,
 				C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C595BA9425864011002A4531 /* UIView+ZFPlayer.m in Sources */,
 				C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
