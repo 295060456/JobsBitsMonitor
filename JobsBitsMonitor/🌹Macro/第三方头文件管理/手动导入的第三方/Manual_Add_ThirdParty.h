@@ -69,6 +69,7 @@ alpha:1] \
 #import "UIView+EmptyData.h"
 #import "UIView+Gesture.h"
 #import "UIView+ViewController.h"
+#import "UIView+CallBackInfoByBlock.h"
 #pragma mark —— NSString
 #import "NSString+Extras.h"
 #pragma mark —— NSObject
