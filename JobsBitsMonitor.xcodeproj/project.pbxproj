@@ -21,7 +21,7 @@
 		C562DA5825C7C330004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DA5725C7C330004D1AEA /* UIView+ViewController.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5672F6125D778BA008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5672F5F25D778BA008ABAF9 /* BaseView.m */; };
-		C56BB88425E90632001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BB88325E90632001E1E69 /* UIView+CallBackInfoByBlock.m */; };
+		C56BD4B825E93858001E1E69 /* NSObject+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BD4B725E93858001E1E69 /* NSObject+CallBackInfoByBlock.m */; };
 		C56FDAC125C564E200F8356E /* ZWPullMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABD25C564E200F8356E /* ZWPullMenuConfig.m */; };
 		C56FDAC225C564E200F8356E /* ZWPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABE25C564E200F8356E /* ZWPullMenuModel.m */; };
 		C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FDABF25C564E200F8356E /* ZWPullMenuView.m */; };
@@ -183,8 +183,8 @@
 		C565CA0025A437AB00848134 /* TwoVerticalArrangementLabsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwoVerticalArrangementLabsView.png; sourceTree = "<group>"; };
 		C5672F5F25D778BA008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C5672F6025D778BA008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
-		C56BB88225E90632001E1E69 /* UIView+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
-		C56BB88325E90632001E1E69 /* UIView+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
+		C56BD4B625E93858001E1E69 /* NSObject+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BD4B725E93858001E1E69 /* NSObject+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
 		C56FDAB925C564E200F8356E /* ZWPullMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuModel.h; sourceTree = "<group>"; };
 		C56FDABA25C564E200F8356E /* ZWPullMenuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuConfig.h; sourceTree = "<group>"; };
 		C56FDABB25C564E200F8356E /* ZWPullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPullMenuView.h; sourceTree = "<group>"; };
@@ -631,7 +631,6 @@
 				C595BA8D25864011002A4531 /* UIView+Animation */,
 				C5460D63258C8E6B0008928C /* UIView+AOP */,
 				C572945E25BB0A0300726419 /* UIView+BackgroundImage */,
-				C56BB88125E90632001E1E69 /* UIView+CallBackInfoByBlock */,
 				C595BA8A25864011002A4531 /* UIView+Chain */,
 				C5D1BDB5258B1ED100784D2F /* UIView+EmptyData */,
 				C595BA9025864011002A4531 /* UIView+Extras */,
@@ -655,13 +654,13 @@
 			path = BaseView;
 			sourceTree = "<group>";
 		};
-		C56BB88125E90632001E1E69 /* UIView+CallBackInfoByBlock */ = {
+		C56BD4B525E93858001E1E69 /* NSObject+CallBackInfoByBlock */ = {
 			isa = PBXGroup;
 			children = (
-				C56BB88225E90632001E1E69 /* UIView+CallBackInfoByBlock.h */,
-				C56BB88325E90632001E1E69 /* UIView+CallBackInfoByBlock.m */,
+				C56BD4B625E93858001E1E69 /* NSObject+CallBackInfoByBlock.h */,
+				C56BD4B725E93858001E1E69 /* NSObject+CallBackInfoByBlock.m */,
 			);
-			path = "UIView+CallBackInfoByBlock";
+			path = "NSObject+CallBackInfoByBlock";
 			sourceTree = "<group>";
 		};
 		C56FDAB825C564E200F8356E /* ZWPullMenuView */ = {
@@ -1296,9 +1295,10 @@
 		C5D6C5C22585ED5700029AFF /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C5A44FD425AC0D4A000F0CD2 /* NSObject+Extras */,
-				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
 				C5D6D751258602D200029AFF /* NSObject (Time) */,
+				C56BD4B525E93858001E1E69 /* NSObject+CallBackInfoByBlock */,
+				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
+				C5A44FD425AC0D4A000F0CD2 /* NSObject+Extras */,
 				C5D6D754258602D200029AFF /* NSObject+Time */,
 			);
 			path = NSObject;
@@ -1636,6 +1636,7 @@
 				C5A4419825ABFB8B000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */,
 				C5A4419225ABFB8B000F0CD2 /* WHToast+DDToast.m in Sources */,
+				C56BD4B825E93858001E1E69 /* NSObject+CallBackInfoByBlock.m in Sources */,
 				C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */,
 				C5672F6125D778BA008ABAF9 /* BaseView.m in Sources */,
 				C59A3C6F2586390700D9D228 /* SuspendView.m in Sources */,
@@ -1657,7 +1658,6 @@
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
 				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,
 				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
-				C56BB88425E90632001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
 				C5C64CC7259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C56FDAC425C564E200F8356E /* ZWPullMenuCell.m in Sources */,
