@@ -468,6 +468,14 @@
 			path = "UIImage+Extras";
 			sourceTree = "<group>";
 		};
+		C542D09F25EB75AC00D776D8 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		C5460666258B74550008928C /* 其他杂项 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1286,7 +1294,7 @@
 				C5D6D7432586024C00029AFF /* NSString */,
 				C53CA05D25A1D24E0007F58F /* UIImage */,
 				C583B6F125E4B2900054FD6E /* UIImageView */,
-				C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */,
+				C542D09F25EB75AC00D776D8 /* UITextView */,
 				C595BA7D25864011002A4531 /* UIView */,
 			);
 			path = BaseCustomizeUIKit;
