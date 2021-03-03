@@ -163,6 +163,7 @@
 		C5460D65258C8E6B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
 		C54AEBC825871D1F001A4630 /* JobsBitsMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitor.h; sourceTree = "<group>"; };
 		C54AEBDC258723EB001A4630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C54C616E25EFC274007DD043 /* DDCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCacheTool.h; sourceTree = "<group>"; };
 		C54C8BDF25C557380054F53F /* MacroDef_Func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Func.h; sourceTree = "<group>"; };
 		C54C8BE025C557380054F53F /* MacroDef_Cor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Cor.h; sourceTree = "<group>"; };
 		C54C8BE125C557380054F53F /* MacroDef_App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_App.h; sourceTree = "<group>"; };
@@ -503,6 +504,14 @@
 				C54C8BE325C557380054F53F /* MacroDef_Sys.h */,
 			);
 			path = "各项宏定义";
+			sourceTree = "<group>";
+		};
+		C54C616D25EFC274007DD043 /* 清除缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				C54C616E25EFC274007DD043 /* DDCacheTool.h */,
+			);
+			path = "清除缓存";
 			sourceTree = "<group>";
 		};
 		C5512CEB25C67C9A007BCA82 /* 业务代码 */ = {
@@ -1216,6 +1225,7 @@
 		C5D6C19F2585D26900029AFF /* Manual_Add_ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				C54C616D25EFC274007DD043 /* 清除缓存 */,
 				C5CF12D525AC7CF500381935 /* LYLUnicode */,
 				C5A4366F25AAF753000F0CD2 /* 手势滑动返回 */,
 				C565C9FD25A437AB00848134 /* TwoVerticalArrangementLabsView */,

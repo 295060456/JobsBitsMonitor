@@ -86,6 +86,7 @@ alpha:1] \
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 
 #import "FileFolderHandleTool.h"
+#import "DDCacheTool.h"
 
 #import "UserDefaultManager.h"
 #import "TimerManager.h"
