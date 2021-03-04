@@ -28,6 +28,7 @@ def func
   pod 'MJExtension' # https://github.com/CoderMJLee/MJExtension NO_SMP
   pod 'Reachability' # https://github.com/tonymillion/Reachability 检查联网情况
   pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
+  pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
   pod 'YYImage'
 #  pod 'ZWPullMenuView' # https://github.com/wangziwu/ZWPullMenuView
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖 NO_SMP
