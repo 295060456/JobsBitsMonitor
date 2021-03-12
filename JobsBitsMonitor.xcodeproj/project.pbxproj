@@ -178,6 +178,7 @@
 		C5542A5025F32462002D1CA6 /* CheckMemFreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMemFreeVC.m; sourceTree = "<group>"; };
 		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		C55E277725FB269000716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
 		C55FE73825B423D100D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C562DA5625C7C330004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
@@ -500,11 +501,11 @@
 		C5461B58258CA0F20008928C /* 各项宏定义 */ = {
 			isa = PBXGroup;
 			children = (
-				C54C8BE125C557380054F53F /* MacroDef_App.h */,
-				C54C8BE025C557380054F53F /* MacroDef_Cor.h */,
-				C54C8BDF25C557380054F53F /* MacroDef_Func.h */,
-				C54C8BE225C557380054F53F /* MacroDef_Size.h */,
-				C54C8BE325C557380054F53F /* MacroDef_Sys.h */,
+				C55E277225FB266C00716A9B /* MacroDef_App */,
+				C55E277325FB267100716A9B /* MacroDef_Cor */,
+				C55E277525FB267E00716A9B /* MacroDef_Func */,
+				C55E277425FB267700716A9B /* MacroDef_Size */,
+				C55E277625FB268500716A9B /* MacroDef_Sys */,
 			);
 			path = "各项宏定义";
 			sourceTree = "<group>";
@@ -624,6 +625,47 @@
 				C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */,
 			);
 			path = "Swift-OC桥接头文件";
+			sourceTree = "<group>";
+		};
+		C55E277225FB266C00716A9B /* MacroDef_App */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8BE125C557380054F53F /* MacroDef_App.h */,
+			);
+			path = MacroDef_App;
+			sourceTree = "<group>";
+		};
+		C55E277325FB267100716A9B /* MacroDef_Cor */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8BE025C557380054F53F /* MacroDef_Cor.h */,
+			);
+			path = MacroDef_Cor;
+			sourceTree = "<group>";
+		};
+		C55E277425FB267700716A9B /* MacroDef_Size */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8BE225C557380054F53F /* MacroDef_Size.h */,
+			);
+			path = MacroDef_Size;
+			sourceTree = "<group>";
+		};
+		C55E277525FB267E00716A9B /* MacroDef_Func */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8BDF25C557380054F53F /* MacroDef_Func.h */,
+			);
+			path = MacroDef_Func;
+			sourceTree = "<group>";
+		};
+		C55E277625FB268500716A9B /* MacroDef_Sys */ = {
+			isa = PBXGroup;
+			children = (
+				C54C8BE325C557380054F53F /* MacroDef_Sys.h */,
+				C55E277725FB269000716A9B /* MacroDef_SysWarning.h */,
+			);
+			path = MacroDef_Sys;
 			sourceTree = "<group>";
 		};
 		C55FE73625B423D100D8C30D /* UIView+MJRefresh */ = {
