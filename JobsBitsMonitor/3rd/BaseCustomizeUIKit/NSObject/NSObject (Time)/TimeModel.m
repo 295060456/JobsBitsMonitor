@@ -55,7 +55,7 @@
 }
 // 自定义某一个时间的时间戳（字符串格式）
 -(NSString *)customTimestampStr{
-    return [NSString stringWithFormat:@"%@",self.customDate];;
+    return [NSString stringWithFormat:@"%@",self.customDate];
 }
 // 自定义某一个时间的时间戳秒数(基本数据类型)
 -(NSTimeInterval)customTimestampSec{
