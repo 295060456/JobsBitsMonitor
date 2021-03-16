@@ -19,6 +19,7 @@
 		C5512CF325C67CBA007BCA82 /* NSObject+URLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */; };
 		C5542A5125F32462002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542A5025F32462002D1CA6 /* CheckMemFreeVC.m */; };
 		C55FE73925B423D100D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */; };
+		C5618F7626008E6100D4546E /* UITextView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C5618F7526008E6100D4546E /* UITextView+Extend.m */; };
 		C562DA5825C7C330004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DA5725C7C330004D1AEA /* UIView+ViewController.m */; };
 		C565CA0125A437AC00848134 /* TwoVerticalArrangementLabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */; };
 		C5672F6125D778BA008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5672F5F25D778BA008ABAF9 /* BaseView.m */; };
@@ -181,6 +182,8 @@
 		C55E277725FB269000716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
 		C55FE73825B423D100D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
+		C5618F7426008E6100D4546E /* UITextView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extend.h"; sourceTree = "<group>"; };
+		C5618F7526008E6100D4546E /* UITextView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extend.m"; sourceTree = "<group>"; };
 		C562DA5625C7C330004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DA5725C7C330004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
@@ -476,7 +479,7 @@
 		C542D09F25EB75AC00D776D8 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */,
+				C5618F6926008E5600D4546E /* UITextView+Category */,
 			);
 			path = UITextView;
 			sourceTree = "<group>";
@@ -675,6 +678,24 @@
 				C55FE73725B423D100D8C30D /* UIView+MJRefresh.m */,
 			);
 			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
+		C5618F6926008E5600D4546E /* UITextView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5618F7326008E6100D4546E /* UITextView+Extend */,
+				C594309925E7A9FA003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = "UITextView+Category";
+			sourceTree = "<group>";
+		};
+		C5618F7326008E6100D4546E /* UITextView+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C5618F7426008E6100D4546E /* UITextView+Extend.h */,
+				C5618F7526008E6100D4546E /* UITextView+Extend.m */,
+			);
+			path = "UITextView+Extend";
 			sourceTree = "<group>";
 		};
 		C562DA4F25C7C32C004D1AEA /* UIView+ViewController */ = {
@@ -1680,6 +1701,7 @@
 				C5A4419125ABFB8B000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
 				C5A44FD725AC0D4A000F0CD2 /* NSObject+Extras.m in Sources */,
 				C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
+				C5618F7626008E6100D4546E /* UITextView+Extend.m in Sources */,
 				C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */,
 				C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */,
 				C5C64CC4259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
