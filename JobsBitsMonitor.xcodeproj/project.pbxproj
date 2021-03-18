@@ -171,6 +171,7 @@
 		C54C8BE125C557380054F53F /* MacroDef_App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_App.h; sourceTree = "<group>"; };
 		C54C8BE225C557380054F53F /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Size.h; sourceTree = "<group>"; };
 		C54C8BE325C557380054F53F /* MacroDef_Sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
+		C550B5B9260366AA00A81441 /* MacroDef_Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacroDef_Size.h; path = "../../../../../../DouDong-II/DouDong-II/Macro/第三方头文件管理/DDPods/各项全局定义/各项宏定义/MacroDef_Size/MacroDef_Size.h"; sourceTree = "<group>"; };
 		C5512CEE25C67CBA007BCA82 /* URLManagerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManagerModel.m; sourceTree = "<group>"; };
 		C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+URLManager.m"; sourceTree = "<group>"; };
 		C5512CF025C67CBA007BCA82 /* URLManagerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManagerModel.h; sourceTree = "<group>"; };
@@ -649,6 +650,7 @@
 		C55E277425FB267700716A9B /* MacroDef_Size */ = {
 			isa = PBXGroup;
 			children = (
+				C550B5B9260366AA00A81441 /* MacroDef_Size.h */,
 				C54C8BE225C557380054F53F /* MacroDef_Size.h */,
 			);
 			path = MacroDef_Size;

@@ -14,29 +14,29 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GKNavigationBar (1.4.0):
-    - GKNavigationBar/GestureHandle (= 1.4.0)
-    - GKNavigationBar/NavigationBar (= 1.4.0)
-  - GKNavigationBar/GestureHandle (1.4.0)
-  - GKNavigationBar/NavigationBar (1.4.0)
-  - GKPhotoBrowser (2.1.4):
-    - GKPhotoBrowser/SD (= 2.1.4)
-  - GKPhotoBrowser/Core (2.1.4)
-  - GKPhotoBrowser/SD (2.1.4):
+  - GKNavigationBar (1.5.1):
+    - GKNavigationBar/GestureHandle (= 1.5.1)
+    - GKNavigationBar/NavigationBar (= 1.5.1)
+  - GKNavigationBar/GestureHandle (1.5.1)
+  - GKNavigationBar/NavigationBar (1.5.1)
+  - GKPhotoBrowser (2.1.7):
+    - GKPhotoBrowser/SD (= 2.1.7)
+  - GKPhotoBrowser/Core (2.1.7)
+  - GKPhotoBrowser/SD (2.1.7):
     - GKPhotoBrowser/Core
     - SDWebImage (~> 5.0)
   - IJKMediaFramework (0.1.5)
   - JXCategoryView (1.5.8)
   - JXPagingView/Pager (2.0.13)
   - Masonry (1.1.0)
-  - MJExtension (3.2.2)
+  - MJExtension (3.2.4)
   - MJRefresh (3.5.0)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.10.2):
-    - SDWebImage/Core (= 5.10.2)
-  - SDWebImage/Core (5.10.2)
-  - TABAnimated (2.5.1)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - TABAnimated (2.5.2)
   - TXFileOperation (1.0)
   - WHToast (0.0.7)
   - YYImage (1.0.4):
@@ -96,18 +96,18 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  GKNavigationBar: fe87990bde3fb2b7ece3f81014c6d4bc654bef06
-  GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
+  GKNavigationBar: ad873d71b3c0760f800c1a50e877ed012ba8f650
+  GKPhotoBrowser: c03c9db2f586d8982782a89244cd9f5a4453030c
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
   JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
-  TABAnimated: f0bfba5c5c7d279b43cda503d9a5328e7e9891c8
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  TABAnimated: 3b7052d52db11e7b28cbea34777445356837a718
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
   WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
