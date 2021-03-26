@@ -124,6 +124,8 @@
 		C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D7452586024C00029AFF /* NSString+Extras.m */; };
 		C5D6D757258602D200029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D752258602D200029AFF /* TimeModel.m */; };
 		C5D6D758258602D200029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D756258602D200029AFF /* NSObject+Time.m */; };
+		C5D8D077260CC39C00BDAF76 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5D8D076260CC39C00BDAF76 /* toastLoading.gif */; };
+		C5D8D5D2260CC80B00BDAF76 /* NSObject+DefConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8D5D0260CC80B00BDAF76 /* NSObject+DefConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,6 +386,9 @@
 		C5D6D753258602D200029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C5D6D755258602D200029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C5D6D756258602D200029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		C5D8D076260CC39C00BDAF76 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
+		C5D8D5D0260CC80B00BDAF76 /* NSObject+DefConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DefConfig.m"; sourceTree = "<group>"; };
+		C5D8D5D1260CC80B00BDAF76 /* NSObject+DefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DefConfig.h"; sourceTree = "<group>"; };
 		CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1109,6 +1114,7 @@
 		C5A4417E25ABFB8B000F0CD2 /* WHToast */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8D076260CC39C00BDAF76 /* toastLoading.gif */,
 				C5A4418025ABFB8B000F0CD2 /* WHToast+DDToast.h */,
 				C5A4417F25ABFB8B000F0CD2 /* WHToast+DDToast.m */,
 			);
@@ -1427,6 +1433,7 @@
 		C5D6C5C22585ED5700029AFF /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8D5CF260CC80B00BDAF76 /* NSObject+DefConfig */,
 				C5D6D751258602D200029AFF /* NSObject (Time) */,
 				C56BD4B525E93858001E1E69 /* NSObject+CallBackInfoByBlock */,
 				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
@@ -1469,6 +1476,15 @@
 				C5D6D756258602D200029AFF /* NSObject+Time.m */,
 			);
 			path = "NSObject+Time";
+			sourceTree = "<group>";
+		};
+		C5D8D5CF260CC80B00BDAF76 /* NSObject+DefConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8D5D0260CC80B00BDAF76 /* NSObject+DefConfig.m */,
+				C5D8D5D1260CC80B00BDAF76 /* NSObject+DefConfig.h */,
+			);
+			path = "NSObject+DefConfig";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1592,6 +1608,7 @@
 				C5C64CE7259DF73E00FD2F99 /* 文件和文件夹@3x.png in Resources */,
 				C5C64CD7259DF73E00FD2F99 /* 通讯录@2x.png in Resources */,
 				C5C64CD9259DF73E00FD2F99 /* 语音识别@2x.png in Resources */,
+				C5D8D077260CC39C00BDAF76 /* toastLoading.gif in Resources */,
 				C5C64CD6259DF73E00FD2F99 /* 提醒事项@2x.png in Resources */,
 				C5C64CE6259DF73E00FD2F99 /* HomeKit@3x.png in Resources */,
 				C5C64CD1259DF73E00FD2F99 /* 提醒事项@3x.png in Resources */,
@@ -1742,6 +1759,7 @@
 				C5618F7626008E6100D4546E /* UITextView+Extend.m in Sources */,
 				C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */,
 				C595BA9325864011002A4531 /* UIView+SuspendView.m in Sources */,
+				C5D8D5D2260CC80B00BDAF76 /* NSObject+DefConfig.m in Sources */,
 				C5C64CC4259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
 				C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */,
 				C595BA9625864011002A4531 /* UIView+Gradient.m in Sources */,

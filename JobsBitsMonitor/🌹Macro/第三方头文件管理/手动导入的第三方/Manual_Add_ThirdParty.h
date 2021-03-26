@@ -77,6 +77,7 @@ alpha:1] \
 #import "NSString+Extras.h"
 #pragma mark —— NSObject
 #import "NSObject+Time.h"
+#import "NSObject+DefConfig.h"
 #import "NSObject+DataSave.h"
 #import "NSObject+Extras.h"
 #import "NSObject+CallBackInfoByBlock.h"
