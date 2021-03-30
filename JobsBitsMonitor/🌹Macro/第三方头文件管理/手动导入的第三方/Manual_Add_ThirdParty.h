@@ -56,6 +56,8 @@ alpha:1] \
 
 #import "AABlock.h"
 #import "NotificationManager.h"
+#pragma mark —— Log
+#import "DebugLogDescription.h"
 #pragma mark —— UIView
 /// BaseView
 #import "BaseView.h"
