@@ -32,6 +32,7 @@ def func
   pod 'YYImage'
 #  pod 'ZWPullMenuView' # https://github.com/wangziwu/ZWPullMenuView
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖 NO_SMP
+  pod 'LYEmptyView'
   pod 'SDWebImage' # https://github.com/SDWebImage/SDWebImage Asynchronous image downloader with cache support as a UIImageView category
 end
 ## JX一族

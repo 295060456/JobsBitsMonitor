@@ -161,6 +161,7 @@
 		C51F85C7260860B900953C10 /* iPhone尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone尺寸.png"; sourceTree = "<group>"; };
 		C51F85C8260860B900953C10 /* iPad尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad尺寸.png"; sourceTree = "<group>"; };
 		C51F85CE260860BD00953C10 /* 安全区域.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全区域.png"; sourceTree = "<group>"; };
+		C53C94CD261AE61D00AC1891 /* DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineStructure.h; sourceTree = "<group>"; };
 		C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
 		C53C9C7C25A1CF3F0007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
 		C53CA03425A1D1960007F58F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
@@ -612,6 +613,7 @@
 		C558DF43258A0EBD0078DB8F /* 其他的一些全局定义文件 */ = {
 			isa = PBXGroup;
 			children = (
+				C53C94CD261AE61D00AC1891 /* DefineStructure.h */,
 				C5D6C3B42585D57200029AFF /* AABlock.h */,
 			);
 			path = "其他的一些全局定义文件";

@@ -25,6 +25,7 @@
 #import "NotificationManager.h"
 /// 其他的一些全局定义文件
 #import "AABlock.h"
+#import "DefineStructure.h"
 /// 各项宏定义
 #import "MacroDef_App.h"
 #import "MacroDef_Cor.h"
