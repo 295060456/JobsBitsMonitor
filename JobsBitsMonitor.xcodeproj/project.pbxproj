@@ -14,6 +14,8 @@
 		C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */; };
 		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
 		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
+		C53CACDF261C4D1400AC1891 /* NSObject+AppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CACDC261C4D1400AC1891 /* NSObject+AppTools.m */; };
+		C53CC7BB261C9CCA00AC1891 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CC7B9261C9CCA00AC1891 /* NSObject+OpenURL.m */; };
 		C5460D66258C8E6C0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5460D64258C8E6B0008928C /* UIView+AOP.m */; };
 		C5512CF225C67CBA007BCA82 /* URLManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5512CEE25C67CBA007BCA82 /* URLManagerModel.m */; };
 		C5512CF325C67CBA007BCA82 /* NSObject+URLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5512CEF25C67CBA007BCA82 /* NSObject+URLManager.m */; };
@@ -168,6 +170,11 @@
 		C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C53CA05F25A1D2560007F58F /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
 		C53CA06025A1D2560007F58F /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
+		C53CACDC261C4D1400AC1891 /* NSObject+AppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppTools.m"; sourceTree = "<group>"; };
+		C53CACDD261C4D1400AC1891 /* NSObject+AppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppTools.h"; sourceTree = "<group>"; };
+		C53CACDE261C4D1400AC1891 /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md"; sourceTree = "<group>"; };
+		C53CC7B9261C9CCA00AC1891 /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
+		C53CC7BA261C9CCA00AC1891 /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
 		C5460673258B747C0008928C /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C5460D64258C8E6B0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5460D65258C8E6B0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
@@ -507,6 +514,25 @@
 			path = "UIImage+Extras";
 			sourceTree = "<group>";
 		};
+		C53CACDB261C4D1400AC1891 /* NSObject+AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				C53CACDE261C4D1400AC1891 /* 此类主要封装一些本App常用的、可以替换资源的函数调用或者是鉴权机制.md */,
+				C53CACDD261C4D1400AC1891 /* NSObject+AppTools.h */,
+				C53CACDC261C4D1400AC1891 /* NSObject+AppTools.m */,
+			);
+			path = "NSObject+AppTools";
+			sourceTree = "<group>";
+		};
+		C53CC7B8261C9CCA00AC1891 /* NSObject+OpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				C53CC7B9261C9CCA00AC1891 /* NSObject+OpenURL.m */,
+				C53CC7BA261C9CCA00AC1891 /* NSObject+OpenURL.h */,
+			);
+			path = "NSObject+OpenURL";
+			sourceTree = "<group>";
+		};
 		C542D09F25EB75AC00D776D8 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
@@ -563,6 +589,7 @@
 		C5512CEC25C67CA3007BCA82 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C53CACDB261C4D1400AC1891 /* NSObject+AppTools */,
 				C5512CED25C67CBA007BCA82 /* URL_Manager */,
 			);
 			path = Common;
@@ -892,8 +919,8 @@
 		C590AA422585C547008A17D9 /* JobsBitsMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				C5512CEB25C67C9A007BCA82 /* 业务代码 */,
 				C590AA572585C548008A17D9 /* Info.plist */,
+				C5512CEB25C67C9A007BCA82 /* 业务代码 */,
 				C5D6C1952585D09C00029AFF /* AppDelegate & SceneDelegate */,
 				C558EF28258A2DA90078DB8F /* 3rd */,
 				C5D6C19B2585D1AE00029AFF /* 🌹Macro */,
@@ -1429,6 +1456,7 @@
 				C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */,
 				C5D8D5CF260CC80B00BDAF76 /* NSObject+DefConfig */,
 				C5A44FD425AC0D4A000F0CD2 /* NSObject+Extras */,
+				C53CC7B8261C9CCA00AC1891 /* NSObject+OpenURL */,
 				C5D6D754258602D200029AFF /* NSObject+Time */,
 			);
 			path = NSObject;
@@ -1773,11 +1801,13 @@
 				C595BA9825864011002A4531 /* UIView+Animation.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				C5DFDEBE26131888008C7E2E /* DebugLogDescription.m in Sources */,
+				C53CACDF261C4D1400AC1891 /* NSObject+AppTools.m in Sources */,
 				C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */,
 				C595CB09258645F0002A4531 /* ZFCustomControlView.m in Sources */,
 				C5A4367525AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C59A3AE8258DD191005F6260 /* UserDefaultManager.m in Sources */,
+				C53CC7BB261C9CCA00AC1891 /* NSObject+OpenURL.m in Sources */,
 				C59A3AE7258DD191005F6260 /* UserDefaultModel.m in Sources */,
 				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
