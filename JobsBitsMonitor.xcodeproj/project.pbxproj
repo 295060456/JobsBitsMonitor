@@ -11,6 +11,7 @@
 		8F84833612492F814C3CE9C4 /* Pods_JobsBitsMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76DD55CAC976E85C78955C /* Pods_JobsBitsMonitorTests.framework */; };
 		91AFB1D347E3A599C1F9C714 /* Pods_JobsBitsMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96E241598032F1024758AC4 /* Pods_JobsBitsMonitorUITests.framework */; };
 		C515742325A3503F0074D945 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C515742225A3503F0074D945 /* UIView+Gesture.m */; };
+		C53183E7262A901A003C69AD /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C53183E6262A901A003C69AD /* DispatchTimerManager.m */; };
 		C53C9C7D25A1CF3F0007F58F /* NSObject+DataSave.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */; };
 		C53CA03625A1D1960007F58F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA03525A1D1960007F58F /* FileFolderHandleTool.m */; };
 		C53CA06125A1D2560007F58F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CA05F25A1D2560007F58F /* UIImage+Extras.m */; };
@@ -119,7 +120,6 @@
 		C5D1BDB8258B1ED100784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1BDB6258B1ED100784D2F /* UIView+EmptyData.m */; };
 		C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */; };
 		C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A62585D4C700029AFF /* NSTimerManager.m */; };
-		C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */; };
 		C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */; };
 		C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AF2585D4C700029AFF /* CADisplayLink_TimerManager.m */; };
 		C5D6D7472586024C00029AFF /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6D7452586024C00029AFF /* NSString+Extras.m */; };
@@ -163,6 +163,8 @@
 		C51F85C7260860B900953C10 /* iPhone尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone尺寸.png"; sourceTree = "<group>"; };
 		C51F85C8260860B900953C10 /* iPad尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad尺寸.png"; sourceTree = "<group>"; };
 		C51F85CE260860BD00953C10 /* 安全区域.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全区域.png"; sourceTree = "<group>"; };
+		C53183E5262A901A003C69AD /* DispatchTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimerManager.h; sourceTree = "<group>"; };
+		C53183E6262A901A003C69AD /* DispatchTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerManager.m; sourceTree = "<group>"; };
 		C53C94CD261AE61D00AC1891 /* DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineStructure.h; sourceTree = "<group>"; };
 		C53C9C7B25A1CF3F0007F58F /* NSObject+DataSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataSave.m"; sourceTree = "<group>"; };
 		C53C9C7C25A1CF3F0007F58F /* NSObject+DataSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataSave.h"; sourceTree = "<group>"; };
@@ -376,8 +378,6 @@
 		C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5D6C2A52585D4C700029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
 		C5D6C2A62585D4C700029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
-		C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerManager.m; sourceTree = "<group>"; };
-		C5D6C2A92585D4C700029AFF /* GCD_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerManager.h; sourceTree = "<group>"; };
 		C5D6C2AA2585D4C700029AFF /* TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
 		C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
 		C5D6C2AD2585D4C700029AFF /* Nanosecond_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanosecond_TimerManager.h; sourceTree = "<group>"; };
@@ -476,6 +476,15 @@
 				C51F85C8260860B900953C10 /* iPad尺寸.png */,
 			);
 			path = "苹果产品尺寸";
+			sourceTree = "<group>";
+		};
+		C53183E4262A901A003C69AD /* DispatchTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C53183E5262A901A003C69AD /* DispatchTimerManager.h */,
+				C53183E6262A901A003C69AD /* DispatchTimerManager.m */,
+			);
+			path = DispatchTimerManager;
 			sourceTree = "<group>";
 		};
 		C53C9C7A25A1CF3F0007F58F /* NSObject+DataSave */ = {
@@ -1388,7 +1397,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D6C2AE2585D4C700029AFF /* CADisplayLink_TimerManager */,
-				C5D6C2A72585D4C700029AFF /* GCD_TimerManager(未完) */,
+				C53183E4262A901A003C69AD /* DispatchTimerManager */,
 				C5D6C2AB2585D4C700029AFF /* Nanosecond_TimerManager */,
 				C5D6C2A42585D4C700029AFF /* NSTimerManager */,
 				C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */,
@@ -1404,15 +1413,6 @@
 				C5D6C2A62585D4C700029AFF /* NSTimerManager.m */,
 			);
 			path = NSTimerManager;
-			sourceTree = "<group>";
-		};
-		C5D6C2A72585D4C700029AFF /* GCD_TimerManager(未完) */ = {
-			isa = PBXGroup;
-			children = (
-				C5D6C2A82585D4C700029AFF /* GCD_TimerManager.m */,
-				C5D6C2A92585D4C700029AFF /* GCD_TimerManager.h */,
-			);
-			path = "GCD_TimerManager(未完)";
 			sourceTree = "<group>";
 		};
 		C5D6C2AB2585D4C700029AFF /* Nanosecond_TimerManager */ = {
@@ -1840,7 +1840,6 @@
 				C5C64CC8259DF73E00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
 				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,
-				C5D6C2B22585D4C700029AFF /* GCD_TimerManager.m in Sources */,
 				C590AA4B2585C547008A17D9 /* ViewController.m in Sources */,
 				C5C64CC7259DF73E00FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C56FDAC425C564E200F8356E /* ZWPullMenuCell.m in Sources */,
@@ -1862,6 +1861,7 @@
 				C562DA5825C7C330004D1AEA /* UIView+ViewController.m in Sources */,
 				C5A4367725AAF753000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C5C64CC9259DF73E00FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
+				C53183E7262A901A003C69AD /* DispatchTimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
