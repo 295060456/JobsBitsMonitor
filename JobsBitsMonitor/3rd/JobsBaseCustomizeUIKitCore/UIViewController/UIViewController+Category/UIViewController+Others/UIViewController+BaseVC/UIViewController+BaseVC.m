@@ -93,8 +93,8 @@ static char *UIViewController_BaseVC_rootVC = "UIViewController_BaseVC_rootVC";
                     successBlock(toVC);
                 }
                 toVC.hidesBottomBarWhenPushed = hidesBottomBarWhenPushed;//下面有黑条
-                [rootVC_weak_.navigationController pushViewController:toVC
-                                                             animated:animated];
+                [weak_rootVC.navigationController pushViewController:toVC
+                                                            animated:animated];
             }else{
                 toVC.pushOrPresent = ComingStyle_PRESENT;
                 //iOS_13中modalPresentationStyle的默认改为UIModalPresentationAutomatic,而在之前默认是UIModalPresentationFullScreen
@@ -102,7 +102,7 @@ static char *UIViewController_BaseVC_rootVC = "UIViewController_BaseVC_rootVC";
                 if (successBlock) {
                     successBlock(toVC);
                 }
-                [rootVC_weak_ presentViewController:toVC
+                [weak_rootVC presentViewController:toVC
                                            animated:animated
                                          completion:^{}];
             }
@@ -114,7 +114,7 @@ static char *UIViewController_BaseVC_rootVC = "UIViewController_BaseVC_rootVC";
             if (successBlock) {
                 successBlock(toVC);
             }
-            [rootVC_weak_ presentViewController:toVC
+            [weak_rootVC presentViewController:toVC
                                        animated:animated
                                      completion:^{}];
         }break;

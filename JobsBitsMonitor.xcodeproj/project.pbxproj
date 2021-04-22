@@ -226,6 +226,7 @@
 		C5D6C2B32585D4C700029AFF /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AC2585D4C700029AFF /* Nanosecond_TimerManager.m */; };
 		C5D6C2B42585D4C700029AFF /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6C2AF2585D4C700029AFF /* CADisplayLink_TimerManager.m */; };
 		C5D8D077260CC39C00BDAF76 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5D8D076260CC39C00BDAF76 /* toastLoading.gif */; };
+		C5EA11E226311F6B00155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA11E026311F6B00155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -673,6 +674,9 @@
 		C5D6C3B42585D57200029AFF /* AABlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
 		C5D8D076260CC39C00BDAF76 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
+		C5EA11E026311F6B00155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
+		C5EA11E126311F6B00155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
+		C5EA166A2631217100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
 		CB949FB605E0C8996458C770 /* Pods-JobsBitsMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitor.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitor/Pods-JobsBitsMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -865,8 +869,8 @@
 		C558DF44258A0EE00078DB8F /* 第三方头文件管理 */ = {
 			isa = PBXGroup;
 			children = (
-				C558DF46258A0EEF0078DB8F /* Pods */,
 				C558DF45258A0EEC0078DB8F /* 手动导入的第三方 */,
+				C558DF46258A0EEF0078DB8F /* Pods */,
 			);
 			path = "第三方头文件管理";
 			sourceTree = "<group>";
@@ -875,6 +879,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D6C3B52585D59E00029AFF /* Manual_Add_ThirdParty.h */,
+				C5EA166A2631217100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */,
 			);
 			path = "手动导入的第三方";
 			sourceTree = "<group>";
@@ -991,34 +996,34 @@
 		C58D5E8926302F4B00966F5F /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
-				C58D5E8A26302F4B00966F5F /* UIImage */,
-				C58D5E9F26302F4B00966F5F /* UILabel */,
-				C58D5EA426302F4B00966F5F /* UITableViewCell */,
-				C58D5EB126302F4B00966F5F /* UIButton */,
-				C58D5ECB26302F4B00966F5F /* UIColor */,
-				C58D5ED426302F4B00966F5F /* UIView */,
-				C58D5F0326302F4B00966F5F /* UIFont */,
+				C58D5FEE26302F4C00966F5F /* BaseProtocol */,
+				C58D5FB326302F4C00966F5F /* CALayer */,
+				C58D5FF226302F4C00966F5F /* DebugLogDescription */,
+				C58D5F9826302F4B00966F5F /* NSArray */,
+				C58D5FBE26302F4C00966F5F /* NSObject */,
+				C58D5F3B26302F4B00966F5F /* NSString */,
 				C58D5F0926302F4B00966F5F /* RedefineSys */,
-				C58D5F0E26302F4B00966F5F /* UITextView */,
-				C58D5F1726302F4B00966F5F /* UIDevice */,
+				C58D5EB126302F4B00966F5F /* UIButton */,
+				C58D5FBA26302F4C00966F5F /* UICollectionReusableView 用作基类 */,
 				C58D5F1D26302F4B00966F5F /* UICollectionView */,
 				C58D5F2526302F4B00966F5F /* UICollectionViewCell */,
+				C58D5FA726302F4C00966F5F /* UICollectionViewFlowLayout */,
+				C58D5ECB26302F4B00966F5F /* UIColor */,
+				C58D5F9226302F4B00966F5F /* UIControl */,
+				C58D5F1726302F4B00966F5F /* UIDevice */,
+				C58D5F0326302F4B00966F5F /* UIFont */,
+				C58D5E8A26302F4B00966F5F /* UIImage */,
 				C58D5F3026302F4B00966F5F /* UIImageView */,
+				C58D5E9F26302F4B00966F5F /* UILabel */,
 				C58D5F3726302F4B00966F5F /* UINavigationBar */,
-				C58D5F3B26302F4B00966F5F /* NSString */,
-				C58D5F3F26302F4B00966F5F /* UIViewController */,
 				C58D5F7B26302F4B00966F5F /* UINavigationController */,
 				C58D5F7F26302F4B00966F5F /* UITableView */,
-				C58D5F9226302F4B00966F5F /* UIControl */,
-				C58D5F9826302F4B00966F5F /* NSArray */,
+				C58D5EA426302F4B00966F5F /* UITableViewCell */,
 				C58D5F9F26302F4C00966F5F /* UITableViewHeaderFooterView */,
-				C58D5FA726302F4C00966F5F /* UICollectionViewFlowLayout */,
-				C58D5FB326302F4C00966F5F /* CALayer */,
-				C58D5FBA26302F4C00966F5F /* UICollectionReusableView 用作基类 */,
-				C58D5FBE26302F4C00966F5F /* NSObject */,
-				C58D5FEE26302F4C00966F5F /* BaseProtocol */,
-				C58D5FF226302F4C00966F5F /* DebugLogDescription */,
 				C58D5FF526302F4C00966F5F /* UITextField */,
+				C58D5F0E26302F4B00966F5F /* UITextView */,
+				C58D5ED426302F4B00966F5F /* UIView */,
+				C58D5F3F26302F4B00966F5F /* UIViewController */,
 			);
 			path = JobsBaseCustomizeUIKitCore;
 			sourceTree = "<group>";
@@ -1111,6 +1116,7 @@
 			isa = PBXGroup;
 			children = (
 				C58D5EA126302F4B00966F5F /* UILabel+Extra */,
+				C5EA11DF26311F6B00155822 /* UILabel+Gesture */,
 			);
 			path = "UILabel+Category";
 			sourceTree = "<group>";
@@ -2883,6 +2889,15 @@
 			path = CADisplayLink_TimerManager;
 			sourceTree = "<group>";
 		};
+		C5EA11DF26311F6B00155822 /* UILabel+Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA11E026311F6B00155822 /* UILabel+Gesture.m */,
+				C5EA11E126311F6B00155822 /* UILabel+Gesture.h */,
+			);
+			path = "UILabel+Gesture";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3287,6 +3302,7 @@
 				C58D607C26302F4C00966F5F /* DebugLogDescription.m in Sources */,
 				C58D601526302F4C00966F5F /* BaseTableViewCell.m in Sources */,
 				C5C64CC8259DF73E00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
+				C5EA11E226311F6B00155822 /* UILabel+Gesture.m in Sources */,
 				C58D606326302F4C00966F5F /* NSArray+Extend.m in Sources */,
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
 				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,

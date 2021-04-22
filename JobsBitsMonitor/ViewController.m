@@ -72,7 +72,7 @@
         _bitsMonitorSuspendLab.backgroundColor = KLightGrayColor;
         _bitsMonitorSuspendLab.textColor = kRedColor;
         @weakify(self)
-        _bitsMonitorSuspendLab.vc = self_weak_;
+        _bitsMonitorSuspendLab.vc = weak_self;
         _bitsMonitorSuspendLab.isAllowDrag = YES;//悬浮效果必须要的参数
         [self.view addSubview:_bitsMonitorSuspendLab];
         _bitsMonitorSuspendLab.frame = CGRectMake(20,

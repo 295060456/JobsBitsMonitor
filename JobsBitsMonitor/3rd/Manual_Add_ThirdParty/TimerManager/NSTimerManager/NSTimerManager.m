@@ -64,8 +64,8 @@
                                     self.NSTimerManagerRunningBlock(self);//在这里可以将self.anticlockwiseTime回调出去，是当前时间
                                 }
                             }else{
-                                if (self_weak_.nsTimer) {
-                                    [self_weak_ nsTimeDestroy];
+                                if (weak_self.nsTimer) {
+                                    [weak_self nsTimeDestroy];
                                     if (self.NSTimerManagerFinishBlock) {
                                         self.NSTimerManagerFinishBlock(self);
                                     }
@@ -238,7 +238,7 @@
 -(id)target{
     @weakify(self)
     if (!_target) {
-        _target = self_weak_;
+        _target = weak_self;
     }return _target;
 }
 

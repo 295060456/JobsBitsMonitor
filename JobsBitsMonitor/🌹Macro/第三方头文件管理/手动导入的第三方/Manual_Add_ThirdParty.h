@@ -56,41 +56,8 @@ alpha:1] \
 
 #import "AABlock.h"
 #import "NotificationManager.h"
-#pragma mark —— Log
-#import "DebugLogDescription.h"
-#pragma mark —— UIView
-/// BaseView
-#import "BaseView.h"
-/// UIView+Category
-#import "UIView+Extras.h"
-#import "UIView+Chain.h"
-#import "UIView+SuspendView.h"
-#import "UIView+Measure.h"
-#import "UIView+Animation.h"
-#import "UIView+Gradient.h"
-#import "UIView+EmptyData.h"
-#import "UIView+Gesture.h"
-#import "UIView+ViewController.h"
-#pragma mark —— UITextView
-/// UITextView+Category
-#import "UITextView+IndicateWordLimit.h"
-#import "UITextView+Extend.h"
-#pragma mark —— NSString
-#import "NSString+Extras.h"
-#pragma mark —— NSObject
-#import "NSObject+Time.h"
-#import "NSObject+DefConfig.h"
-#import "NSObject+DataSave.h"
-#import "NSObject+Extras.h"
-#import "NSObject+CallBackInfoByBlock.h"
-#pragma mark —— UIImage
-#import "LoadingImage.h"
-#import "UIImage+Extras.h"
-#pragma mark —— UIImageView
-// BaseImageView
-#import "BaseImageView.h"
-// UIImageView+Category
-#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
+
+#import "JobsBaseCustomizeUIKitCoreHeader.h"
 
 #import "FileFolderHandleTool.h"
 #import "DDCacheTool.h"
