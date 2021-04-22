@@ -21,6 +21,8 @@ use_frameworks!
 # 特别说明：Ruby对大小写敏感，所以方法名首字母不要用大写，否则执行失败
 # 一些功能性的
 def func
+  pod 'lottie-ios', '~> 2.5.3'
+  pod 'BRPickerView'
   pod 'ReactiveObjC'  # https://github.com/ReactiveCocoa/ReactiveObjC 重量级框架
   pod 'Masonry' # https://github.com/SnapKit/Masonry 布局
   pod 'AFNetworking' # https://github.com/AFNetworking/AFNetworking A delightful networking framework for iOS, macOS, watchOS, and tvOS.
@@ -30,9 +32,11 @@ def func
   pod 'TXFileOperation' # 文件夹操作 https://github.com/xtzPioneer/TXFileOperation
   pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
   pod 'YYImage'
+  pod 'SPAlertController'# https://github.com/SPStore/SPAlertController 深度定制AlertController
 #  pod 'ZWPullMenuView' # https://github.com/wangziwu/ZWPullMenuView
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖 NO_SMP
   pod 'LYEmptyView'
+  pod 'JPImageresizerView' # https://github.com/Rogue24/JPImageresizerView 一个专门裁剪图片、GIF、视频的轮子，简单易用，功能丰富（高自由度的参数设定、支持旋转和镜像翻转、蒙版、压缩等），能满足绝大部分裁剪的需求。
   pod 'SDWebImage' # https://github.com/SDWebImage/SDWebImage Asynchronous image downloader with cache support as a UIImageView category
 end
 ## JX一族
