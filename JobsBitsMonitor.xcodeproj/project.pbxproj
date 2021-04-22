@@ -147,7 +147,7 @@
 		C58D620D263040CF00966F5F /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6206263040CF00966F5F /* BWShareView.m */; };
 		C58D620E263040CF00966F5F /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6207263040CF00966F5F /* BWItemCollectionViewCell.m */; };
 		C58D620F263040CF00966F5F /* 分享控件的用法.md in Resources */ = {isa = PBXBuildFile; fileRef = C58D620A263040CF00966F5F /* 分享控件的用法.md */; };
-		C58E91AD26312F1000D1EDB8 /* UIButton+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E91AC26312F1000D1EDB8 /* UIButton+DataBinding.m */; };
+		C58E9C4226313AA000D1EDB8 /* NSObject+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E9C4026313AA000D1EDB8 /* NSObject+DataBinding.m */; };
 		C590AA452585C547008A17D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA442585C547008A17D9 /* AppDelegate.m */; };
 		C590AA482585C547008A17D9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA472585C547008A17D9 /* SceneDelegate.m */; };
 		C590AA4B2585C547008A17D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C590AA4A2585C547008A17D9 /* ViewController.m */; };
@@ -537,8 +537,8 @@
 		C58D6209263040CF00966F5F /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
 		C58D620A263040CF00966F5F /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
 		C58D620B263040CF00966F5F /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
-		C58E91AB26312F1000D1EDB8 /* UIButton+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DataBinding.h"; sourceTree = "<group>"; };
-		C58E91AC26312F1000D1EDB8 /* UIButton+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DataBinding.m"; sourceTree = "<group>"; };
+		C58E9C4026313AA000D1EDB8 /* NSObject+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataBinding.m"; sourceTree = "<group>"; };
+		C58E9C4126313AA000D1EDB8 /* NSObject+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataBinding.h"; sourceTree = "<group>"; };
 		C590AA402585C547008A17D9 /* JobsBitsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBitsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C590AA432585C547008A17D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C590AA442585C547008A17D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1183,12 +1183,11 @@
 		C58D5EB126302F4B00966F5F /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				C58E91AA26312F1000D1EDB8 /* UIButton+DataBinding */,
 				C58D5EB226302F4B00966F5F /* 高度自定义的按钮 */,
 				C58D5EB626302F4B00966F5F /* 高仿抖音点赞动画 */,
-				C58D5EBA26302F4B00966F5F /* UIButton+Timer */,
-				C58D5EC126302F4B00966F5F /* SoundBtn */,
 				C58D5EC626302F4B00966F5F /* 高仿iOS长按删除+抖动 */,
+				C58D5EC126302F4B00966F5F /* SoundBtn */,
+				C58D5EBA26302F4B00966F5F /* UIButton+Timer */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -2181,13 +2180,14 @@
 		C58D5FBE26302F4C00966F5F /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C58D5FBF26302F4C00966F5F /* NSObject+Alert */,
-				C58D5FC626302F4C00966F5F /* NSObject+Others */,
-				C58D5FDF26302F4C00966F5F /* NSObject+DataSave */,
-				C58D5FE226302F4C00966F5F /* NSObject+Time */,
 				C58D5FE526302F4C00966F5F /* NSObject (Time) */,
-				C58D5FE826302F4C00966F5F /* NSObject+DefConfig */,
+				C58D5FBF26302F4C00966F5F /* NSObject+Alert */,
 				C58D5FEB26302F4C00966F5F /* NSObject+CallBackInfoByBlock */,
+				C58E9C3F26313AA000D1EDB8 /* NSObject+DataBinding */,
+				C58D5FDF26302F4C00966F5F /* NSObject+DataSave */,
+				C58D5FE826302F4C00966F5F /* NSObject+DefConfig */,
+				C58D5FC626302F4C00966F5F /* NSObject+Others */,
+				C58D5FE226302F4C00966F5F /* NSObject+Time */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -2460,13 +2460,13 @@
 			path = "分享控件";
 			sourceTree = "<group>";
 		};
-		C58E91AA26312F1000D1EDB8 /* UIButton+DataBinding */ = {
+		C58E9C3F26313AA000D1EDB8 /* NSObject+DataBinding */ = {
 			isa = PBXGroup;
 			children = (
-				C58E91AB26312F1000D1EDB8 /* UIButton+DataBinding.h */,
-				C58E91AC26312F1000D1EDB8 /* UIButton+DataBinding.m */,
+				C58E9C4026313AA000D1EDB8 /* NSObject+DataBinding.m */,
+				C58E9C4126313AA000D1EDB8 /* NSObject+DataBinding.h */,
 			);
-			path = "UIButton+DataBinding";
+			path = "NSObject+DataBinding";
 			sourceTree = "<group>";
 		};
 		C590AA372585C547008A17D9 = {
@@ -3215,6 +3215,7 @@
 				C58D603726302F4C00966F5F /* UITextView+IndicateWordLimit.m in Sources */,
 				C5A4419425ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C58D608326302F4C00966F5F /* JobsMagicTextField.m in Sources */,
+				C58E9C4226313AA000D1EDB8 /* NSObject+DataBinding.m in Sources */,
 				C58D606426302F4C00966F5F /* TableViewHeaderView.m in Sources */,
 				C58D602226302F4C00966F5F /* UIColor+Gradient.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
@@ -3317,7 +3318,6 @@
 				C5C64CC8259DF73E00FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5EA11E226311F6B00155822 /* UILabel+Gesture.m in Sources */,
 				C58D606326302F4C00966F5F /* NSArray+Extend.m in Sources */,
-				C58E91AD26312F1000D1EDB8 /* UIButton+DataBinding.m in Sources */,
 				C5D6C1A92585D2AA00029AFF /* JobsBitsMonitorCore.m in Sources */,
 				C59A3C6D2586390600D9D228 /* SuspendBtn.m in Sources */,
 				C58D600D26302F4C00966F5F /* UIImage+YBGIF.m in Sources */,
