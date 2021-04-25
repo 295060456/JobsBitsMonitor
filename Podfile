@@ -21,6 +21,7 @@ use_frameworks!
 # 特别说明：Ruby对大小写敏感，所以方法名首字母不要用大写，否则执行失败
 # 一些功能性的
 def func
+  pod 'JobsGlobleDef'
   pod 'lottie-ios', '~> 2.5.3'
   pod 'BRPickerView'
   pod 'ReactiveObjC'  # https://github.com/ReactiveCocoa/ReactiveObjC 重量级框架
