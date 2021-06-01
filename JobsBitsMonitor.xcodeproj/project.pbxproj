@@ -177,6 +177,7 @@
 		C5A4419625ABFB8B000F0CD2 /* JXCategoryTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418B25ABFB8B000F0CD2 /* JXCategoryTimelineView.m */; };
 		C5A4419725ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418C25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.m */; };
 		C5A4419825ABFB8B000F0CD2 /* JXCategoryTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4418D25ABFB8B000F0CD2 /* JXCategoryTimelineCell.m */; };
+		C5B5C85426665AF800264958 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B5C85326665AF800264958 /* BaseButton.m */; };
 		C5C64CBD259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */; };
 		C5C64CBE259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7C259DF73E00FD2F99 /* ECPrivacyCheckHomeKit.m */; };
 		C5C64CBF259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C64C7E259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m */; };
@@ -597,6 +598,9 @@
 		C5A4418E25ABFB8B000F0CD2 /* JXCategoryTimelineCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCellModel.h; sourceTree = "<group>"; };
 		C5A4418F25ABFB8B000F0CD2 /* JXCategoryTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineView.h; sourceTree = "<group>"; };
 		C5A4419025ABFB8B000F0CD2 /* JXCategoryTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCell.h; sourceTree = "<group>"; };
+		C5B5C85026665AEF00264958 /* BaseButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseButtonProtocol.h; sourceTree = "<group>"; };
+		C5B5C85226665AF800264958 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		C5B5C85326665AF800264958 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
 		C5C64C79259DF73E00FD2F99 /* ECPrivacyCheckCalendars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckCalendars.h; sourceTree = "<group>"; };
 		C5C64C7A259DF73E00FD2F99 /* ECPrivacyCheckMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPrivacyCheckMicrophone.m; sourceTree = "<group>"; };
 		C5C64C7B259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckMotionAndFitness.h; sourceTree = "<group>"; };
@@ -1186,6 +1190,7 @@
 				C58D5EB226302F4B00966F5F /* 高度自定义的按钮 */,
 				C58D5EB626302F4B00966F5F /* 高仿抖音点赞动画 */,
 				C58D5EC626302F4B00966F5F /* 高仿iOS长按删除+抖动 */,
+				C5B5C85126665AF800264958 /* BaseButton */,
 				C58D5EC126302F4B00966F5F /* SoundBtn */,
 				C58D5EBA26302F4B00966F5F /* UIButton+Timer */,
 			);
@@ -2354,8 +2359,9 @@
 		C58D5FEE26302F4C00966F5F /* BaseProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				C58D5FEF26302F4C00966F5F /* BaseViewControllerProtocol.h */,
+				C5B5C85026665AEF00264958 /* BaseButtonProtocol.h */,
 				C58D5FF026302F4C00966F5F /* BaseCellProtocol.h */,
+				C58D5FEF26302F4C00966F5F /* BaseViewControllerProtocol.h */,
 				C58D5FF126302F4C00966F5F /* BaseViewProtocol.h */,
 			);
 			path = BaseProtocol;
@@ -2677,6 +2683,15 @@
 				C5A4418B25ABFB8B000F0CD2 /* JXCategoryTimelineView.m */,
 			);
 			path = JXCategoryTimelineView;
+			sourceTree = "<group>";
+		};
+		C5B5C85126665AF800264958 /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5C85226665AF800264958 /* BaseButton.h */,
+				C5B5C85326665AF800264958 /* BaseButton.m */,
+			);
+			path = BaseButton;
 			sourceTree = "<group>";
 		};
 		C5C64C77259DF73E00FD2F99 /* ECPrivacyCheckTools */ = {
@@ -3225,6 +3240,7 @@
 				C58D602326302F4C00966F5F /* UIColor+Hex.m in Sources */,
 				C53CACDF261C4D1400AC1891 /* NSObject+AppTools.m in Sources */,
 				C58D620C263040CF00966F5F /* BWItemModel.m in Sources */,
+				C5B5C85426665AF800264958 /* BaseButton.m in Sources */,
 				C56FDAC325C564E200F8356E /* ZWPullMenuView.m in Sources */,
 				C58D601126302F4C00966F5F /* UITableViewCell+Margin.m in Sources */,
 				C58D605B26302F4C00966F5F /* UITableView+XSAnimationKit.m in Sources */,
