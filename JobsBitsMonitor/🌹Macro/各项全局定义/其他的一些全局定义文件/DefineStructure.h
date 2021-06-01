@@ -18,11 +18,16 @@ typedef enum : NSInteger {
     ProductEnviron/// 生产环境
 } NetworkingEnvir;
 
+//typedef enum : NSInteger {
+//    VIP界面 = 1,
+//    充值界面,
+//    上传短视频界面,
+//    上传帖子界面
+//} 界面;
+
 typedef enum : NSInteger {
-    VIP界面 = 1,
-    充值界面,
-    上传短视频界面,
-    上传帖子界面
-} 界面;
+    EarningsRank = 0,//收益排行
+    ProduceRank//创作排行
+} RankStyle;
 
 #endif /* DefineStructure_h */
