@@ -293,6 +293,8 @@
 		C51F85C7260860B900953C10 /* iPhone尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone尺寸.png"; sourceTree = "<group>"; };
 		C51F85C8260860B900953C10 /* iPad尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad尺寸.png"; sourceTree = "<group>"; };
 		C51F85CE260860BD00953C10 /* 安全区域.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全区域.png"; sourceTree = "<group>"; };
+		C5292BFA26B674C700BEACD7 /* Pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
+		C5292BFB26B674C700BEACD7 /* PodsManual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C53183E5262A901A003C69AD /* DispatchTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimerManager.h; sourceTree = "<group>"; };
 		C53183E6262A901A003C69AD /* DispatchTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerManager.m; sourceTree = "<group>"; };
 		C5361A6D26669E61005D5168 /* URLManagerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManagerModel.m; sourceTree = "<group>"; };
@@ -380,7 +382,6 @@
 		C54C8BE325C557380054F53F /* MacroDef_Sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_Sys.h; sourceTree = "<group>"; };
 		C5542A4F25F32462002D1CA6 /* CheckMemFreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMemFreeVC.h; sourceTree = "<group>"; };
 		C5542A5025F32462002D1CA6 /* CheckMemFreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMemFreeVC.m; sourceTree = "<group>"; };
-		C5580393258A44BB0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F7F0258A385F0078DB8F /* JobsBitsMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBitsMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
 		C55E277725FB269000716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C565C9FE25A437AB00848134 /* TwoVerticalArrangementLabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVerticalArrangementLabsView.m; sourceTree = "<group>"; };
@@ -763,7 +764,6 @@
 		C5C64CBB259DF73E00FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
 		C5C64CBC259DF73E00FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
 		C5D6C1992585D10C00029AFF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C5D6C19A2585D12B00029AFF /* Pods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
 		C5D6C1A72585D2AA00029AFF /* JobsBitsMonitorCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBitsMonitorCore.h; sourceTree = "<group>"; };
 		C5D6C1A82585D2AA00029AFF /* JobsBitsMonitorCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBitsMonitorCore.m; sourceTree = "<group>"; };
 		C5D6C2A32585D4C700029AFF /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
@@ -843,6 +843,15 @@
 				C51F85C8260860B900953C10 /* iPad尺寸.png */,
 			);
 			path = "苹果产品尺寸";
+			sourceTree = "<group>";
+		};
+		C5292BF926B674C700BEACD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5292BFA26B674C700BEACD7 /* Pods.h */,
+				C5292BFB26B674C700BEACD7 /* PodsManual.h */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		C53183E4262A901A003C69AD /* DispatchTimerManager */ = {
@@ -1292,8 +1301,8 @@
 		C558DF44258A0EE00078DB8F /* 第三方头文件管理 */ = {
 			isa = PBXGroup;
 			children = (
+				C5292BF926B674C700BEACD7 /* Pods */,
 				C558DF45258A0EEC0078DB8F /* 手动导入的第三方 */,
-				C558DF46258A0EEF0078DB8F /* Pods */,
 			);
 			path = "第三方头文件管理";
 			sourceTree = "<group>";
@@ -1305,15 +1314,6 @@
 				C5EA166A2631217100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */,
 			);
 			path = "手动导入的第三方";
-			sourceTree = "<group>";
-		};
-		C558DF46258A0EEF0078DB8F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5D6C19A2585D12B00029AFF /* Pods.h */,
-				C5580393258A44BB0078DB8F /* PodsManual.h */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		C558EF28258A2DA90078DB8F /* 3rd */ = {
