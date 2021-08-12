@@ -19,6 +19,10 @@ inhibit_all_warnings! # 忽略引入库的所有警告（强迫症者的福音�
 use_frameworks!
 
 # 特别说明：Ruby对大小写敏感，所以方法名首字母不要用大写，否则执行失败
+def develop_sdk
+  pod 'LookinServer', :configurations => ['Debug']
+end
+
 # 一些功能性的
 def func
   pod 'JobsGlobleDef'
@@ -91,6 +95,7 @@ end
 
 target 'JobsBitsMonitor' do
   # Pods for JobsBitsMonitor
+  develop_sdk
   func
   jx
   gk
