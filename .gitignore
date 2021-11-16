@@ -1,40 +1,93 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+                 
+# Xcode 上传到Github的忽略文件
+=============================================================
 
-# Mac OS X Finder and whatnot
-.DS_Store
+# For Xcode
 
-## Build generated
-build/
-DerivedData/
+# 与Xcode 8和更早版本的兼容性（忽略不需要从Xcode 9开始）
+* .xcscmblueprint
+* .xccheckout
 
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
+# 与Xcode 3及更早版本的兼容性（忽略不需要从Xcode 4开始）
 
-## Other
-*.moved-aside
+* .pbxuser
+！default.pbxuser
+
+* .mode1v3
+！default.mode1v3
+
+* .mode2v3
+！default.mode2v3
+
+* .perspectivev3
+！default.perspectivev3
+
+xcuserdata /
+*.xcuserdatad
 *.xcuserstate
-*.xccheckout
 
-## Obj-C/Swift specific
+.DS_Store
+*.DS_Store
+build/*.pbxuser!default.pbxuser
+
+*.mode1v3!default.mode1v3
+*.mode2v3!default.mode2v3
+
+*.perspectivev3!default.perspectivev3
+*.xcworkspace!default.xcworkspace
+*.xcuserdata
+
+profile*.moved-aside
+DerivedData.idea/
+
+*.xcscheme
+*.xcsche
+
+*.xcbkptlist
+
 *.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
 
-## CocoaPods
-Pods/
+=============================================================
 
-## Carthage
-Carthage/Build
-Carthage/Checkouts
+# Xcode 编译环节的中间件、类库文件
+*.a!lib.a # 忽略所有 .a 结尾的文件，但 lib.a 除外
+*.o,
+*.lo,
+*.la,
+*.al,
+.libs,
+*.so,
+*.so.[0-9]*
 
+=============================================================
+
+# 其他
+*.pyc,
+*.pyo,
+*.rej,
+*~,
+#*#,
+.#*,
+.*.swp
+
+/TODO     # 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO          
+build/    # 忽略 build/ 目录下的所有文件                        
+doc/*.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txtii
+
+=============================================================
+
+# 应用程序包装
+* .ipa
+* .dSYM.zip
+* .dSYM
+
+=============================================================
+
+# git
+.git
+
+=============================================================
+
+# If you use cocoa pod
+Pods
+*.lock
