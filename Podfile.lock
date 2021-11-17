@@ -14,60 +14,78 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - BRPickerView (2.7.3):
-    - BRPickerView/AddressPickerView (= 2.7.3)
-    - BRPickerView/Base (= 2.7.3)
-    - BRPickerView/DatePickerView (= 2.7.3)
-    - BRPickerView/StringPickerView (= 2.7.3)
-  - BRPickerView/AddressPickerView (2.7.3):
+  - BRPickerView (2.7.6):
+    - BRPickerView/AddressPickerView (= 2.7.6)
+    - BRPickerView/Base (= 2.7.6)
+    - BRPickerView/DatePickerView (= 2.7.6)
+    - BRPickerView/StringPickerView (= 2.7.6)
+  - BRPickerView/AddressPickerView (2.7.6):
     - BRPickerView/Base
-  - BRPickerView/Base (2.7.3)
-  - BRPickerView/DatePickerView (2.7.3):
+  - BRPickerView/Base (2.7.6)
+  - BRPickerView/DatePickerView (2.7.6):
     - BRPickerView/Base
-  - BRPickerView/StringPickerView (2.7.3):
+  - BRPickerView/StringPickerView (2.7.6):
     - BRPickerView/Base
-  - GKNavigationBar (1.5.9):
-    - GKNavigationBar/GestureHandle (= 1.5.9)
-    - GKNavigationBar/NavigationBar (= 1.5.9)
-  - GKNavigationBar/GestureHandle (1.5.9)
-  - GKNavigationBar/NavigationBar (1.5.9)
-  - GKPhotoBrowser (2.3.1):
-    - GKPhotoBrowser/SD (= 2.3.1)
-  - GKPhotoBrowser/Core (2.3.1)
-  - GKPhotoBrowser/SD (2.3.1):
+  - GKNavigationBar (1.6.1):
+    - GKNavigationBar/GestureHandle (= 1.6.1)
+    - GKNavigationBar/NavigationBar (= 1.6.1)
+  - GKNavigationBar/GestureHandle (1.6.1)
+  - GKNavigationBar/NavigationBar (1.6.1)
+  - GKPhotoBrowser (2.3.3):
+    - GKPhotoBrowser/SD (= 2.3.3)
+  - GKPhotoBrowser/Core (2.3.3)
+  - GKPhotoBrowser/SD (2.3.3):
     - GKPhotoBrowser/Core
     - SDWebImage (~> 5.0)
   - IJKMediaFramework (0.1.5)
-  - JobsGlobleDef (1.0.0)
-  - JPImageresizerView (1.9.3)
+  - JobsGlobleDef (1.0.8):
+    - JobsGlobleDef/MacroDef (= 1.0.8)
+    - JobsGlobleDef/NotificationManager (= 1.0.8)
+    - JobsGlobleDef/OtherGlobleDef (= 1.0.8)
+  - JobsGlobleDef/MacroDef (1.0.8):
+    - JobsGlobleDef/MacroDef/MacroDef_App (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Cor (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Func (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Size (= 1.0.8)
+    - JobsGlobleDef/MacroDef/MacroDef_Sys (= 1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_App (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Cor (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Func (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Size (1.0.8):
+    - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (= 1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Size/AppleProductsScreenSize (1.0.8)
+  - JobsGlobleDef/MacroDef/MacroDef_Sys (1.0.8)
+  - JobsGlobleDef/NotificationManager (1.0.8)
+  - JobsGlobleDef/OtherGlobleDef (1.0.8)
+  - JPImageresizerView (1.9.4)
   - JXCategoryView (1.5.9)
-  - JXPagingView/Pager (2.1.0)
-  - LookinServer (1.0.3)
+  - JXPagingView/Pager (2.1.1)
+  - LookinServer (1.0.4)
   - lottie-ios (2.5.3)
   - LYEmptyView (1.3.1)
   - Masonry (1.1.0)
-  - MJExtension (3.3.0)
+  - MJExtension (3.4.0)
   - MJRefresh (3.7.2)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.11.1):
-    - SDWebImage/Core (= 5.11.1)
-  - SDWebImage/Core (5.11.1)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
   - SPAlertController (4.0.0)
-  - TABAnimated (2.5.9)
+  - TABAnimated (2.6.3)
   - TXFileOperation (1.0)
-  - WHToast (0.0.8)
+  - WHToast (0.1.0)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
-  - ZFPlayer (4.0.1):
-    - ZFPlayer/Core (= 4.0.1)
-  - ZFPlayer/AVPlayer (4.0.1):
+  - ZFPlayer (4.0.3):
+    - ZFPlayer/Core (= 4.0.3)
+  - ZFPlayer/AVPlayer (4.0.3):
     - ZFPlayer/Core
-  - ZFPlayer/ControlView (4.0.1):
+  - ZFPlayer/ControlView (4.0.3):
     - ZFPlayer/Core
-  - ZFPlayer/Core (4.0.1)
-  - ZFPlayer/ijkplayer (4.0.1):
+  - ZFPlayer/Core (4.0.3)
+  - ZFPlayer/ijkplayer (4.0.3):
     - IJKMediaFramework
     - ZFPlayer/Core
   - ZLCollectionViewFlowLayout (1.4.5)
@@ -102,7 +120,7 @@ DEPENDENCIES:
   - ZLCollectionViewFlowLayout
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - BRPickerView
     - GKNavigationBar
@@ -131,31 +149,31 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  BRPickerView: 9cc11880ac79c4872d081ccb88f306224c1501d7
-  GKNavigationBar: 9947fa55e2f1d803c9a0d5bb16473e2d66102b6c
-  GKPhotoBrowser: 3b87e4370b1e7bf83af5e6977d6d5db2be650eef
+  BRPickerView: 2a1620caf218e37a3aca9626732719a419928b15
+  GKNavigationBar: 4b63ee7d9337d3c1b5057fa324730a083c828fda
+  GKPhotoBrowser: 2a79b890aada4c8e443d458f564f412bf7058dc3
   IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
-  JobsGlobleDef: 46a851206c10dc3baaf248d6f283aac4dc7fb186
-  JPImageresizerView: cc5d6d4357ad9b45f9321ecb58769bcc66b43e46
+  JobsGlobleDef: ffa1213c6f5826a6e0308f9285b0843ddd3eaab6
+  JPImageresizerView: 6d8ddd0569f15be391e619da82d40af31266b34c
   JXCategoryView: 2ef9ecfd3735158d009ce02d1f29811aa822da65
-  JXPagingView: ef48a5a2392252c68db7999de38f4761a2707e2a
-  LookinServer: 5e1d44b7e4a2a98793f1eaf319c583e1e946b830
+  JXPagingView: 99140c6f7f64abec35bc2dfc87c17ca049cafe76
+  LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJExtension: 6c15c7b93398447252c0defdb8d69d02d218a41e
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   SPAlertController: b245d7a5e17d612da051f2612aca3703f21d108f
-  TABAnimated: 8d077a20de46de0c7744c665cd56aae28c49d397
+  TABAnimated: 2503f43b82bfeaf4e78c4922630284a46d8108f5
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
-  WHToast: 5da5bb80bdd1fea9455d4215577d9c5be2c506b8
+  WHToast: 7d393091940215c2b8bcf78422d1855f9bfa3975
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
-  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+  ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
   ZLCollectionViewFlowLayout: 134dbc8ccd32e298e742ee8ab0bc949f1fd2396f
 
-PODFILE CHECKSUM: cda29d17f85be42fcf9faecc16d1ca132e59f059
+PODFILE CHECKSUM: e2292e17e7e849db722482cecc55bdfcd5284525
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2
