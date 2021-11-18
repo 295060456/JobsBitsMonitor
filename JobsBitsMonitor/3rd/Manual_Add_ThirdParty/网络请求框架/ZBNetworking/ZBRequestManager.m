@@ -122,10 +122,10 @@ NSString *const zb_downloadPath =@"AppDownload";
     }
     
     NSURLSessionTask * task=[[ZBRequestEngine defaultEngine]objectRequestForkey:request.url];
-    if (request.keepType==ZBResponseKeepFirst&&task) {
+    if (request.apiType==ZBRequestTypeKeepFirst&&task) {
         return 0;
     }
-    if (request.keepType==ZBResponseKeepLast&&task) {
+    if (request.apiType==ZBRequestTypeKeepLast&&task) {
         [self cancelRequest:task.taskIdentifier];
     }
 
@@ -146,8 +146,8 @@ NSString *const zb_downloadPath =@"AppDownload";
 
 + (NSUInteger)sendUploadRequest:(ZBURLRequest *)request{
     return [[ZBRequestEngine defaultEngine] uploadWithRequest:request progress:^(NSProgress * _Nonnull uploadProgress) {
-        if (request.delegate&&[request.delegate respondsToSelector:@selector(request:forProgress:)]) {
-            [request.delegate request:request forProgress:uploadProgress];
+        if (request.delegate&&[request.delegate respondsToSelector:@selector(requestProgress:)]) {
+            [request.delegate requestProgress:uploadProgress];
         }
         request.progressBlock?request.progressBlock(uploadProgress):nil;
     } success:^(NSURLSessionDataTask *task, id responseObject) {
@@ -158,7 +158,7 @@ NSString *const zb_downloadPath =@"AppDownload";
 }
 
 + (NSUInteger)sendHTTPRequest:(ZBURLRequest *)request{
-    if (request.apiType==ZBRequestTypeRefresh||request.apiType==ZBRequestTypeRefreshMore) {
+    if (request.apiType==ZBRequestTypeRefresh||request.apiType==ZBRequestTypeRefreshMore||request.apiType==ZBRequestTypeKeepFirst||request.apiType==ZBRequestTypeKeepLast) {
         return [self dataTaskWithHTTPRequest:request];
     }else{
         NSString *key = [self keyWithParameters:request];
@@ -173,8 +173,8 @@ NSString *const zb_downloadPath =@"AppDownload";
 
 + (NSUInteger)dataTaskWithHTTPRequest:(ZBURLRequest *)request{
     return [[ZBRequestEngine defaultEngine]dataTaskWithMethod:request progress:^(NSProgress * _Nonnull zb_progress) {
-        if (request.delegate&&[request.delegate respondsToSelector:@selector(request:forProgress:)]) {
-            [request.delegate request:request forProgress:zb_progress];
+        if (request.delegate&&[request.delegate respondsToSelector:@selector(requestProgress:)]) {
+            [request.delegate requestProgress:zb_progress];
         }
         request.progressBlock ? request.progressBlock(zb_progress) : nil;
     } success:^(NSURLSessionDataTask *task, id responseObject) {
@@ -200,8 +200,8 @@ NSString *const zb_downloadPath =@"AppDownload";
         resumeData=[[ZBCacheManager sharedInstance]getCacheDataForKey:request.url inPath:AppDownloadTempPath];
     }
     return [[ZBRequestEngine defaultEngine] downloadWithRequest:request resumeData:resumeData savePath:[self AppDownloadPath] progress:^(NSProgress * _Nullable downloadProgress) {
-        if (request.delegate&&[request.delegate respondsToSelector:@selector(request:forProgress:)]) {
-            [request.delegate request:request forProgress:downloadProgress];
+        if (request.delegate&&[request.delegate respondsToSelector:@selector(requestProgress:)]) {
+            [request.delegate requestProgress:downloadProgress];
         }
         request.progressBlock?request.progressBlock(downloadProgress):nil;
     }completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
@@ -349,11 +349,11 @@ NSString *const zb_downloadPath =@"AppDownload";
 }
 
 + (void)successWithCacheCallbackForResult:(id)result forRequest:(ZBURLRequest *)request{
-    if (request.delegate&&[request.delegate respondsToSelector:@selector(request:successForResponseObject:)]) {
-        [request.delegate request:request successForResponseObject:result];
+    if (request.delegate&&[request.delegate respondsToSelector:@selector(requestSuccess:responseObject:)]) {
+        [request.delegate requestSuccess:request responseObject:result];
     }
-    if (request.delegate&&[request.delegate respondsToSelector:@selector(request:finishedForResponseObject:forError:)]) {
-        [request.delegate request:request finishedForResponseObject:result forError:nil];
+    if (request.delegate&&[request.delegate respondsToSelector:@selector(requestFinished:responseObject:error:)]) {
+        [request.delegate requestFinished:request responseObject:result error:nil];
     }
     request.successBlock?request.successBlock(result, request):nil;
     request.finishedBlock?request.finishedBlock(result, nil,request):nil;
@@ -362,11 +362,11 @@ NSString *const zb_downloadPath =@"AppDownload";
 }
 
 + (void)failureCallbackForError:(NSError *)error forRequest:(ZBURLRequest *)request{
-    if (request.delegate&&[request.delegate respondsToSelector:@selector(request:failedForError:)]) {
-        [request.delegate request:request failedForError:error];
+    if (request.delegate&&[request.delegate respondsToSelector:@selector(requestFailed:error:)]) {
+        [request.delegate requestFailed:request error:error];
     }
-    if (request.delegate&&[request.delegate respondsToSelector:@selector(request:finishedForResponseObject:forError:)]) {
-        [request.delegate request:request finishedForResponseObject:nil forError:error];
+    if (request.delegate&&[request.delegate respondsToSelector:@selector(requestFinished:responseObject:error:)]) {
+        [request.delegate requestFinished:request responseObject:nil error:error];
     }
     request.failureBlock?request.failureBlock(error):nil;
     request.finishedBlock?request.finishedBlock(nil,error,request):nil;
