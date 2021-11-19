@@ -74,7 +74,7 @@ PODS:
   - SPAlertController (4.0.0)
   - TABAnimated (2.6.3)
   - TXFileOperation (1.0)
-  - WHToast (0.1.0)
+  - WHToast (0.0.7)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -169,11 +169,11 @@ SPEC CHECKSUMS:
   SPAlertController: b245d7a5e17d612da051f2612aca3703f21d108f
   TABAnimated: 2503f43b82bfeaf4e78c4922630284a46d8108f5
   TXFileOperation: 99bc7e3763678fdea8e8c407e2b87fb18038385f
-  WHToast: 7d393091940215c2b8bcf78422d1855f9bfa3975
+  WHToast: 11a17a3f09f5f733e32bd6f3338919a448cbb719
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
   ZLCollectionViewFlowLayout: 134dbc8ccd32e298e742ee8ab0bc949f1fd2396f
 
-PODFILE CHECKSUM: e2292e17e7e849db722482cecc55bdfcd5284525
+PODFILE CHECKSUM: 1ad1bb0b256661c7739b39a1fa308171bd4f89c5
 
 COCOAPODS: 1.11.2

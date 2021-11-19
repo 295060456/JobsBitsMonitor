@@ -14,7 +14,7 @@
 # 需要特别说明的：在 post_install 时，为了一些版本的兼容，需要遍历所有 target，调整一部分库的版本；但是如果开启了 generate_multiple_pod_projects 的话，由于项目结构的变化，installer.pod_targets 就没办法获得所有 pods 引入的 target 了
 install! 'cocoapods',:deterministic_uuids=>false,generate_multiple_pod_projects: true,disable_input_output_paths: true
 
-platform :ios, '13.5' # platform用于指定应建立的静态库的平台
+platform :ios, '10.0' # platform用于指定应建立的静态库的平台
 inhibit_all_warnings! # 忽略引入库的所有警告（强迫症者的福音啊）
 use_frameworks!
 

@@ -89,6 +89,20 @@ SEL _Nullable selectorBlocks(callback _Nonnull ,id _Nullable target);
 +(double)availableMemory;
 /// 获取当前任务所占用内存
 +(double)usedMemory;
+/// App 国际化相关系统宏二次封装 + 设置缺省值
++(NSString *_Nullable)localStringWithKey:(nonnull NSString *)key;
+
++(NSString *_Nullable)localizedString:(nonnull NSString *)key
+                            fromTable:(nullable NSString *)tableName;
+
++(NSString *_Nullable)localizedString:(nonnull NSString *)key
+                            fromTable:(nullable NSString *)tableName
+                             inBundle:(nullable NSBundle *)bundle;
+
++(NSString *_Nullable)localizedString:(nonnull NSString *)key
+                            fromTable:(nullable NSString *)tableName
+                             inBundle:(nullable NSBundle *)bundle
+                         defaultValue:(nullable NSString *)defaultValue;
 /// 加入键盘通知的监听者
 -(void)keyboard;
 /// 停止刷新【可能还有数据的情况，状态为：MJRefreshStateIdle】
