@@ -21,6 +21,7 @@
 }
 
 -(void)gestureSingleTapped:(ZFPlayerGestureControl *)gestureControl{
+    [self endEditing:YES];
     if (self.customZFPlayerControlViewBlock) {
         self.customZFPlayerControlViewBlock(NSStringFromSelector(_cmd),@1);
     }
@@ -28,6 +29,7 @@
 
 -(void)gestureDoubleTapped:(ZFPlayerGestureControl *)gestureControl{
     NSLog(@"");
+    [self endEditing:YES];
 }
 //走一次
 -(void)gestureBeganPan:(ZFPlayerGestureControl *)gestureControl
