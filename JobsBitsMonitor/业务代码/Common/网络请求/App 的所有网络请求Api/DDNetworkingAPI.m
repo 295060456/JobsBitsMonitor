@@ -52,7 +52,7 @@
 
         NSString *funcName = [requestApi stringByAppendingString:@":successBlock:"];
         [NSObject methodName:funcName
-                      target:self
+                   targetObj:self
                  paramarrays:paramMutArr];
     }
 }
@@ -85,7 +85,7 @@
 
         NSString *funcName = [requestApi stringByAppendingString:@":successBlock:failureBlock:"];
         [NSObject methodName:funcName
-                      target:self
+                   targetObj:self
                  paramarrays:paramMutArr];
     }
 }
@@ -114,7 +114,7 @@ uploadImagesParamArr:(NSArray *_Nullable)uploadImagesParamArr
     
     NSString *funcName = [requestApi stringByAppendingString:@":uploadImageDatas:successBlock:failureBlock:"];
     [NSObject methodName:funcName
-                  target:self
+               targetObj:self
              paramarrays:paramMutArr];
 }
 /// 上传【视频】文件的网络请求 POST
@@ -141,7 +141,7 @@ uploadVideosParamArr:(NSArray *_Nullable)uploadVideosParamArr
     
     NSString *funcName = [requestApi stringByAppendingString:@":uploadVideo:successBlock:failureBlock:"];
     [NSObject methodName:funcName
-                  target:self
+               targetObj:self
              paramarrays:paramMutArr];
 }
 
