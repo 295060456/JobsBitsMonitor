@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "JobsBitsMonitorSuspendLab.h"
 
 @interface ViewController ()
 
@@ -71,7 +70,7 @@
         _bitsMonitorSuspendLab.font = [UIFont systemFontOfSize:10 weight:UIFontWeightBold];
         _bitsMonitorSuspendLab.backgroundColor = KLightGrayColor;
         _bitsMonitorSuspendLab.textColor = kRedColor;
-        @weakify(self)
+        @jobs_weakify(self)
         _bitsMonitorSuspendLab.vc = weak_self;
         _bitsMonitorSuspendLab.isAllowDrag = YES;//悬浮效果必须要的参数
         [self.view addSubview:_bitsMonitorSuspendLab];

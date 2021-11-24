@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 #import "JobsBitsMonitorCore.h"
+#import "MacroDef_Func.h"
+#import "JobsBitsMonitorSuspendLab.h"
 
 @interface ViewController : UIViewController
 
