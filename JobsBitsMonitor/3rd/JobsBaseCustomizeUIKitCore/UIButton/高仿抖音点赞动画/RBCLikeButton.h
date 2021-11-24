@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+Measure.h"
+#import "LoadingImage.h"
 
 typedef enum : NSUInteger {
     RBCLikeButtonTypeImageleft, //图片在左,label在右

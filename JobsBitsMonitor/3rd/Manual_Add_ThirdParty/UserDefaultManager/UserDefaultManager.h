@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "UserDefaultModel.h"
+#import "NSString+Extras.h"
 
 #if __has_include(<MJExtension/MJExtension.h>)
 #import <MJExtension/MJExtension.h>
