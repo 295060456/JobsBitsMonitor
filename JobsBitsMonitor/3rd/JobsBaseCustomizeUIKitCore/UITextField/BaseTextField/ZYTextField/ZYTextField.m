@@ -1,4 +1,3 @@
-
 #import "ZYTextField.h"
 
 @interface ZYTextField ()
@@ -202,7 +201,7 @@
 
 -(UIColor *)ZYtextColor{
     if (!_ZYtextColor) {
-        _ZYtextColor = KGreenColor;
+        _ZYtextColor = kWhiteColor;
     }return _ZYtextColor;
 }
 
