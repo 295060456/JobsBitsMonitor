@@ -25,6 +25,7 @@ end
 
 # 一些功能性的
 def func
+  pod 'XYColorOC' # https://github.com/RayJiang16/XYColor 适配iOS 13夜间模式/深色外观(Dark Mode)
   pod 'JobsGlobleDef'
   pod 'lottie-ios', '~> 2.5.3'
   pod 'BRPickerView'

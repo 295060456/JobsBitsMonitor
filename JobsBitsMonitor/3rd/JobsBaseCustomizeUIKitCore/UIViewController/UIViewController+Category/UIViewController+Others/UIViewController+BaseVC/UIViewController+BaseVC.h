@@ -6,8 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 #import "BaseViewControllerProtocol.h"
 #import "AABlock.h"
+#import "MacroDef_Func.h"
 
 #if __has_include(<ReactiveObjC/RACmetamacros.h>)
 #import <ReactiveObjC/RACmetamacros.h>
@@ -36,6 +38,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (BaseVC)<BaseViewControllerProtocol>
+
+@property(nonatomic,strong)UIImage *backgroundImage;// 仅在loadView中配置有效
 
 #pragma mark —— present
 /// 简洁版强制present展现一个控制器页面【不需要正向传参】
