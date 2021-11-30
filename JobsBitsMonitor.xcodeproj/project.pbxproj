@@ -94,7 +94,6 @@
 		84B3AE0C274D226C0005DF73 /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACE8274D226C0005DF73 /* BaseImageView.m */; };
 		84B3AE0D274D226C0005DF73 /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACEB274D226C0005DF73 /* UIImageView+GIF.m */; };
 		84B3AE0E274D226C0005DF73 /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACEF274D226C0005DF73 /* BaseNavigationBar.m */; };
-		84B3AE0F274D226C0005DF73 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACF3274D226C0005DF73 /* NSString+Extras.m */; };
 		84B3AE10274D226C0005DF73 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACFA274D226C0005DF73 /* UIViewController+JXPagerViewListViewDelegate.m */; };
 		84B3AE11274D226C0005DF73 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ACFD274D226C0005DF73 /* UIViewController+JXCategoryListContentViewDelegate.m */; };
 		84B3AE12274D226C0005DF73 /* XLBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3AD01274D226C0005DF73 /* XLBubbleTransition.m */; };
@@ -163,6 +162,15 @@
 		84B3AE51274D226D0005DF73 /* ZYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84B3ADC9274D226C0005DF73 /* ZYTextField.bundle */; };
 		84B3AE52274D226D0005DF73 /* ZYTextField+HistoryDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ADCA274D226C0005DF73 /* ZYTextField+HistoryDataList.m */; };
 		84B3AE53274D226D0005DF73 /* JobsMagicTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B3ADCE274D226C0005DF73 /* JobsMagicTextField.m */; };
+		84E6D651275657D8002BB16E /* NSString+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D636275657D8002BB16E /* NSString+Conversion.m */; };
+		84E6D652275657D8002BB16E /* NSString+Others.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D639275657D8002BB16E /* NSString+Others.m */; };
+		84E6D653275657D8002BB16E /* NSString+Eomji.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D63D275657D8002BB16E /* NSString+Eomji.m */; };
+		84E6D654275657D8002BB16E /* NSString+JudgeNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D63F275657D8002BB16E /* NSString+JudgeNull.m */; };
+		84E6D655275657D8002BB16E /* NSString+Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D643275657D8002BB16E /* NSString+Statistics.m */; };
+		84E6D656275657D8002BB16E /* NSString+Decoration.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D646275657D8002BB16E /* NSString+Decoration.m */; };
+		84E6D657275657D8002BB16E /* NSString+Judgment.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D64A275657D8002BB16E /* NSString+Judgment.m */; };
+		84E6D658275657D8002BB16E /* NSString+FilteringSpecialCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D64C275657D8002BB16E /* NSString+FilteringSpecialCharacters.m */; };
+		84E6D659275657D8002BB16E /* NSString+Replace.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D650275657D8002BB16E /* NSString+Replace.m */; };
 		867AA81B6F03DB6B94895E65 /* Pods_JobsBitsMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */; };
 		C53183E7262A901A003C69AD /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C53183E6262A901A003C69AD /* DispatchTimerManager.m */; };
 		C5361AC026669E61005D5168 /* URLManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5361A6D26669E61005D5168 /* URLManagerModel.m */; };
@@ -472,8 +480,6 @@
 		84B3ACEC274D226C0005DF73 /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		84B3ACEF274D226C0005DF73 /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationBar.m; sourceTree = "<group>"; };
 		84B3ACF0274D226C0005DF73 /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationBar.h; sourceTree = "<group>"; };
-		84B3ACF3274D226C0005DF73 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
-		84B3ACF4274D226C0005DF73 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		84B3ACF9274D226C0005DF73 /* UIViewController+JXPagerViewListViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXPagerViewListViewDelegate.h"; sourceTree = "<group>"; };
 		84B3ACFA274D226C0005DF73 /* UIViewController+JXPagerViewListViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXPagerViewListViewDelegate.m"; sourceTree = "<group>"; };
 		84B3ACFC274D226C0005DF73 /* UIViewController+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
@@ -611,6 +617,25 @@
 		84B3ADCC274D226C0005DF73 /* ZYTextField+HistoryDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYTextField+HistoryDataList.h"; sourceTree = "<group>"; };
 		84B3ADCE274D226C0005DF73 /* JobsMagicTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsMagicTextField.m; sourceTree = "<group>"; };
 		84B3ADCF274D226C0005DF73 /* JobsMagicTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsMagicTextField.h; sourceTree = "<group>"; };
+		84E6D636275657D8002BB16E /* NSString+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Conversion.m"; sourceTree = "<group>"; };
+		84E6D637275657D8002BB16E /* NSString+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Conversion.h"; sourceTree = "<group>"; };
+		84E6D639275657D8002BB16E /* NSString+Others.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Others.m"; sourceTree = "<group>"; };
+		84E6D63A275657D8002BB16E /* NSString+Others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Others.h"; sourceTree = "<group>"; };
+		84E6D63C275657D8002BB16E /* NSString+Eomji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Eomji.h"; sourceTree = "<group>"; };
+		84E6D63D275657D8002BB16E /* NSString+Eomji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Eomji.m"; sourceTree = "<group>"; };
+		84E6D63F275657D8002BB16E /* NSString+JudgeNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JudgeNull.m"; sourceTree = "<group>"; };
+		84E6D640275657D8002BB16E /* NSString+JudgeNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JudgeNull.h"; sourceTree = "<group>"; };
+		84E6D642275657D8002BB16E /* NSString+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Statistics.h"; sourceTree = "<group>"; };
+		84E6D643275657D8002BB16E /* NSString+Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Statistics.m"; sourceTree = "<group>"; };
+		84E6D645275657D8002BB16E /* NSString+Decoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Decoration.h"; sourceTree = "<group>"; };
+		84E6D646275657D8002BB16E /* NSString+Decoration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Decoration.m"; sourceTree = "<group>"; };
+		84E6D647275657D8002BB16E /* NSStringExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtras.h; sourceTree = "<group>"; };
+		84E6D649275657D8002BB16E /* NSString+Judgment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Judgment.h"; sourceTree = "<group>"; };
+		84E6D64A275657D8002BB16E /* NSString+Judgment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Judgment.m"; sourceTree = "<group>"; };
+		84E6D64C275657D8002BB16E /* NSString+FilteringSpecialCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FilteringSpecialCharacters.m"; sourceTree = "<group>"; };
+		84E6D64D275657D8002BB16E /* NSString+FilteringSpecialCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FilteringSpecialCharacters.h"; sourceTree = "<group>"; };
+		84E6D64F275657D8002BB16E /* NSString+Replace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Replace.h"; sourceTree = "<group>"; };
+		84E6D650275657D8002BB16E /* NSString+Replace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Replace.m"; sourceTree = "<group>"; };
 		ACFB81FD23AE4508742DD2FF /* Pods_JobsBitsMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD842E55F7FE01D0BBAD4E3 /* Pods-JobsBitsMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBitsMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBitsMonitorUITests/Pods-JobsBitsMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDB98F5D924B534026365ED6 /* Pods_JobsBitsMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBitsMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1819,18 +1844,9 @@
 		84B3ACF1274D226C0005DF73 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				84B3ACF2274D226C0005DF73 /* NSString+Extras */,
+				84E6D634275657D8002BB16E /* NSString+Category */,
 			);
 			path = NSString;
-			sourceTree = "<group>";
-		};
-		84B3ACF2274D226C0005DF73 /* NSString+Extras */ = {
-			isa = PBXGroup;
-			children = (
-				84B3ACF3274D226C0005DF73 /* NSString+Extras.m */,
-				84B3ACF4274D226C0005DF73 /* NSString+Extras.h */,
-			);
-			path = "NSString+Extras";
 			sourceTree = "<group>";
 		};
 		84B3ACF5274D226C0005DF73 /* UIViewController */ = {
@@ -2604,6 +2620,104 @@
 				84B3ADCF274D226C0005DF73 /* JobsMagicTextField.h */,
 			);
 			path = JobsMagicTextField;
+			sourceTree = "<group>";
+		};
+		84E6D634275657D8002BB16E /* NSString+Category */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D635275657D8002BB16E /* NSString+Conversion */,
+				84E6D638275657D8002BB16E /* NSString+Others */,
+				84E6D63B275657D8002BB16E /* NSString+Eomji */,
+				84E6D63E275657D8002BB16E /* NSString+JudgeNull */,
+				84E6D641275657D8002BB16E /* NSString+Statistics */,
+				84E6D644275657D8002BB16E /* NSString+Decoration */,
+				84E6D647275657D8002BB16E /* NSStringExtras.h */,
+				84E6D648275657D8002BB16E /* NSString+Judgment */,
+				84E6D64B275657D8002BB16E /* NSString+FilteringSpecialCharacters */,
+				84E6D64E275657D8002BB16E /* NSString+Replace */,
+			);
+			path = "NSString+Category";
+			sourceTree = "<group>";
+		};
+		84E6D635275657D8002BB16E /* NSString+Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D636275657D8002BB16E /* NSString+Conversion.m */,
+				84E6D637275657D8002BB16E /* NSString+Conversion.h */,
+			);
+			path = "NSString+Conversion";
+			sourceTree = "<group>";
+		};
+		84E6D638275657D8002BB16E /* NSString+Others */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D639275657D8002BB16E /* NSString+Others.m */,
+				84E6D63A275657D8002BB16E /* NSString+Others.h */,
+			);
+			path = "NSString+Others";
+			sourceTree = "<group>";
+		};
+		84E6D63B275657D8002BB16E /* NSString+Eomji */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D63C275657D8002BB16E /* NSString+Eomji.h */,
+				84E6D63D275657D8002BB16E /* NSString+Eomji.m */,
+			);
+			path = "NSString+Eomji";
+			sourceTree = "<group>";
+		};
+		84E6D63E275657D8002BB16E /* NSString+JudgeNull */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D63F275657D8002BB16E /* NSString+JudgeNull.m */,
+				84E6D640275657D8002BB16E /* NSString+JudgeNull.h */,
+			);
+			path = "NSString+JudgeNull";
+			sourceTree = "<group>";
+		};
+		84E6D641275657D8002BB16E /* NSString+Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D642275657D8002BB16E /* NSString+Statistics.h */,
+				84E6D643275657D8002BB16E /* NSString+Statistics.m */,
+			);
+			path = "NSString+Statistics";
+			sourceTree = "<group>";
+		};
+		84E6D644275657D8002BB16E /* NSString+Decoration */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D645275657D8002BB16E /* NSString+Decoration.h */,
+				84E6D646275657D8002BB16E /* NSString+Decoration.m */,
+			);
+			path = "NSString+Decoration";
+			sourceTree = "<group>";
+		};
+		84E6D648275657D8002BB16E /* NSString+Judgment */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D649275657D8002BB16E /* NSString+Judgment.h */,
+				84E6D64A275657D8002BB16E /* NSString+Judgment.m */,
+			);
+			path = "NSString+Judgment";
+			sourceTree = "<group>";
+		};
+		84E6D64B275657D8002BB16E /* NSString+FilteringSpecialCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D64C275657D8002BB16E /* NSString+FilteringSpecialCharacters.m */,
+				84E6D64D275657D8002BB16E /* NSString+FilteringSpecialCharacters.h */,
+			);
+			path = "NSString+FilteringSpecialCharacters";
+			sourceTree = "<group>";
+		};
+		84E6D64E275657D8002BB16E /* NSString+Replace */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D64F275657D8002BB16E /* NSString+Replace.h */,
+				84E6D650275657D8002BB16E /* NSString+Replace.m */,
+			);
+			path = "NSString+Replace";
 			sourceTree = "<group>";
 		};
 		C51F85C5260860B900953C10 /* 苹果产品尺寸 */ = {
@@ -3939,8 +4053,10 @@
 				84B3ADF6274D226C0005DF73 /* UIView+EmptyData.m in Sources */,
 				84B3AE0B274D226C0005DF73 /* BaseCollectionViewCell.m in Sources */,
 				C5C64CE9259DF73E00FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
+				84E6D654275657D8002BB16E /* NSString+JudgeNull.m in Sources */,
 				84B3AE42274D226C0005DF73 /* NSObject+AFNReachability.m in Sources */,
 				C5C64CC4259DF73E00FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
+				84E6D656275657D8002BB16E /* NSString+Decoration.m in Sources */,
 				84B3AE33274D226C0005DF73 /* BaseTableViewHeaderView.m in Sources */,
 				C5D6C2B12585D4C700029AFF /* NSTimerManager.m in Sources */,
 				84B3ADF3274D226C0005DF73 /* UIView+Measure.m in Sources */,
@@ -3953,6 +4069,7 @@
 				C5A4419325ABFB8B000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				84B3ADD2274D226C0005DF73 /* UIImage+SYS.m in Sources */,
 				84B3AE3B274D226C0005DF73 /* NSObject+SPAlertController.m in Sources */,
+				84E6D658275657D8002BB16E /* NSString+FilteringSpecialCharacters.m in Sources */,
 				84B3AE17274D226C0005DF73 /* UIViewController+BackBtn.m in Sources */,
 				84407DC52754A7DB00B9926E /* UIButton+UI.m in Sources */,
 				840C7E4E27451A5900356BBC /* ZBURLRequest.m in Sources */,
@@ -3965,6 +4082,7 @@
 				84407DC82754A7DB00B9926E /* UIButton+Timer.m in Sources */,
 				840C7E4C27451A5900356BBC /* NSString+ZBUTF8Encoding.m in Sources */,
 				84B3AE26274D226C0005DF73 /* BaseNavigationVC.m in Sources */,
+				84E6D651275657D8002BB16E /* NSString+Conversion.m in Sources */,
 				C5361ACE26669E61005D5168 /* DDNetworkingAPI+ConfigApi.m in Sources */,
 				C5C64CC5259DF73E00FD2F99 /* ECPrivacyCheckMotionAndFitness.m in Sources */,
 				848A3C5627478FA500D8F240 /* CLLanguageManager.m in Sources */,
@@ -3986,9 +4104,12 @@
 				84B3ADF4274D226C0005DF73 /* UIView+Gradient.m in Sources */,
 				84B3AE28274D226C0005DF73 /* UITableView+XSAnimationKit.m in Sources */,
 				84B3AE19274D226C0005DF73 /* UIViewController+Shake.m in Sources */,
+				84E6D659275657D8002BB16E /* NSString+Replace.m in Sources */,
 				84B3AE10274D226C0005DF73 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				84B3ADDD274D226C0005DF73 /* BaseTableViewCell.m in Sources */,
 				84B3AE52274D226D0005DF73 /* ZYTextField+HistoryDataList.m in Sources */,
+				84E6D653275657D8002BB16E /* NSString+Eomji.m in Sources */,
+				84E6D655275657D8002BB16E /* NSString+Statistics.m in Sources */,
 				C5A4367525AAF753000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				84B3AE41274D226C0005DF73 /* NSObject+Sound.m in Sources */,
 				C5C64CC1259DF73E00FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
@@ -4008,6 +4129,7 @@
 				84B3AE23274D226C0005DF73 /* BaseViewController.m in Sources */,
 				C595CB102586460F002A4531 /* NotificationManager.m in Sources */,
 				84407DC02754A7DB00B9926E /* RBCLikeButton.m in Sources */,
+				84E6D652275657D8002BB16E /* NSString+Others.m in Sources */,
 				84B3AE43274D226C0005DF73 /* NSObject+RichText.m in Sources */,
 				84B3AE4F274D226D0005DF73 /* CJTextField.m in Sources */,
 				C590AA512585C547008A17D9 /* JobsBitsMonitor.xcdatamodeld in Sources */,
@@ -4064,6 +4186,7 @@
 				84B3AE07274D226C0005DF73 /* BaseCollectionView.m in Sources */,
 				C5C64CCA259DF73E00FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
 				84B3AE46274D226D0005DF73 /* NSObject+Time.m in Sources */,
+				84E6D657275657D8002BB16E /* NSString+Judgment.m in Sources */,
 				84B3AE3D274D226C0005DF73 /* NSObject+OpenURL.m in Sources */,
 				C5C64CBF259DF73E00FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */,
 				840C7E4D27451A5900356BBC /* ZBCacheManager.m in Sources */,
@@ -4099,7 +4222,6 @@
 				84B3AE25274D226C0005DF73 /* UINavigationController+SafeTransition.m in Sources */,
 				C590AA452585C547008A17D9 /* AppDelegate.m in Sources */,
 				84B3AE2D274D226C0005DF73 /* UIControl+XY.m in Sources */,
-				84B3AE0F274D226C0005DF73 /* NSString+Extras.m in Sources */,
 				84B3AE18274D226C0005DF73 /* UIViewController+EmptyData.m in Sources */,
 				84B3AE12274D226C0005DF73 /* XLBubbleTransition.m in Sources */,
 				C5A4419525ABFB8B000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,

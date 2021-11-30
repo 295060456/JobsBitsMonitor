@@ -32,8 +32,8 @@ NSString *bindPhonePOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -95,8 +95,8 @@ NSString *checkHadRoleGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -160,8 +160,8 @@ NSString *choiceHeadImagePOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -222,8 +222,8 @@ NSString *doSignPOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -285,8 +285,8 @@ NSString *headImageListGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -350,8 +350,8 @@ NSString *userInfoInviteFriendPOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -412,8 +412,8 @@ NSString *userInfoListGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -475,8 +475,8 @@ NSString *userInfoQQListGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -540,8 +540,8 @@ NSString *rollDateGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -602,8 +602,8 @@ NSString *userInfoSelectInviteCodePOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -664,8 +664,8 @@ NSString *userInfoSelectVideoCountPOST;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -726,8 +726,8 @@ NSString *userInfoSensitiveListGET;
     //        request.headers = headers;//与公共配置 Headers 兼容
             request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
             request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-            if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-                request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+            if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+                request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
             };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
             
             {
@@ -788,8 +788,8 @@ NSString *signListGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -855,8 +855,8 @@ NSString *userInfoUpdatePOST;
 //       @property (nonatomic,assign) ZBRequestSerializerType requestSerializer;
 //       @property (nonatomic,assign) ZBResponseSerializerType responseSerializer;
         
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {
@@ -928,8 +928,8 @@ NSString *uploadImagePOST;
         request.timeoutInterval = 120;//默认30 //优先级 高于 公共配置,不影响其他请求设置
         request.requestSerializer = ZBHTTPRequestSerializer;
         request.uploadDatas = uploadDatas;
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
     } progress:^(NSProgress * _Nullable progress) {
         NSLog(@"onProgress: %.2f", 100.f * progress.completedUnitCount/progress.totalUnitCount);
@@ -977,8 +977,8 @@ NSString *userInfoGET;
 //        request.headers = headers;//与公共配置 Headers 兼容
         request.retryCount = 1;//请求失败 单次请求 重新连接次数 优先级大于 全局设置，不影响其他请求设置
         request.timeoutInterval = 10;//默认30 //优先级 高于 公共配置,不影响其他请求设置
-        if (![NSString isNullString:[DataManager sharedInstance].tag]) {
-            request.userInfo = @{@"info":[DataManager sharedInstance].tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
+        if (![NSString isNullString:DataManager.sharedInstance.tag]) {
+            request.userInfo = @{@"info":DataManager.sharedInstance.tag};//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         };//与公共配置 UserInfo 不兼容 优先级大于 公共配置
         
         {

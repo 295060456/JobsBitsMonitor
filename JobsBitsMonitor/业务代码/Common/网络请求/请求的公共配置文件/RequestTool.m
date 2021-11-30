@@ -89,7 +89,7 @@
 //            //排除上传和下载请求
 //            if (request.methodType != ZBMethodTypeUpload ||
 //                request.methodType != ZBMethodTypeDownLoad) {
-//                NSDictionary *dict= [[DataManager sharedInstance] dataInfoWithKey:[NSString stringWithFormat:@"%@%@",request.URLString,request.parameters[@"author"]]];
+//                NSDictionary *dict= [DataManager.sharedInstance dataInfoWithKey:[NSString stringWithFormat:@"%@%@",request.URLString,request.parameters[@"author"]]];
 //                if (dict) {
 //                  //⚠️setObject 赋值 就会走成功回调
 //                    *setObject=dict;
