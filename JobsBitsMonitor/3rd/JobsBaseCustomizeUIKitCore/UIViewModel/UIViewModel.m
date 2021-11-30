@@ -36,13 +36,13 @@
 
 -(UIImage *)image{
     if (!_image) {
-        _image = [UIImage imageWithColor:RandomColor];
+//        _image = [UIImage imageWithColor:RandomColor];
     }return _image;
 }
 
 -(UIImage *)bgImage{
     if (!_bgImage) {
-        _bgImage = [UIImage imageWithColor:RandomColor];
+//        _bgImage = [UIImage imageWithColor:RandomColor];
     }return _bgImage;
 }
 

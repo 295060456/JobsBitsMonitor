@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign)CGSize size;//二维尺寸
 @property(nonatomic,assign)CGFloat offsetXForEach;//控件之间的左右距离
 @property(nonatomic,assign)CGFloat offsetYForEach;//控件之间的上下距离
+@property(nonatomic,assign)BOOL isTranslucent;//是否取消tabBar的透明效果
+@property(nonatomic,assign)CGFloat offsetHeight;
+@property(nonatomic,assign)CGFloat offsetWidth;
 
 @end
 
