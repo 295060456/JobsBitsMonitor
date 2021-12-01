@@ -52,20 +52,10 @@ NSString *changePasswordPOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.changePasswordPOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,
@@ -114,20 +104,10 @@ NSString *checkIdentityPOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.checkIdentityPOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,
@@ -175,20 +155,10 @@ NSString *appLoginPOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.appLoginPOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
         if (failureBlock) {
@@ -240,20 +210,10 @@ NSString *appLogoutGET;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.appLogoutGET.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,
@@ -302,20 +262,10 @@ NSString *randCodeGET;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.randCodeGET.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,
@@ -365,21 +315,10 @@ NSString *appRegisterPOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-                // 修改点1
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.appRegisterPOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
         if (failureBlock) {
@@ -431,20 +370,10 @@ NSString *resetPasswordPOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.resetPasswordPOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,
@@ -493,20 +422,10 @@ NSString *sendSmsCodePOST;
         NSLog(@"进度 = %f",progress.fractionCompleted * 100);
     }success:^(id  _Nullable responseObject,
                ZBURLRequest * _Nullable request){
-        if ([responseObject isKindOfClass:NSDictionary.class]) {
-            NSDictionary *dataDic = (NSDictionary *)responseObject;
-            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
-            // 公共请求错误直接抛出
-            if (model.code != HTTPResponseCodeSuccess) {
-                [WHToast toastMsg:model.msg];
-            }else{
-                if (successBlock) {
-                    successBlock(model);
-                }
-            }
-        }else{
-            [WHToast toastMsg:[@"异常接口" stringByAppendingString:NSObject.sendSmsCodePOST.funcName]];
-        }
+        [DDNetworkingAPI networkingSuccessHandleWithData:responseObject
+                                                 request:request
+                                            successBlock:successBlock
+                                            failureBlock:failureBlock];
     }failure:^(NSError * _Nullable error){
         NSLog(@"error = %@",error);
     }finished:^(id  _Nullable responseObject,

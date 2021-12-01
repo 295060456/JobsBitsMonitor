@@ -52,7 +52,7 @@
 
         NSString *funcName = [requestApi stringByAppendingString:@":successBlock:"];
         [NSObject methodName:funcName
-                   targetObj:self
+                   targetObj:(DDNetworkingAPI *)self
                  paramarrays:paramMutArr];
     }
 }
@@ -85,7 +85,7 @@
 
         NSString *funcName = [requestApi stringByAppendingString:@":successBlock:failureBlock:"];
         [NSObject methodName:funcName
-                   targetObj:self
+                   targetObj:(DDNetworkingAPI *)self
                  paramarrays:paramMutArr];
     }
 }
@@ -114,7 +114,7 @@ uploadImagesParamArr:(NSArray *_Nullable)uploadImagesParamArr
     
     NSString *funcName = [requestApi stringByAppendingString:@":uploadImageDatas:successBlock:failureBlock:"];
     [NSObject methodName:funcName
-               targetObj:self
+               targetObj:(DDNetworkingAPI *)self
              paramarrays:paramMutArr];
 }
 /// 上传【视频】文件的网络请求 POST
@@ -141,8 +141,38 @@ uploadVideosParamArr:(NSArray *_Nullable)uploadVideosParamArr
     
     NSString *funcName = [requestApi stringByAppendingString:@":uploadVideo:successBlock:failureBlock:"];
     [NSObject methodName:funcName
-               targetObj:self
+               targetObj:(DDNetworkingAPI *)self
              paramarrays:paramMutArr];
+}
+/// 请求成功的处理代码
++(void)networkingSuccessHandleWithData:(DDResponseModel *_Nullable)responseObject
+                               request:(ZBURLRequest *_Nullable)request
+                          successBlock:(MKDataBlock _Nullable)successBlock
+                          failureBlock:(MKDataBlock _Nullable)failureBlock{
+
+    if ([responseObject isKindOfClass:DDResponseModel.class]) {
+        // 公共请求错误直接抛出
+        if (responseObject.code == HTTPResponseCodeSuccess) {
+            NSLog(@"请求成功");
+            if (successBlock) successBlock(responseObject);
+        }else if (responseObject.code == HTTPResponseCodeServeError ||// 服务器异常
+                  responseObject.code == HTTPResponseCodeLoginDate  ||// 登录已过期，请重新登录
+                  responseObject.code == HTTPResponseCodeAuthorizationFailure ||// 授权失败
+                  responseObject.code == HTTPResponseCodeLeakTime ||// 限定时间内超过请求次数
+                  responseObject.code == HTTPResponseCodeRiskOperation ||// 风险操作
+                  responseObject.code == HTTPResponseCodeNoSettingTransactionPassword ||// 未设置交易密码
+                  responseObject.code == HTTPResponseCodeOffline){//帐号已在其他设备登录
+            NSLog(@"一些特殊定义的服务器错误❌");
+            [WHToast toastErrMsg:responseObject.msg];
+            if (failureBlock) failureBlock(responseObject);
+        }else{
+            NSLog(@"其他代号,展示msg内容即可");
+            [WHToast toastErrMsg:responseObject.msg];
+            if (failureBlock) failureBlock(responseObject);
+        }
+    }else{
+        NSLog(@"responseObject 不是 DDResponseModel类型");
+    }
 }
 
 @end

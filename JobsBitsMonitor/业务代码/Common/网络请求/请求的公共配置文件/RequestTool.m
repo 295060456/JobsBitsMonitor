@@ -10,18 +10,35 @@
 
 @implementation RequestTool
 
-+(void)setupPublicParameters{
+/** 写在前面
+ *  1、所有请求都需要在headers里面添加处理过的userAgent
+ 
+    2、进app的时候，服务器会根据设备返回一个token，再请求其他接口的时候，需要将这个token做为Authorization键值对，加在请求的headers里面
+ */
++(void)setupPublicParameters:(RequestTool *)config{
 #pragma mark —— 公共配置
     /**
      基础配置
      需要在请求之前配置，设置后所有请求都会带上 此基础配置
      */
     NSMutableDictionary *parameters = NSMutableDictionary.dictionary;
-    NSString *timeString = [NSString stringWithFormat:@"%.2f",[NSDate.date timeIntervalSince1970]];
+    NSString *timeString = [NSString stringWithFormat:@"%.2f",NSDate.date.timeIntervalSince1970];
     parameters[@"timeString"] = timeString;//时间戳
 
     NSMutableDictionary *headers = NSMutableDictionary.dictionary;
-    headers[@"qToken"] = @"Token";
+    headers[@"token"] = @"Token";
+
+    switch (config.languageType) {
+        case HTTPRequestHeaderLanguageEn://英文
+            headers[@"language"] = @"en_US";
+            break;
+        case HTTPRequestHeaderLanguageCN://中文
+            headers[@"language"] = @"zh_CN";
+            break;
+        default:
+            break;
+    }
+    
 #pragma mark —— userAgent
     NSString *userAgent = [AFHTTPSessionManager.manager.requestSerializer valueForHTTPHeaderField:@"User-Agent"];
     if(![userAgent containsString:@",dv:"]) {
@@ -102,9 +119,14 @@
                                                     id  _Nullable responseObject,
                                                     NSError * _Nullable __autoreleasing * _Nullable error) {
         NSLog(@"成功回调 数据返回之前");
-        if ([request.userInfo[@"info"] isEqualToString:@"ViewController_1"] || [request.userInfo[@"info"] isEqualToString:@"ViewController_2"]) {
-            return @"1";
-        }return nil;
+        if ([responseObject isKindOfClass:NSDictionary.class]) {
+            NSDictionary *dataDic = (NSDictionary *)responseObject;
+            DDResponseModel *model = [DDResponseModel mj_objectWithKeyValues:dataDic];
+//            [request.userInfo[@"info"] isEqualToString:@"ViewController_1"]
+            return model;
+        }else{
+            return nil;
+        }
     }];
     //预处理 错误
     [ZBRequestManager setErrorProcessHandler:^(ZBURLRequest * _Nullable request,
@@ -125,15 +147,15 @@
     NSString *name = @"";
     if (name.length > 0) {
         // 先导入证书
-        NSString *cerPath = [[NSBundle mainBundle] pathForResource:name ofType:@"cer"];//证书的路径
+        NSString *cerPath = [NSBundle.mainBundle pathForResource:name ofType:@"cer"];//证书的路径
         NSData *cerData = [NSData dataWithContentsOfFile:cerPath];
         AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
            // 如果需要验证自建证书(无效证书)，需要设置为YES，默认为NO;
         securityPolicy.allowInvalidCertificates = YES;
            // 是否需要验证域名，默认为YES;
         securityPolicy.validatesDomainName = NO;
-        securityPolicy.pinnedCertificates = [[NSSet alloc] initWithObjects:cerData, nil];
-        [ZBRequestEngine defaultEngine].securityPolicy = securityPolicy;
+        securityPolicy.pinnedCertificates = [NSSet.alloc initWithObjects:cerData, nil];
+        ZBRequestEngine.defaultEngine.securityPolicy = securityPolicy;
     }
 }
 

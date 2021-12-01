@@ -6,8 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AABlock.h"
 #import "RequestTool.h"
+#import "NSObject+Extras.h"
 #import "DDResponseModel.h"
+
+/**
+ 公共配置
+ 插件机制
+ 证书设置
+ */
+#define DDNetworkingPrepare NSLog(@"当前是否有网：%d 状态：%ld",[ZBRequestManager isNetworkReachable],[ZBRequestManager networkReachability]);\
+DataManager.sharedInstance.tag = [NSString stringWithFormat:@"%@_%@",ReuseIdentifier,NSStringFromSelector(_cmd)];\
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -33,6 +43,11 @@ uploadImagesParamArr:(NSArray *_Nullable)uploadImagesParamArr
 uploadVideosParamArr:(NSArray *_Nullable)uploadVideosParamArr
      successBlock:(MKDataBlock _Nullable)successBlock
      failureBlock:(MKDataBlock _Nullable)failureBlock;
+/// 请求成功的处理代码
++(void)networkingSuccessHandleWithData:(DDResponseModel *_Nullable)responseObject
+                               request:(ZBURLRequest *_Nullable)request
+                          successBlock:(MKDataBlock _Nullable)successBlock
+                          failureBlock:(MKDataBlock _Nullable)failureBlock;
 
 @end
 
