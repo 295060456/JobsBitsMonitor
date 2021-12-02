@@ -62,7 +62,7 @@ alpha:1] \
 #import "FileFolderHandleTool.h"
 #import "DDCacheTool.h"
 
-#import "UserDefaultManager.h"
+#import "NSUserDefaults+Manager.h"
 #import "TimerManager.h"
 #import "JobsBitsMonitorCore.h"
 
