@@ -49,7 +49,6 @@
     }
     // 不成为第一响应者
     [self resignFirstResponder];
-    self.isOk = YES;
 }
 /**
  * 当前文本框聚焦时就会调用

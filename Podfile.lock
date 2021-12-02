@@ -66,6 +66,7 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.4.0)
   - MJRefresh (3.7.2)
+  - NTESVerifyCode (3.3.5)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.12.1):
@@ -106,6 +107,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
+  - NTESVerifyCode
   - Reachability
   - ReactiveObjC
   - SDWebImage
@@ -138,6 +140,7 @@ SPEC REPOS:
     - Masonry
     - MJExtension
     - MJRefresh
+    - NTESVerifyCode
     - Reachability
     - ReactiveObjC
     - SDWebImage
@@ -166,6 +169,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 6c15c7b93398447252c0defdb8d69d02d218a41e
   MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  NTESVerifyCode: df371c6a0e5ab48244843277d2f6fcf52e5c1b1c
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
@@ -178,6 +182,6 @@ SPEC CHECKSUMS:
   ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
   ZLCollectionViewFlowLayout: 134dbc8ccd32e298e742ee8ab0bc949f1fd2396f
 
-PODFILE CHECKSUM: 748f560e40a904a7a4330ccf0e65f3f7f888fc9b
+PODFILE CHECKSUM: 16c096760e5d00357b948268d990aa730ea6a300
 
 COCOAPODS: 1.11.2

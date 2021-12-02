@@ -25,6 +25,7 @@ end
 
 # 一些功能性的
 def func
+  pod 'NTESVerifyCode' # 网易验证码 https://github.com/yidun/NTESVerifyCode https://support.dun.163.com/documents/15588062143475712?docId=150442931089756160
   pod 'XYColorOC' # https://github.com/RayJiang16/XYColor 适配iOS 13夜间模式/深色外观(Dark Mode)
   pod 'JobsGlobleDef'
   pod 'lottie-ios', '~> 2.5.3'
