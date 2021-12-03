@@ -16,6 +16,12 @@
     }return _textCor;
 }
 
+-(UIColor *)subTextCor{
+    if (!_subTextCor) {
+        _subTextCor = RGB_SAMECOLOR(88);
+    }return _subTextCor;
+}
+
 -(UIColor *)bgCor{
     if (!_bgCor) {
         _bgCor = RandomColor;
@@ -30,8 +36,14 @@
 
 -(NSString *)text{
     if (!_text) {
-        _text = @"UIViewModel默认占位文字";
+        _text = @"主文字默认占位内容";
     }return _text;
+}
+
+-(NSString *)subText{
+    if (!_subText) {
+        _subText = @"副文字默认占位内容";
+    }return _subText;
 }
 
 -(UIImage *)image{
