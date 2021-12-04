@@ -10,12 +10,18 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunguarded-availability-new"
 
+AppDelegate *appDelegate;
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+-(instancetype)init{
+    if (self = [super init]) {
+        appDelegate = self;
+    }return self;
+}
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

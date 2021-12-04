@@ -15,8 +15,6 @@
 @property(strong,nonatomic)UIWindow *window;
 @property(strong,nonatomic)UIWindowScene *windowScene;
 
-+(instancetype)sharedInstance;
-
 @end
 
 #pragma clang diagnostic pop
